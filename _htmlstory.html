@@ -1,0 +1,40 @@
+{% block content %}
+<div class='graphic-wrapper'>
+<section class='intro'>
+	{{ intro|markdown }} 
+</section>
+<section class='content'>
+	 <form id='school-search' class='school-search'>
+		 <input class='school-search__text' type='text' placeholder="Search for a school or district">
+		 <button class='school-search__btn' type='submit'>X</button>
+	</form>
+
+
+</section>
+<section class='credits'></section>
+</div>
+
+{% endblock content %}
+
+{% block library_scripts %}
+{# Uncomment this if you are using libraries such as jQuery #}
+{# <script src="//{{ ROOT_URL }}/js/vendor.min.js"></script> #}
+{% endblock %}
+
+{% block scripts %}
+{# Uncomment this if you are using custom JavaScript #}
+{# <script src="//{{ ROOT_URL }}/js/app.min.js"></script> #}
+<script>
+(function(document) {
+  var CSS = [
+    "//{{ ROOT_URL }}/css/styles.css"
+  ];
+  CSS.forEach(function(url) {
+    var link = document.createElement('link');
+    link.setAttribute('rel', 'stylesheet');
+    link.setAttribute('href', url);
+    document.head.appendChild(link);
+  });
+})(document);
+</script>
+{% endblock scripts %}
