@@ -3,8 +3,6 @@ import 'awesomplete';
 // import * as schoolList from './school_names_and_districts.js'
 // import {csv} from 'd3-request';
 
-
-
 window.addEventListener('DOMContentLoaded', function(e){
 	
 	const 	form = document.querySelector('#school-search'),
@@ -39,8 +37,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
 				// This is the response, parsed into JSON
-				const schoolsList = JSON.parse(ajax.responseText)['results'];
-				console.log(schoolsList, queryUrl);
+				const schoolsList = JSON.parse(ajax.responseText)['results'] || JSON.parse(ajax.responseText);
 
 				// When we get a response, parse the reponses into this format:
 				// [{label:foo, value:bar}]
@@ -63,7 +60,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 		const schoolID = searchBar.value;
 
 		console.log('submit', this, searchBar.value);
-		// if (schoolID != "") lookup.displayScores(schoolID);
+		// if (schoolID != "") formatSchoolProfile(data);
 		
 		const tempData = {    
 		    name:"XXXX",
@@ -72,7 +69,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 		    freeLunch: 0,
 		    englishLearner: 0,
 		    nonWhite: 0,
-		    act: {
+		    sat: {
 		    	overall: {
 		            min: 850,
 		            max: 1600,
@@ -120,10 +117,10 @@ function formatSchoolProfile(data){
 
 	let charts = "";
 
-	const tests = Object.keys(data.act);
+	const tests = Object.keys(data.sat);
 
 	tests.forEach(test => {
-		const 	testData = data['act'][test],
+		const 	testData = data['sat'][test],
 				min = testData.min,
 				max = testData.max,
 				median = testData.median,
@@ -133,23 +130,23 @@ function formatSchoolProfile(data){
 
 		charts += `
 			<li class='score'>
-				<span class='score__label'>Overall composite</span>
+				<span class='score__label'>${window.testLabels[test]}</span>
 				<div class='score__chart'>
-					<div class='act act--min' style='left: 0'>
-						<span class='act__dot'></span>
-						<span class='act__score'>${min}</span>
+					<div class='sat sat--min' style='left: 0'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>${min}</span>
 					</div>
-					<div class='act act--med' style='left: ${medianPlacement}%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>${median}</span>
+					<div class='sat sat--med' style='left: ${medianPlacement}%'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>${median}</span>
 					</div>
-					<div class='act act--max' style='left: 100%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>${max}</span>
+					<div class='sat sat--max' style='left: 100%'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>${max}</span>
 					</div>
-					<div class='act act--school' style='left: ${schoolPlacement}%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>${school}</span>
+					<div class='sat sat--school' style='left: ${schoolPlacement}%'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>${school}</span>
 					</div>
 				</div>
 			</li>`;
