@@ -18,7 +18,35 @@ $score-chart-axis-stroke-color: $trib-gray3;
 @import 'base-mixins';
 
 // ---- MAKE OR IMPORT MORE MIXINS HERE ---------------------------------------------
+@mixin big-number($style:'no-float', $font-size:50px){
+	width:100%;
 
+		$dt_margin: 0 0 10px 0;
+		// max-width:200px;
+
+
+	@if $style == side or $style == 'side' {
+		display: flex;
+	    align-content: flex-start;
+	    align-items: flex-start;
+	    justify-content: space-between;
+    	max-width:250px;
+
+	    $dt_margin: 0 20px 0 0;
+	}
+
+	dt {
+		@include serif-text($font-size, 1em, bold);
+		display:block;
+		font-style: italic;
+		margin:$dt_margin;
+	}
+
+	dd {
+		@include sans-serif();
+		margin:0 0 0 0;
+	}
+}
 
 // ---- TRIB CLASSES, UNCOMMENT THE ONES YOU WANT ---------------------------------------------
 // @import 'ngux-visibility-toggles';
