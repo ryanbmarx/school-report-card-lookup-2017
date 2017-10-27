@@ -10,117 +10,52 @@
 	</form>
 
 	<div class='school'>
-		<h2 class='school__name'> This is the school name</h2>
-		<p class='school__district'>This is the district</p>
-		<h3 class='school__scores-label'>About the students</h3>
+		<h2 class='school__name'></h2>
+		<p class='school__district'></p>
+		<h3 class='school__scores-label'>{{ demo_label }}</h3>
 		<div class='school__demographics'>
 			<dl class='demo demo--special-ed'>
-				<dt>XX%</dt>
-				<dd>Special-education students</dd>
+				<dt></dt>
+				<dd>{{ demo_label_special_ed }}</dd>
 			</dl>
 			<dl class='demo demo--lunch'>
-				<dt>XX%</dt>
-				<dd>Qualify for free or reduced-price lunch</dd>
+				<dt></dt>
+				<dd>{{ demo_label_lunch }}</dd>
 			</dl>
 			<dl class='demo demo--ell'>
-				<dt>XX%</dt>
-				<dd>Are English language learners</dd>
+				<dt></dt>
+				<dd>{{ demo_label_english }}</dd>
 			</dl>
 			<dl class='demo demo--non-white'>
-				<dt>XX%</dt>
-				<dd>Are not white</dd>
+				<dt></dt>
+				<dd>{{ demo_label_nonwhite }}</dd>
 			</dl>
-
 		</div>
-		<h3 class='school__scores-label'>SAT Scores</h3>
+		<h3 class='school__scores-label'>{{ sat_scores }}</h3>
 		<ul class='school__scores school__scores--legend'>
 			<li class='score'>
-				<span class='score__label'>Legend</span>
+				<span class='score__label'>{{ sat_scores_legend }}</span>
 				<div class='score__chart'>
-					<div class='act act--min' style='left: 0'>
-						<span class='act__dot'></span>
-						<span class='act__score'>Ill. lowest</span>
+					<div class='sat sat--min' style='left: 0'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>{{ sat_scores_min }}</span>
 					</div>
-					<div class='act act--med' style='left: 50%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>Ill. median</span>
+					<div class='sat sat--med' style='left: 50%'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>{{ sat_scores_median }}</span>
 					</div>
-					<div class='act act--max' style='left: 100%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>Ill. highest</span>
+					<div class='sat sat--max' style='left: 100%'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>{{ sat_scores_max }}</span>
 					</div>
-					<div class='act act--school' style='left: 63%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>School/district result</span>
+					<div class='sat sat--school' style='left: 63%'>
+						<span class='sat__dot'></span>
+						<span class='sat__score'>{{ sat_scores_school }}</span>
 					</div>
 				</div>
 			</li>
 		</ul>
-		<ul id='school-scores' class='school__scores'>
-			{# <li class='score'>
-				<span class='score__label'>Overall composite</span>
-				<div class='score__chart'>
-					<div class='act act--min' style='left: 0'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--med' style='left: 50%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--max' style='left: 100%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--school' style='left: 63%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-				</div>
-			</li>
-		<li class='score'>
-				<span class='score__label'>Math composite</span>
-				<div class='score__chart'>
-					<div class='act act--min' style='left: 0'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--med' style='left: 50%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--max' style='left: 100%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--school' style='left: 63%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-				</div>
-			</li>
-			<li class='score'>
-				<span class='score__label'>ELA composite</span>
-				<div class='score__chart'>
-					<div class='act act--min' style='left: 0'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--med' style='left: 50%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--max' style='left: 100%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-					<div class='act act--school' style='left: 63%'>
-						<span class='act__dot'></span>
-						<span class='act__score'>1111</span>
-					</div>
-				</div>
-			</li> #}
-		</ul>
+		<ul id='school-scores' class='school__scores'></ul>
 	</div>
 </section>
 <section class='credits'>
@@ -141,6 +76,11 @@
 <script src="//{{ ROOT_URL }}/js/app.min.js"></script>
 <script>
 	window.ROOT_URL = "{{ ROOT_URL }}";
+	window.testLabels = {
+		ela: "{{ sat_scores_ela }}",
+		math: "{{ sat_scores_math }}",
+		overall: "{{ sat_scores_overall }}"
+	};
 (function(document) {
   var CSS = [
     "//{{ ROOT_URL }}/css/styles.css"
