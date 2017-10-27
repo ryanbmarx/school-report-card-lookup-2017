@@ -23,9 +23,14 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 		searchBar.addEventListener('keyup', function(e){
 			// When the user starts typing, it will ping the database to fetch a JSON list of possible schools
-			const 	ajaxBaseUrl = "http://ec2-52-14-19-228.us-east-2.compute.amazonaws.com/schools/api/search/",
+			// There are three GET vars in the url:
+			// @format ... duh. we want JSON
+			// @page_size: Maximum number of schools in the response. Can be anything, but the variable MUST be there b/c otherwise django will format the data in a way other than what we want.
+			// @query: This is what the user has typed.
+
+			const 	ajaxBaseUrl = "http://ec2-52-14-19-228.us-east-2.compute.amazonaws.com/schools/api/search/?format=json&page_size=20&autocomplete=",
 					searchQuery = searchBar.value,
-					queryUrl = `${ajaxBaseUrl}?format=json&autocomplete=${searchQuery}`;
+					queryUrl = `${ajaxBaseUrl}${searchQuery}`;
 
 			// let newList = [];
 
@@ -34,7 +39,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
 				// This is the response, parsed into JSON
-				const schoolsList = JSON.parse(ajax.responseText);
+				const schoolsList = JSON.parse(ajax.responseText)['results'];
 				console.log(schoolsList, queryUrl);
 
 				// When we get a response, parse the reponses into this format:
@@ -48,8 +53,6 @@ window.addEventListener('DOMContentLoaded', function(e){
 				}
 			}
 			ajax.send();
-
-
 		});
 
 
@@ -61,40 +64,41 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 		console.log('submit', this, searchBar.value);
 		// if (schoolID != "") lookup.displayScores(schoolID);
-const tempData = {    
-    name:"XXXX",
-    district: "XXXX",
-    specialEd: 0,
-    freeLunch: 0,
-    englishLearner: 0,
-    nonWhite: 0,
-    act: {
-    	overall: {
-            min: 850,
-            max: 1600,
-            median: 950,
-            school: 1500
-        },
-        math: {
-            min: 800,
-            max: 1400,
-            median: 1100,
-            school: 1350
-        },
-        ela: {
-            min: 700,
-            max: 1200,
-            median: 1000,
-            school: 800
-        }
-    }
-}
+		
+		const tempData = {    
+		    name:"XXXX",
+		    district: "XXXX",
+		    specialEd: 0,
+		    freeLunch: 0,
+		    englishLearner: 0,
+		    nonWhite: 0,
+		    act: {
+		    	overall: {
+		            min: 850,
+		            max: 1600,
+		            median: 950,
+		            school: 1500
+		        },
+		        math: {
+		            min: 800,
+		            max: 1400,
+		            median: 1100,
+		            school: 1350
+		        },
+		        ela: {
+		            min: 700,
+		            max: 1200,
+		            median: 1000,
+		            school: 800
+		        }
+		    }
+		}
 		formatSchoolProfile(tempData);
 
 	});
 
 	window.addEventListener('awesomplete-selectcomplete', e => {
-		// When the user makes an autocompleted selection, trigger the search.
+		// When the user makes an autocompleted selection, trigger the search by faking a submit button click.
 		submitButton.click();
 	})
 
