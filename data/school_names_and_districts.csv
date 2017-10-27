@@ -1,0 +1,3798 @@
+value,label
+10010010260001,Seymour High School
+10010010262002,Seymour Elementary School
+10010020260001,Liberty High School
+10010020262002,Liberty Elementary School
+10010030260001,Central High School
+10010030261001,Central Junior High School
+10010030262003,Central Elementary Grade School
+10010030262008,Central 3-4 Middle School
+10010040260001,Unity High School
+10010040262006,Unity Elementary School
+10010040262007,Unity Middle School
+10011720220003,Quincy Sr High School
+10011720221003,Quincy Jr High School
+10011720222004,Adams Elementary School
+10011720222006,Dewey Elementary School
+10011720222007,Ellington Elementary School
+10011720222008,Berrian School
+10011720222009,Madison School
+10011720222016,Monroe Elementary School
+10011720222017,Washington Elementary School
+10011720222019,Baldwin Intermediate
+10050010260001,Brown County High School
+10050010261002,Brown County Middle School
+10050010262002,Brown County Elementary School
+10090150260007,Beardstown Jr/Sr High School
+10090640262001,Virginia Elem School
+10090150262003,Gard Elementary School
+10090640260003,Virginia Jr/ Sr High School
+10092620260002,A-C Central High School
+10092620261002,A-C Central Middle School
+10092620262001,A-C Central Elementary School
+10690010260001,Franklin Jr/Sr High School
+10690010262004,Alexander Elem School
+10690010262005,Franklin East Grade School
+10690060260001,Waverly Jr/Sr  High School
+10690060262002,Waverly Elementary School
+10690110260001,Meredosia-Chambersburg High Sch
+10690110261001,Meredosia-Chambersburg Jr High
+10690110262003,Meredosia-Chambersburg Elem Sch
+10690270260001,Triopia Jr-Sr High School
+10690270262002,Triopia Grade School
+10691170220014,Jacksonville High School
+10691170221013,Jonathan Turner Jr High School
+10691170222001,Eisenhower Elem School
+10691170222005,Washington Elem School
+10691170222006,Lincoln Elem School
+10691170222007,South Jacksonville Elem School
+10691170222008,North Jacksonville School
+10691170222009,Murrayville-Woodson Elem School
+10750030260002,Pleasant Hill High School
+10750030262001,Pleasant Hill Elem School
+10750040260002,Griggsville-Perry High School
+10750040261002,Griggsville-Perry Middle School
+10750040262001,Griggsville-Perry Primary School
+10750100260009,Pittsfield High School
+10750100262007,Pittsfield South Elem School
+10750100262010,Pikeland Community School
+10750120260001,Western High School
+10750120261001,Western Jr High School
+10750120262001,Western Barry Elem
+10860010260001,Winchester High School
+10860010262002,Winchester Elem School
+10860020260001,Bluffs High School
+10860020261001,Bluffs Junior High School
+10860020262001,Bluffs Elementary School
+30030010260001,Mulberry Grove Sr High School
+30030010261001,Mulberry Grove Jr High School
+30030010262001,Mulberry Grove Elem School
+30030020260001,Bond Cty Comm Unit 2 High School
+30030020261002,Greenville Jr High School
+30030020262003,Greenville Elem School
+30030020262004,Pocahontas Center
+30030020262005,Sorento Elem School
+30110010260002,Morrisonville High School
+30110010261001,Morrisonville Jr High School
+30110010262001,Morrisonville Elem School
+30110030260006,Taylorville Sr High School
+30110030261005,Taylorville Jr High School
+30110030262001,Memorial Elem School
+30110030262003,North Elem School
+30110030262005,Stonington Elem School
+30110040260002,Edinburg High School
+30110040261001,Edinburg Jr High School
+30110040262001,Edinburg Elem School
+30110080260006,Pana Sr High School
+30110080261005,Pana Jr High School
+30110080262001,Lincoln Elem School
+30110080262003,Washington Elem School
+30110140240001,South Fork Jr Sr High School
+30110140242001,South Fork Elementary School
+30250100260001,Altamont High School
+30250100262002,Altamont Grade School
+30250200260001,Beecher City Jr-Sr High School
+30250200262003,Beecher City Grade School
+30250300260001,Dieterich Jr/Sr High School
+30250300262002,Dieterich Elem School
+30250400260001,Effingham High School
+30250400261001,Effingham Junior High School
+30250400262002,Central Grade School
+30250400262006,Early Learning Center
+30250400262008,South Side Grade School
+30250500260001,Teutopolis High School
+30250500261001,Teutopolis Junior High School
+30250500262002,Teutopolis Grade School
+30262010260003,Brownstown High School
+30262010261001,Brownstown Jr High School
+30262010262001,Brownstown Elem School
+30262020260002,St Elmo Sr High School
+30262020261001,St Elmo Jr High School
+30262020262001,St Elmo Elem School
+30262030260001,Vandalia Community High School
+30262030262008,Vandalia Elementary School
+30262030262009,Vandalia Junior High School
+30262040260002,Ramsey High School
+30262040262001,Ramsey Elem School
+30680020260001,Lincolnwood High School
+30680020261002,Lincolnwood Jr High School
+30680020262003,Farmersville Elem School
+30680020262005,Raymond Grade School
+30680030260001,Hillsboro High School
+30680030261002,Hillsboro Jr High School
+30680030262003,Beckemeyer Elem School
+30680030262006,Coffeen Elem School
+30680120260001,Litchfield Senior High School
+30680120261002,Litchfield Middle School
+30680120262003,J D Colt Elem School
+30680120262004,Madison Park Elem School
+30680120262006,Russell Elem School
+30680220260001,Nokomis Jr/Sr High Sch
+30680220262003,North Elem School
+40041000260001,Belvidere High School
+40042000262001,Capron Elem School
+40041000260002,Belvidere North High Sch
+40042000262002,Manchester Elem School
+40041000261002,Belvidere South Middle School
+40041000261003,Belvidere Central Middle School
+40041000262003,Caledonia Elem School
+40041000262005,Lincoln Elem School
+40041000262007,Perry Elem School
+40041000262008,Washington Academy
+40041000262009,Meehan Elementary School
+40041000262010,Seth Whitman Elem Sch
+40042000260003,North Boone High School
+40042000261001,North Boone Middle School
+40042000262004,Poplar Grove Elem School
+40042000262005,North Boone Upper Elem Sch
+41011220220002,Harlem High School
+41011310041002,Roscoe Middle School
+41011220221005,Harlem Middle School
+41011220222005,Loves Park Elem School
+41011220222006,Maple Elem School
+41011220222007,Marquette Elem School
+41011220222008,Rock Cut Elem School
+41011220222010,Ralston Elem School
+41011220222011,Windsor Elem School
+41011220222013,Machesney Elem School
+41011220222014,Olson Park Elem School
+41011220222015,Donald C Parker Early Educ Center
+41011310042001,Kinnikinnick School
+41011310042002,Ledgewood Elem School
+41011310042003,Stone Creek School
+41011330041001,Willowbrook Middle School
+41011330042001,Prairie Hill Elem School
+41011340042001,Shirland C C School
+41011400041001,Stephen Mack Middle School
+41011400042001,Rockton Elem School
+41011400042002,Whitman Post Elem School
+41012050250001,Auburn High School
+41012050250002,Rockford East High School
+41012050252046,Wm Nashold Elem School
+41012050250003,Guilford High School
+41013200262003,Clark Elementary School
+41012050250004,Jefferson High School
+41013200262004,Riverview Elementary School
+41012050251001,West Middle School
+41012050251006,Eisenhower Middle School
+41012050251008,Bernard W Flinn Middle School
+41012050251009,Abraham Lincoln Middle School
+41012050251010,Kennedy Middle School
+41012050252014,Barbour Two-Way Lang Immersion
+41012050252016,Beyer Elem School
+41012050252017,C Henry Bloom Elem School
+41012050252018,Brookview Elem School
+41012050252019,Clifford P Carlson Elem School
+04101205025201C,Legacy Acad of Excellence Charter
+41012050252020,Cherry Valley Elem School
+41012050252022,Conklin Elem School
+41012050252024,Ellis Arts Academy
+41012050252027,Arthur Froberg Elem School
+41012050252029,Gregory Elem School
+04101205025202C,Galapagos Rockford Charter Sch
+41012050252034,Haskell Academy
+41012050252037,Swan Hillman Elem School
+41012050252039,Maud E Johnson Elem School
+04101205025203C,Jackson Charter School
+41012050252040,Kishwaukee Elem School
+41012050252041,Julia Lathrop Elem School
+41012050252043,McIntosh Elementary
+41012050252047,John Nelson Elem School
+41012050252051,Riverdahl Elem School
+41012050252054,Rolling Green
+41012050252056,Spring Creek Elem School
+41012050252059,A C Thompson Elem School
+41012050252063,R K Welsh Elem School
+41012050252064,West View Elem School
+41012050252066,Whitehead Elem School
+41012050252067,White Swan Elem School
+41012050252078,Thurgood Marshall Elementary
+41012050252080,King Elementary School
+41012050252084,Lewis Lemon Elementary
+41012050252085,Montessori Elementary School
+41012050252086,Rockford Envrnmntl Science Acad
+41012050252087,Thurgood Marshall School
+41013200260001,South Beloit Sr High School
+41012070160001,Hononegah High School
+41013200261002,South Beloit Jr High School
+41013200262005,Blackhawk Elementary School
+41013210260001,Pecatonica High School
+41013210261001,Pecatonica Comm Middle School
+41013210262002,Pecatonica Elem School
+41013220260001,Durand High School
+41013220261001,Durand Jr High School
+41013220262001,Durand Elem School
+41013230260001,Winnebago High School
+41013230261002,Winnebago Middle School
+41013230262003,Dorothy Simon Elem School
+41013230262005,Jean McNair Elementary School
+50160150041011,Plum Grove Jr High School
+50160150041014,Carl Sandburg Jr High School
+50160150041016,Winston Campus Jr High
+50160150041018,Walter R Sundling Jr High Sch
+50160150042001,Jane Addams Elem School
+50160150042003,Central Road Elem School
+50160150042004,Marion Jordan Elem School
+50160150042005,Kimball Hill Elem School
+50160150042006,Hunting Ridge Elem School
+50160150042007,Lake Louise Elem School
+50160150042008,Lincoln Elementary School
+50160150042009,Stuart R Paddock School
+50160150042010,Pleasant Hill Elem School
+50160150042013,Gray M Sanborn Elem School
+50160150042015,Virginia Lake Elem School
+50160150042018,Willow Bend Elem School
+50160150042019,Winston Campus Elementary
+50160150042020,Thomas Jefferson Elem School
+50160150042023,Frank C Whiteley Elem School
+50160210041002,Cooper Middle School
+50160210041006,Oliver W Holmes Middle School
+50160210041007,Jack London Middle School
+50160210042003,Eugene Field Elem School
+50160210042004,Robert Frost Elem School
+50160210042007,Joyce Kilmer Elem School
+50160210042009,Henry W Longfellow Elem School
+50160210042010,Edgar A Poe Elem School
+50160210042011,J W Riley Elem School
+50160210042013,Booth Tarkington Elem School
+50160210042014,Mark Twain Elem School
+50160210042015,Walt Whitman Elem School
+50160230021002,MacArthur Middle School
+50160230022001,Dwight D Eisenhower Elem School
+50160230022004,Betsy Ross Elem School
+50160230022005,Anne Sullivan Elem School
+50160250021014,South Middle School
+50160250021015,Thomas Middle School
+50160250022002,Dryden Elem School
+50160250022004,Greenbrier Elem School
+50160250022005,Ivy Hill Elem School
+50160250022009,Olive-Mary Stitt School
+50160250022011,Patton Elem School
+50160250022016,Westgate Elem School
+50160250022018,Windsor Elementary School
+50160260021006,River Trails Middle School
+50160260022001,Euclid Elem School
+50160260022003,Indian Grove Elem School
+50160270021005,Wood Oaks Jr High School
+50160270022002,Hickory Point Elem School
+50160270022004,Shabonee School
+50160280021004,Northbrook Junior High School
+50160280022002,Greenbriar Elem School
+50160280022003,Meadowbrook Elem School
+50160280022006,Westmoor Elem School
+50160290022001,Middlefork Primary School
+50160290022002,Sunset Ridge Elem School
+50160300021001,Maple School
+50160300022002,Willowbrook Elem School
+50160300022003,Wescott Elementary School
+50160310021001,Field School
+50160310022002,Henry Winkelman Elem School
+50160340041006,Attea Middle School
+50160340041007,Springman Middle School
+50160340042001,Glen Grove Elem School
+50160340042002,Henking Elem School
+50160340042003,Hoffman Elem School
+50160340042004,Lyon Elem School
+50160340042005,Pleasant Ridge Elem School
+50160340042008,Westbrook Elementary School
+50160350021001,Central School
+50160350022001,West School
+50160350022002,South Elem School
+50160360021005,Carleton W Washburne School
+50160360022001,Crow Island Elem School
+50160360022002,Greeley Elem School
+50160360022003,Hubbard Woods Elem School
+50160360022004,The Skokie School
+50160370021001,Marie Murphy School
+50160370022003,Avoca West Elem School
+50160380022001,The Joseph Sears School
+50160390021008,Wilmette Junior High School
+50160390022002,Central Elem School
+50160390022003,Harper Elem School
+50160390022005,McKenzie Elem School
+50160390022006,Romona Elem School
+50160390022007,Highcrest Middle School
+50160540041001,Jane Addams JHS
+50160540041012,Robert Frost JHS
+50160540041018,Dwight D Eisenhower JHS
+50160540041019,Margaret Mead JHS
+50160540041020,Helen Keller JHS
+50160540042002,Buzz Aldrin Elem School
+50160540042003,Neil Armstrong Elem School
+50160540042005,Campanelli Elem School
+50160540042006,Winston Churchill Elem School
+50160540042007,Michael Collins Elem School
+50160540042008,Everett Dirksen Elementary Sch
+50160540042009,Thomas Dooley Elem School
+50160540042010,Fairview Elem School
+50160540042011,Anne Fox Elem School
+50160540042013,Hanover Highlands Elem School
+50160540042015,Nathan Hale Elem School
+50160540042018,Lakeview Elem School
+50160540042019,MacArthur Intrntl Spanish Acad
+50160540042022,John Muir Literacy Academy
+50160540042023,Adolph Link Elem School
+50160540042026,Albert Einstein Elem School
+50160540042027,Hoover Math and Science Academy
+50160540042028,Adlai Stevenson Elem School
+50160540042029,Frederick Nerge Elem School
+50160540042030,Enders-Salk Elem School
+50160540042031,Elizabeth Blackwell Elem School
+50160540042032,Lincoln Prairie School
+50160570021004,Lincoln Middle School
+50160570022002,Fairview Elem School
+50160570022005,Lions Park Elem School
+50160570022008,Westbrook Early Learning Cntr
+50160590041010,Grove Jr High School
+50160590041012,Holmes Jr High School
+50160590041016,Friendship Jr High School
+50160590042001,Brentwood Elem School
+50160590042002,Adm Richard E Byrd Elem School
+50160590042003,Clearmont Elem School
+50160590042006,Devonshire School
+50160590042008,Forest View Elem School
+50160590042009,Robert Frost Elem School
+50160590042014,John Jay Elem School
+50160590042016,Juliette Low Elem School
+50160590042018,Rupley Elem School
+50160590042019,Salt Creek Elem School
+50160590042020,Ridge Family Center for Learning
+50160620041001,Algonquin Middle School
+50160620041003,Chippewa Middle School
+50160620042001,Iroquois Community School
+50160620042002,Central Elem School
+50160620042004,Cumberland Elem School
+50160620042005,Forest Elem School
+50160620042008,North Elementary School
+50160620042009,Orchard Place Elem School
+50160620042010,Plainfield Elem School
+50160620042011,South Elem School
+50160620042012,Terrace Elem School
+50160630021003,Gemini Jr High School
+50160630022006,V H Nelson Elem School
+50160630022008,Stevenson School
+50160630022009,Mark Twain Elem School
+50160630022010,Washington Elem School
+50160630022011,Melzer School
+50160630022012,Apollo Elem School
+50160640041006,Emerson Middle School
+50160640041007,Lincoln Middle School
+50160640042001,George B Carpenter Elem School
+50160640042004,Eugene Field Elem School
+50160640042005,Franklin Elementary School
+50160640042011,Theodore Roosevelt Elem School
+50160640042012,George Washington Elem School
+50160650041002,Chute Middle School
+50160650041007,Haven Middle School
+50160650041012,Nichols Middle School
+50160650042004,Dawes Elementary School
+50160650042005,Dewey Elem School
+50160650042009,Lincoln Elem School
+50160650042010,Lincolnwood Elem School
+50160650042014,Oakton Elem School
+50160650042015,Orrington Elem School
+50160650042019,Walker Elem School
+50160650042020,Washington Elem School
+50160650042021,Willard Elem School
+50160650042022,Dr ML King Jr Literary&Fine Arts
+50160650042023,Kingsley Elementary School
+50160650042024,Dr Bessie Rhodes-Global Studies
+50160670021002,Golf Middle School
+50160670022003,Hynes Elem School
+50160680021002,Old Orchard Jr High School
+50160680022001,Devonshire Elem School
+50160680022004,Jane Stenson School
+50160680022005,Highland Elementary School
+50160690021003,Lincoln Jr High School
+50160690022001,Thomas Edison Elem School
+50160690022004,Madison Elem School
+50160700022003,Park View Elem School
+50160710022001,Clarence E Culver School
+50160720022002,Fairview South Elementary School
+50160730022001,East Prairie Elem School
+50160735021003,Oliver McCracken Middle School
+50160735022002,John Middleton Elem School
+50160735022003,Elizabeth Meyer School
+50160740021001,Lincoln Hall Middle School
+50160740022003,Rutledge Hall Elem School
+50160740022004,Todd Hall Elem School
+50162020170001,Evanston Twp High School
+50162030170001,New Trier Township H S Winnetka
+60160790022001,Pennoyer Elem School
+50162030170002,New Trier Township H S Northfield
+60160800022001,J Giles Elem School
+50162070170001,Maine East High School
+60160800022002,J Leigh Elem School
+50162070170003,Maine South High School
+60160810021001,Lincoln Middle School
+50162070170004,Maine West High School
+60160810022001,John F Kennedy Elem School
+50162110170001,J B Conant High School
+60160810022003,Washington Elem School
+50162110170002,Wm Fremd High School
+60160830021003,Mannheim Middle School
+50162110170003,Palatine High School
+60160830022002,Scott Elementary School
+50162110170004,Schaumburg High School
+60160830022004,Roy Elem School
+50162110170006,Hoffman Estates High School
+60160830022005,Westdale Elem School
+50162140170002,Elk Grove High School
+60160840021002,Hester Jr High School
+50162140170004,John Hersey High School
+60160840022003,North Elem School
+50162140170005,Prospect High School
+60160840022004,Dan H Pietrini Elem School
+50162140170006,Wheeling High School
+60160840022005,Passow Elementary School
+50162140170007,Rolling Meadows High School
+60160845022001,Rhodes Elem School
+50162140170008,Buffalo Grove High School
+60160855022001,River Grove Elem School
+50162190170002,Niles North High School
+60160860022001,Union Ridge Elem School
+50162190170003,Niles West High School
+60160870021005,MacArthur Middle School
+50162250170001,Glenbrook North High School
+60160870021006,Northlake Middle School
+50162250170002,Glenbrook South High School
+60160780022001,Rosemont Elem School
+60160870022003,Jefferson Elementary School
+60160870022007,J W Riley Elem School
+60160870022008,Sunnyside Elementary School
+60160870022010,Whittier Elementary School
+60160880021007,Roosevelt Middle School
+60160880022001,Grant Elem School
+60160880022003,Lincoln Elementary School
+60160880022005,McKinley Elem School
+60160880022006,Thurgood Marshall Elem School
+60160880022009,Grant Primary
+60160890021001,Irving Middle School
+60160890021002,Stevenson Middle School
+60160890022001,Jane Addams Elem School
+60160890022002,Emerson Elem School
+60160890022003,Garfield Elem School
+60160890022006,Lincoln Elem School
+60160890022007,Melrose Park Elem School
+60160890022008,Roosevelt Elem School
+60160890022012,Washington Dual Language Academy
+60160900021002,Roosevelt School
+60160900022001,Lincoln Elem School
+60160900022005,Willard Elem School
+60160910021001,Forest Park Middle School
+60160910022001,Betsy Ross Elem School
+60160910022003,Field Stevenson Elem School
+60160910022004,Garfield Elem School
+60160910022005,Grant-White Elem School
+60160920022001,Lindop Elem School
+60160925021001,Westchester Middle School
+60160925022002,Westchester Intermediate School
+60160925022003,Westchester Primary School
+60160930022001,Hillside Elem School
+60160940022001,Komarek Elem School
+60160950021001,S E Gross  Middle School
+60160950022002,Brook Park Elem School
+60160960021004,L J Hauser Jr High School
+60160960022001,A F Ames Elem School
+60160960022002,Blythe Park Elem School
+60160960022003,Central Elem School
+60160960022005,Hollywood Elem School
+60160970021003,Gwendolyn Brooks Middle School
+60160970021004,Percy Julian Middle School
+60160970022001,William Beye Elem School
+60160970022003,William Hatch Elem School
+60160970022005,Oliver W Holmes Elem School
+60160970022006,Irving Elem School
+60160970022007,Abraham Lincoln Elem School
+60160970022008,Longfellow Elem School
+60160970022009,Horace Mann Elem School
+60160970022010,Whittier Elem School
+60160980021004,Lincoln Middle School
+60160980022001,Prairie Oak School
+60160980022002,Karel Havlicek Elem School
+60160980022003,Jefferson Elem School
+60160990021002,Unity Jr High School
+60160990022001,Daniel Burnham Elem School
+60160990022002,Cicero East Elem School
+60160990022003,Columbus  East Elem School
+60160990022004,Drexel Elem School
+60160990022005,Goodwin Elementary School
+60160990022006,Abe Lincoln Elem School
+60160990022007,McKinley Elem School
+60160990022008,T Roosevelt Elem School
+60160990022009,Sherlock Elem School
+60160990022010,Woodrow Wilson Elem School
+60160990022011,Woodbine Elem School
+60160990022012,Warren Park School
+60160990022013,Liberty Elem School
+60160990022014,Cicero West Elementary School
+60160990022015,Columbus West Elementary School
+60161000021002,Heritage Middle School
+60161000021003,Freedom Middle School
+60161000022001,Emerson Elem School
+60161000022003,Irving Elem School
+60161000022004,Komensky Elem School
+60161000022006,Pershing Elem School
+60161000022007,Piper School
+60161000022008,Hiawatha Elem School
+60161010021006,McClure Jr High School
+60161010022001,Field Park Elem School
+60161010022002,Forest Hills Elem School
+60161010022005,John Laidlaw Elem School
+60161020021004,Park Junior High School
+60161020022001,Congress Park Elem School
+60161020022002,Cossitt Ave Elem School
+60161020022003,Forest Road Elem School
+60161020022007,Ogden Ave Elem School
+60161020022008,Barnsdale Road School
+60161030022002,Edison Elem School
+60161030022004,Home Elem School
+60161030022005,Lincoln Elem School
+60161030022006,J W Robinson Jr Elem School
+60161030022007,Washington Middle School
+60161030022008,Costello School
+60161050021001,Wm F Gurrie Middle School
+60161050022002,Hodgkins Elem School
+60161050022003,Ideal Elem School
+60161050022004,Seventh Ave Elem School
+60161050022005,Spring Ave Elem School
+60161060021003,Highlands Middle School
+60161060022001,Highlands Elem School
+60161070021001,Pleasantdale Middle Sch
+60161070022002,Pleasantdale Elementary School
+60162000130001,Oak Park & River Forest High Sch
+60162010170001,J Sterling Morton East High Sch
+70161040021001,Heritage Middle School
+60162010170002,J Sterling Morton West High Sch
+60162010170003,J Sterling Morton Freshman Cntr
+60162040170001,Lyons Twp High Sch
+70161040022001,Dr Donald Wharton Elem School
+60162080170001,Riverside Brookfield Twp HS
+70161040022003,Otis P Graves Elem School
+60162090170001,Proviso East High School
+70161040022004,W W Walker Elem School
+60162090170002,Proviso West High School
+70161040022005,Walsh Elem School
+60162090170003,Proviso Math and Science Academy
+70161080022001,Willow Springs Elem School
+60162120160001,East Leyden High School
+70161090021006,Geo T Wilkins Jr High School
+60162120160002,West Leyden High School
+70161090022001,Bridgeview Elem School
+60162340160001,Ridgewood Comm High School
+60164010262003,Elmwood Elem School
+60164010260001,Elmwood Park High School
+60164010261001,Elm Middle School
+60164010262004,John Mills Elem School
+60164010262005,Early Childhood Center
+70161090022002,Frank A Brodnicki Elem School
+70161090022004,Robina Lyle Elementary School
+70161090022006,George T Wilkins Elem School
+70161100022002,Charles J Sahs Elem School
+70161110021001,Liberty Junior High School
+70161110022001,Luther Burbank Elem School
+70161110022002,Richard Byrd Elementary School
+70161110022005,J B Kennedy Elem School
+70161110022006,Maddock Elementary School
+70161110022007,F B Mccord Elem School
+70161110022010,Edward J Tobin Elem School
+70161110022011,Harry E Fry School
+07016113A021002,Old Quarry Middle Sch
+07016113A022002,Oakwood School
+07016113A022004,River Valley School
+70161170021001,H H Conrady Jr High School
+70161170022002,Dorn Primary Center
+70161170022003,Glen Oaks Elem School
+70161170022004,Oak Ridge Elem School
+70161170022005,Dr Kenneth M Sorrick School
+70161180041004,Palos South Middle School
+70161180042002,Palos East Elementary School
+70161180042003,Palos West Elementary School
+70161220021005,Simmons Middle School
+70161220022001,Columbus Manor Elem School
+70161220022002,Ernest F Kolb Elem School
+70161220022003,Harnew Elem School
+70161220022004,George W Lieb Elem School
+70161230021001,Oak Lawn-Hometown Middle Sch
+70161230022003,J Covington Elem School
+70161230022006,J M Hannum Elem School
+70161230022007,Hometown Elem School
+70161230022008,Kolmar Avenue Elem School
+70161230022010,Sward Elem School
+70161240021001,Central Middle School
+70161240022002,Northeast Elem School
+70161240022003,Northwest School
+70161240022004,Southeast Elem School
+70161240022005,Southwest Elem School
+70161250021001,Hamlin Upper Grade Center
+70161250022003,Lawn Manor School
+70161250022004,Meadow Lane School
+70161260021005,Prairie Jr High School
+70161260022001,Hazelgreen Elem School
+70161260022002,Lane Elem School
+70161260022004,Stony Creek Elem School
+70161270021005,Worth Jr High School
+70161270022001,Worth Elem School
+70161270022004,Worthwoods Elem School
+70161275021001,Elden D Finley Jr High School
+70161275022003,Ridge Central Elem School
+70161275022004,Ridge Lawn Elementary School
+70161280021003,Independence Jr High School
+70161280022002,Chippewa Elem School
+70161280022005,Navajo Heights Elem School
+70161280022006,Indian Hill
+70161300021001,Everett F Kerr Middle School
+70161300021002,Nathan Hale Middle School
+70161300021003,Veterans Memorial Middle Sch
+70161300022004,Nathan Hale Intermediate
+70161300022008,Paul Revere Intermediate School
+70161300022010,Whittier Elementary School
+70161300022011,Lincoln Elem School
+70161300022012,Nathan Hale Primary School
+70161300022018,Paul Revere Primary School
+70161300022019,George Washington Elementary Sch
+70161320022001,Burr Oak Elem School
+70161320022002,Calumet Elem School
+70161320022003,Burr Oak Academy
+70161330022001,Gen George Patton Elem School
+70161350021004,Orland Jr High School
+70161350021005,Jerling Junior High School
+70161350021006,Century Junior High School
+70161350022001,High Point Elem School
+70161350022002,Orland Park Elem School
+70161350022007,Prairie Elem School
+70161350022008,Liberty Elem School
+70161350022010,Orland Center School
+70161350022012,Centennial School
+70161350022013,Meadow Ridge School
+70161400021003,Virgil I Grissom Middle School
+70161400021004,Prairie View Middle School
+70161400022001,Fernway Park Elem School
+70161400022004,Helen Keller Elem School
+70161400022005,John A Bannes Elem School
+70161400022006,Christa McAuliffe School
+70161400022007,Millennium Elem School
+70161420021001,Jack Hille Middle School
+70161420022002,Ridge Early Childhood Center
+70161420022003,Lee R Foster Elem School
+70161420022004,Kerkstra Elem School
+70161430022001,Central Park Elem School
+70161430022002,Kolmar Elem School
+70161430022004,Springfield Elem School
+70161430022005,Spaulding School
+70161435021003,Kellar School
+70161435022001,Childs Elem School
+70161435022006,Posen Elem School
+70161435022007,Turner Elem School
+70161435022010,Gordon School
+70161440021002,Prairie-Hills Junior High School
+70161440022003,Fieldcrest Elem School
+70161440022004,Highlands Elem School
+70161440022005,Markham Park Elem School
+70161440022007,Nob Hill Elem School
+70161440022009,Chateaux School
+70161440022010,Mae Jemison School
+70161450021001,Arbor Park Middle School
+70161450022002,Kimberly Heights Elem School
+70161450022003,Scarlet Oak Elem School
+70161450022004,Morton Gingerwood Elem School
+70161460041001,Central Middle School
+70161460042002,Bert H Fulton School
+70161460042003,Memorial Elem School
+70161460042005,Walter F Fierke Ed Center
+70161460042006,Arnold W Kruse Ed Center
+70161470021001,Rosa L Parks Middle School
+70161470022004,Lincoln Elem School
+70161470022006,Washington Elem School
+70161470022007,Martin L King Elem School
+70161480021002,Roosevelt Junior High School
+70161480021003,Lincoln Junior High School
+70161480021004,Washington Junior High
+70161480022002,Riverdale School
+70161480022003,Lincoln Elementary School
+70161480022005,Roosevelt Elem School
+70161480022006,Washington Elem School
+70161480022007,Franklin Elementary School
+70161480022010,Park Elementary School
+70161490021004,S T E M Academy
+70161490021005,Creative Communications Acad
+70161490021006,School of Fine Arts
+70161490022002,Diekman Elem School
+70161490022005,Caroline Sibley Elem School
+70161490022006,Berger-Vandenberg Elem School
+70161490022009,Carol Moseley Braun School
+70161490022010,New Beginnings Learning Academy
+70161500021005,McKinley Jr High School
+70161500022001,Greenwood Elem School
+70161500022002,McKinley Elem School
+70161510021001,Coolidge Middle School
+70161510022002,Eisenhower School
+70161510022004,Madison School
+70161510022006,Taft School
+70161520021001,Brooks Middle School
+70161520022001,Bryant Elem School
+70161520022002,Maya Angelou Elem Sch
+70161520022004,Holmes Elem School
+70161520022005,Lowell-Longfellow Elem School
+70161520022007,Sandburg Elem School
+70161520022008,Whittier Elem School
+70161525022001,Barack H Obama Learning Academy
+70161525022005,Jesse C White Learning Academy
+70161530021003,James Hart School
+70161530022002,Winston Churchill School
+70161530022005,Willow School
+70161540022002,Wolcott School
+70161545022001,Burnham Elem School
+70161550021001,Wentworth Jr High School
+70161550022002,Wilson Elementary School
+70161550022004,Wentworth Intermediate School
+70161560022001,Lincoln Elem School
+70161570021001,Schrum Memorial School
+70161570022001,Hoover Elem School
+70161580021004,Memorial Jr High School
+70161580022001,Coolidge Elementary School
+70161580022005,Oak Glen Elem School
+70161580022006,Reavis Elem School
+70161590021001,Colin Powell Middle Sch
+70161590022002,Sieden Prairie Elementary School
+70161590022004,Neil Armstrong Elem School
+70161590022005,Woodgate Elem School
+70161590022006,Marya Yates Elementary School
+70161600021001,Southwood Middle School
+70161600022003,Zenon J Sykuta  School
+70161600022004,Meadowview  School
+70161610021003,Parker Junior High School
+70161610022001,Flossmoor Hills Elem School
+70161610022002,Heather Hill Elem School
+70161610022006,Serena Hills Elem School
+70161610022007,Western Avenue Elem School
+70161620021004,O W Huth Middle School
+70161620022001,Arcadia Elem School
+70161620022003,Indiana Elem School
+70161620022005,Matteson Elem School
+70161620022008,Sauk Elem School
+70161620022009,Illinois School
+70161630021010,Michelle Obama Sch of Technology
+70161630022002,Barack Obama Sch of Ldership
+70161630022003,Blackhawk Primary Center
+70161630022007,Mohawk Primary Center
+70161630022008,21st Century Primary Center
+70161670021002,Brookwood Jr High School
+70161670022001,Brookwood Middle School
+70161670022003,Longwood Elem School
+70161670022004,Hickory Bend Elem School
+70161680041003,Rickover Jr High School
+70161680042001,Strassburg Elem
+70161680042002,Wagoner Elem
+70161690021001,Cottage Grove Upper Grade Center
+70161690022002,Medgar Evers Primary Acadmc Cntr
+70161700022001,Washington-McKinley Elem Sch
+70161700022002,Roosevelt Elem School
+70161700022005,Wilson Elem School
+70161700022007,Garfield Elem School
+70161700022008,U S Grant Elem School
+70161700022009,Greenbriar Elem School
+70161700022011,Jefferson Elem School
+70161700022012,Kennedy Elem School
+70161700022013,Lincoln Elem School
+70161710021001,Heritage Middle School
+70161710022001,Nathan Hale Elem School
+70161720022001,Sandridge Elem School
+70161940021001,Columbia Central School
+70161940022002,Steger Intermediate Center
+70161940022005,Steger Primary Center
+70162050170001,Thornton Township High School
+80083140261001,West Carroll Middle School
+70162050170002,Thornridge High School
+80083140262002,West Carroll Primary
+70162050170003,Thornwood High School
+80083990262001,Chadwick Elem School
+70162060170001,Bloom High School
+80083990262002,Milledgeville Elem School
+70162060170002,Bloom Trail High School
+80431190222002,East Dubuque Elem School
+70162100170001,Lemont Twp High School
+80431200222002,Galena Primary School
+70162150170001,Thornton Fractnl No High School
+80432060262002,Stockton Elem School
+70162150170002,Thornton Fractnl So High School
+80432100262003,River Ridge Elementary School
+70162170160001,Argo Community High School
+80432110262001,Scales Mound Elem School
+70162180160001,DD Eisenhower High Sch (Campus)
+90101370022002,Eastlawn Elem School
+70162180160004,H L Richards High Sch(Campus)
+90101370022006,Northview Elem School
+70162180160007,A B Shepard High Sch (Campus)
+90101370022007,Pleasant Acres Elem School
+70162200170001,Reavis High School
+90101420042001,Ludlow Elementary School
+70162270170001,Rich East Campus High School
+80891450222004,Center Elem School
+70162270170002,Rich Central Campus High School
+80891450222005,Lincoln-Douglas Elementary School
+70162270170003,Rich South Campus High School
+80891450222006,Empire Elem School
+70162280160001,Bremen High School
+80891450222012,Taylor Park Elem School
+70162280160002,Tinley Park High School
+80892000262001,Pearl City Elementary School
+70162280160003,Hillcrest High School
+80892020262003,Lena Elem School
+70162280160004,Oak Forest High School
+80892030262003,Orangeville Elem School
+70162290160001,Oak Lawn Comm High School
+90100030262003,Lincoln Trail Elem School
+70162300130001,Carl Sandburg High School
+90100030262004,Sangamon Elem School
+70162300130002,Amos Alonzo Stagg High School
+90100030262005,Middletown Prarie Elementary
+70162300130003,Victor J Andrew High School
+90100070261005,Unity Jr High School
+70162310160001,Evergreen Park High School
+80891450221002,Freeport Middle School
+70162330160001,Homewood-Flossmoor High School
+80891450222003,Blackhawk Elem School
+07016901025001C,Southland College Prep Chtr HS
+80083140260001,West Carroll High School
+80083080260001,Eastland Jr/Sr High School
+80083080262003,Eastland Elementary School
+80083990260002,Milledgeville High School
+80083990261001,Chadwick Junior High School
+80431190220003,East Dubuque High School
+80431190221001,East Dubuque Jr High
+80431200220002,Galena High School
+80431200221001,Galena Middle School
+80432050260001,Warren Jr/Sr High School
+80432050262002,Warren Elementary School
+80432060260003,Stockton Sr High School
+80432060261001,Stockton Middle School
+80432100260002,River Ridge High School
+80432100261001,River Ridge Middle School
+80432110260002,Scales Mound High School
+80432110261001,Scales Mound Jr High School
+80891450220001,Freeport High School
+90100070262006,Unity West
+80891450222015,Carl Sandburg Middle Sch
+80891450222017,Jones-Farrar Magnet School
+80892000260001,Pearl City High School
+80892000261001,Pearl City Jr High School
+80892010260001,Dakota Jr Sr High School
+80892010262003,Dakota Elementary School
+80892020260001,Lena-Winslow High School
+80892020261002,Lena-Winslow Jr High School
+80892030260001,Orangeville High School
+80892030261001,Orangeville Jr High School
+90100010260001,Fisher Jr/Sr High School
+90100010262002,Fisher Grade School
+90100030260001,Mahomet-Seymour High School
+90100030261002,Mahomet-Seymour Jr High School
+90100040260001,Centennial High School
+90100070262007,Unity East
+90100040260002,Central High School
+90101370021003,J W Eater Jr High School
+90100040261003,Edison Middle School
+90100040261005,Jefferson Middle School
+90100040261007,Franklin Middle School
+90100040262007,Bottenfield Elem School
+90100040262008,Carrie Busey Elem School
+90100040262010,Dr Howard Elem School
+90100040262011,Garden Hills Elem School
+90100040262013,Kenwood Elem School
+90100040262017,Robeson Elem School
+90100040262020,Washington Elem School
+90100040262021,Westview Elem School
+90100040262024,South Side Elementary School
+90100040262026,Stratton Elementary School
+90100040262027,Vernon L Barkstall Elementary Sch
+90100040262028,International Prep Academy
+90100070260007,Unity High School
+90100080260001,Heritage High School
+90100080262001,Heritage JH and Elem Sch
+90101160220001,Urbana High School
+90101370022001,Broadmeadow Elem School
+90101160221002,Urbana Middle School
+90101160222004,M L King Jr Elem School
+90101160222005,Leal Elem School
+90101160222007,Dr Preston L Williams Jr Elem Sch
+90101160222008,Thomas Paine Elem School
+90101160222012,Yankee Ridge Elem School
+90101160222013,Wiley Elementary School
+90101300042001,Thomasboro Grade School
+90101690041001,St Joseph Middle School
+90101690042001,St Joseph Elem School
+90101880042001,Gifford Grade School
+90101930170001,Rantoul Twp High School
+90101970041001,Prairieview-Ogden Jr High Sch
+90101970042001,Prairieview-Ogden North Elem
+90101970042002,Prairieview-Ogden South Elem
+90103050160001,St Joseph-Ogden High School
+90270050260001,GCMS High School
+90270050261003,GCMS Middle School
+90270050262004,GCMS Elementary School
+90270100260001,Paxton-Buckley-Loda High School
+90270100261002,Paxton-Buckley-Loda Jr High Sch
+90270100262004,Clara Peterson Elem School
+90270100262005,PBL Eastlawn
+11012002C260001,Marshall High School
+11012002C261002,Marshall Jr High School
+11012002C262003,North Elem School
+11012002C262005,South Elem School
+11012003C260001,Martinsville Jr- Sr High School
+11012003C262005,Martinsville Elem School
+11012004C260001,Casey-Westfield Jr/Sr HS
+11012004C262003,Monroe Elem School
+110150010260001,Charleston High School
+110150010261002,Charleston Middle School
+110150010262003,Carl Sandburg Elem School
+110150010262004,Jefferson Elem School
+110150010262006,Mark Twain Elem School
+110150010262007,Ashmore Elem School
+110150020260001,Mattoon High School
+110150020261003,Mattoon Middle School
+110150020262015,Arland D Williams Jr Elem Sch
+110150020262016,Riddle Elementary School
+110150050260002,Oakland High School
+110150050262001,Lake Crest Elem School
+110180030260001,Neoga Jr/Sr High School
+110180030262002,Neoga Elementary School
+110180770260001,Cumberland High School
+110180770261001,Cumberland Middle School
+110180770262003,Cumberland Elem School
+110213010260001,Tuscola High School
+110213010261004,East Prairie Middle School
+110213010262002,North Ward Elementary School
+110213020260001,Villa Grove High School
+110213020261001,Villa Grove Jr High School
+110213020262001,Villa Grove Elem School
+110213050260001,Arthur-Lovington-Atwood-Hammond
+110213050262003,Arthur Grade School
+110213050262004,Lovington Grade School
+110213050262005,Atwood-Hammond Grade School
+110213060260001,Arcola High School
+110213060262002,Arcola Elementary School
+110230010260001,Shiloh High School
+110230010262002,Shiloh Elementary School
+110230030260001,Kansas High School
+110230030262002,Kansas Elem School
+110230040261001,Crestwood Jr High School
+110230040262001,Crestwood Elem School
+110230060260001,Chrisman High School
+110230060261001,Chrisman-Scottland Jr High School
+110230060262003,Chrisman Elem School
+110230950251001,Mayo Middle School
+110230950252003,Memorial Elementary School
+110230950252006,Carolyn Wenz Elem School
+110238000800001,Paris Cooperative High School
+110703000260004,Sullivan High School
+110703000261001,Sullivan Middle School
+110703000262001,Sullivan Elem School
+110703020260001,Okaw Valley High School
+110703020261001,Okaw Valley Middle School
+110703020262001,Okaw Valley Elementary School
+110870010260002,Windsor Jr & Sr High School
+110870010262002,Windsor Elem School
+11087003A260001,Cowden-Herrick Jr/Sr High School
+11087003A262001,Cowden-Herrick Grade School
+110870040260001,Shelbyville High School
+110870040262002,Moulton Elementary School
+110870040262003,Main Street Elementary School
+110870040262006,Shelbyville Kindergarten Center
+11087005A260001,Stewardson-Strasburg High School
+11087005A262003,Stewardson-Strasburg Elem School
+110870210260001,Central A & M High School
+110870210261001,Central A & M Middle School
+110870210262001,Gregory Intermediate
+110870210262002,Bond Primary
+120130100260002,Clay City High School
+120130100261001,Clay City Jr High School
+120130100262001,Clay City Elem School
+120130250260001,North Clay Community High School
+120130250262004,North Clay Elem/Jr High Sch
+120130350260001,Flora High School
+120130350261001,Floyd Henson Jr High Sch
+120130350262008,Flora Elementary School
+120170010260001,Hutsonville High School
+120170010262002,Hutsonville Elem and Jr High Sch
+120170020260001,Robinson High School
+120170020261005,Nuttall Middle School
+120170020262004,Lincoln Elementary School
+120170020262007,Washington Elem School
+120170030260001,Palestine High School
+120170030262002,Palestine Grade School
+120170040260001,Oblong High School
+120170040262002,Oblong Elem School
+120400010260001,Newton Comm High School
+120400010261003,Jasper Co Jr High
+120400010262002,Newton Elem School
+120400010262011,Ste Marie Elem School
+120510100260001,Red Hill Jr/Sr High School
+120510100262005,Bridgeport Grade School
+120510100262008,Sumner Attendance Center
+120510200260008,Lawrenceville High School
+120510200261007,Parkview Jr High School
+120510200262007,Parkside Elementary School
+120800010260001,Richland County High School
+120800010261002,Richland County Middle School
+120800010262008,Richland County Elementary School
+130140010260001,Carlyle High School
+130140010261001,Carlyle Junior High School
+130140010262002,Carlyle Elementary School
+130140030260006,Wesclin Sr High School
+130140030262001,Trenton Elem School
+130140030262005,New Baden Elementary School
+130140030262006,Wesclin Middle School
+130140120042001,Breese Elem School
+130140120042002,Beckemeyer Elem School
+130140210022001,Aviston Elem School
+130140460022001,Willow Grove Elem School
+130140570022001,Bartelso Elem School
+130140600022001,Germantown Elem School
+130140620022001,Damiansville Elem School
+130140630022001,Albers Elem School
+130140710160001,Central Comm High School
+130141415022001,St Rose Elem School
+130141860022001,North Wamac Grade School
+130410010260001,Waltonville High School
+130410010262002,Waltonville Grade School
+130410020042001,Rome Comm Cons Elem School
+130410030042001,Field Elementary School
+130410050042002,Opdyke-Belle Rive Grade Sch
+130410060042001,Grand Prairie Elem School
+130410120042001,McClellan Elementary School
+130410790022001,Summersville Grade School
+130410800021001,Zadok Casey Middle School
+130410800022002,J L Buford Intermediate Ed Ctr
+130410800022008,Dr Nick Osborne Primary Center
+130410820022001,Bethel Grade School
+130410990042001,Farrington Elem School
+130411780042001,Spring Garden Elementary School
+130411780042002,Spring Garden Middle School
+130412010170001,Mount Vernon High School
+130412090270001,Woodlawn High School
+130412090272001,Woodlawn Grade School
+130413180270001,Webber High School
+130413180272001,Bluford Grade School
+130580010032001,Raccoon Cons Elem School
+130580020032001,Kell Grade School
+130580070042001,Iuka Comm Cons School
+130580100042003,Selmaville Elem School
+130581000260002,Patoka Sr High School
+130581000261001,Patoka Jr High School
+130581000262001,Patoka Elem School
+130581110022004,Hawthorn Elem School
+130581110022005,Franklin Park Middle School
+130581330022001,Central City Elem School
+130581350021001,Centralia Jr High School
+130581350022003,Field Kindergarten Center
+130581350022006,Jordan Elem School
+130581350022007,Lincoln Elem School
+130581350022008,Schiller Elem School
+130582000170001,Centralia High School
+130584010260001,South Central High School
+130584010261001,South Central Middle School
+130584010262002,South Central Elementary-Kinmundy
+130585010260001,Sandoval Sr High School
+130585010261002,Sandoval Jr High School
+130585010262002,Sandoval Elem School
+130586000160001,Salem Community High School
+130587220260001,Odin Attendance Center 9-12
+130587220262001,Odin Attendance Center K-8
+130950010042001,Oakdale Grade School
+130950100260001,Okawville Jr/Sr High School
+130950100262003,Okawville Grade School
+130950110042001,Irvington Elem School
+130950150042001,Ashley Com Consolidated School
+130950490042002,Nashville Grade School
+130950990160001,Nashville Comm High School
+150162990250001,Amundsen High School
+15016904025201C,Betty Shabazz Internl Charter Sch
+150162990250003,Bogan High School
+15016904025202C,Barbara A Sizemore Campus
+150162990250006,Carver Military Academy HS
+24032002C021002,Mazon-Verona-Kinsman Middle Sch
+150162990250011,Farragut Career Academy HS
+24032002C022001,Mazon-Verona-Kinsman Elem School
+150162990250012,Fenger Academy High School
+280880010262001,Bradford Grade School
+150162990250013,Foreman High School
+560991590022004,Mokena Intermediate School
+150162990250014,Back of The Yards IB HS
+190220020022006,Tioga Elementary School
+150162990250015,Gage Park High School
+150162990250016,Harlan Community Academy HS
+190220040021009,Indian Trail Jr High School
+150162990250017,Harper High School
+190220040022002,Army Trail Elem School
+150162990250019,Hirsch Metropolitan High School
+190220040022003,Fullerton Elem School
+150162990250020,Hubbard High School
+150162990250021,Hyde Park Academy High School
+320460530021001,Bourbonnais Upper Grade Center
+150162990250022,Kelly High School
+150162990250023,Kelvyn Park High School
+150162990250024,Kennedy High School
+150162990250025,Kenwood Academy High School
+150162990250026,Lake View High School
+150162990250027,Lane Technical High School
+150162990250029,Marshall Metropolitan High School
+410570130022002,Eastwood Elem School
+150162990250030,Mather High School
+150162990250031,Morgan Park High School
+150162990250034,Phillips Academy High School
+150162990250035,Roosevelt High School
+150162990250036,Schurz High School
+150162990250037,Senn High School
+150162990250039,King College Prep High School
+56099033C042003,Goodings Grove School
+150162990250041,Steinmetz College Prep HS
+150162990250042,Sullivan High School
+150162990250043,Taft High School
+150162990250044,Tilden Career Communty Academy HS
+56099033C042005,Hadley Middle School
+150162990250046,Von Steuben Metro Science HS
+150162990250047,Lincoln Park High School
+150162990250048,Washington G High School
+150162990250049,Wells Community Academy HS
+56099070C042002,Oak Valley Elem School
+150162990250052,Crane Medical Prep HS
+190220040022004,Lake Park Elem School
+150162990250053,Disney II Magnet HS
+15016299025007C,Young Womens Leadership Chartr HS
+190220040022005,Lincoln Elem School
+15016299025009C,Ace Technical Charter High School
+190220040022008,Wesley Elem School
+15016299025010C,Urban Prep Chtr Acad Englewood HS
+190220040022010,Stone Elem School
+15016299025012C,IHSCA Charter High School
+15016299025013C,Urban Prep Chtr  Bronzeville HS
+200961120042001,Center Street Elem School
+15016299025015C,EPIC Academy High School
+200961120042002,North Side Elem School
+15016299025016C,Urban Prep Chtr West Campus HS
+190220040022011,Ardmore Elem School
+15016299025019C,Legal Prep Academy Charter HS
+190220070021004,Wood Dale Jr High School
+15016299025020C,IJLA Charter High School
+160194240262002,Davenport Elementary School
+15016299025022C,Intrinsic Charter High School
+15016299025025C,CICS - Basil Campus
+190220070022002,Oakbrook Elem School
+15016299025026C,CICS - Wrightwood
+190220070022003,Westview Elem School
+15016299025027C,CICS - Quest North Campus
+190220100021001,F E Peacock Middle School
+15016299025028C,Noble St Chtr-Pritzker Col Prep
+190220100022002,Elmer H Franzen Intermediate Sch
+15016299025029C,Noble St Chtr Rauner College Prep
+15016299025030C,Noble St Chtr-Rowe-Clark MS Acad
+190220100022003,Raymond Benson Primary School
+15016299025031C,Noble St Chtr-Golder College Prep
+560990920022004,Reed Elem School
+15016299025032C,Noble St Chtr-Comer College Prep
+15016299025033C,Noble St Chtr-UIC College Prep
+190220110021003,Medinah Middle School
+15016299025034C,Noble St Chtr-Chicago Bulls Prep
+190220110022001,Medinah Intermediate School
+15016299025035C,Noble St Chtr-Muchin College Prep
+190220110022002,Medinah Primary School
+15016299025036C,Noble St Chtr-Johnson Colg Prep
+190220120021005,Roselle Middle School
+15016299025037C,Noble St Chtr-Hansberry Prep Slvr
+190220120022004,Spring Hills Elem School
+15016299025038C,Noble St Chtr-DRW Trading Col
+560990920022005,Ludwig Elem School
+15016299025039C,Noble St Chtr-Butler - Crimson
+190220130021001,Westfield Middle School
+15016299025040C,Noble St Chtr-Baker Campus
+190220130022002,Dujardin Elementary School
+15016299025041C,Noble St Chtr-Noble Campus
+190220130022004,Erickson Elementary School
+15016299025042C,Noble St Chtr-ITW Speer Acad
+560991140022002,Wilson Creek Elem Sch
+15016299025043C,Noble St Chtr-The Noble Academy
+190220150021004,Marquardt Middle School
+15016299025044C,Noble St Chtr - Mansueto
+190220150022001,G Stanley Hall Elem School
+15016299025045C,Univ of Chicago Chtr - Woodson
+190220150022003,Reskin Elem School
+15016299025046C,North Lawndale Prep Chtr-Collins
+190220150022004,Winnebago Elem School
+15016299025047C,UNO Chtr - Elem Sch -Homan/Soccer
+190220150022006,Black Hawk Elem School
+15016299025048C,UNO Chtr - PFC Torres Campus
+190220160021004,Glenside Middle School
+15016299025049C,UNO Chtr - Rogers Park
+190220160022001,Americana Intermediate School
+15016299025050C,Perspectives Chtr - Joslin Campus
+15016299025051C,Perspectives Chtr - Leadership Ac
+190220160022005,Glen Hill Primary
+150162990250526,Chicago Vocational Career Acad HS
+190220160022006,Pheasant Ridge Primary School
+15016299025052C,Perspectives Chtr - HS of Tech
+190220200021001,Spring Wood Middle School
+150162990250531,Dunbar Vocational Career Acad HS
+190220200022002,Waterbury Elem School
+150162990250533,Jones College Prep High School
+150162990250534,Prosser Career Academy HS
+150162990250536,Richards Career Academy HS
+560991220021005,Alex M Martino Jr High School
+150162990250537,Simeon Career Academy High School
+15016299025053C,Perspectives Chtr -  IIT Campus
+150162990250543,Corliss High School
+150162990250545,Clemente Community Academy HS
+15016299025054C,YCCS-Scholastic Achievement HS
+160194240262004,Kingston Elementary School
+15016299025055C,YCCS-Ada S McKinley-Lakeside HS
+160194240262005,Genoa Elementary School
+15016299025056C,YCCS-ASPIRA Pantoja Alt HS
+160194250262002,Indian Creek Elementary School
+15016299025057C,YCCS-Assoc Hse El Cuarto Ano HS
+190220200022003,Greenbrook Elem School
+15016299025058C,YCCS-Austin Career Ed Cntr HS
+190220250021001,Benjamin Middle School
+15016299025059C,YCCS-CCA Academy HS
+190220250022002,Evergreen Elementary School
+15016299025060C,YCCS-Hamilton Houston Alt HS
+160194290262002,Hinckley-Big Rock Elem Sch
+150162990250616,Manley Career Academy High School
+150162990250617,Curie Metropolitan High School
+15016299025061C,YCCS-Community Youth Dev Inst HS
+160194300262003,Lynn G Haskin Elementary School
+15016299025062C,YCCS-Albizu Campus Puerto Rican
+190220330021006,Leman Middle School
+15016299025063C,YCCS-Innovations of Arts Integr
+190220330022001,Gary Elementary School
+15016299025064C,YCCS-Jane Addams Alternative HS
+190220330022002,Indian Knoll Elem School
+15016299025065C,YCCS-Latino Youth Alternative HS
+190220330022004,Pioneer Elem School
+15016299025066C,YCCS-Olive Harvey Mid College HS
+190220330022005,Turner Elem School
+15016299025067C,YCCS-Sullivan House Alt HS
+190220330022006,Currier Elementary School
+15016299025068C,YCCS-Truman Middle College HS
+190220330022007,Wegner Elementary School
+15016299025070C,YCCS-West Town Academy Alt HS
+190220340022001,Winfield Primary School
+15016299025071C,YCCS-Westside Holistic Ldr Acad
+160194300262004,W W Woodbury Elem School
+15016299025072C,YCCS-Youth Connection Leadership
+190220340022002,Winfield Central School
+15016299025073C,YCCS Chtr - Chatham
+160194300262006,Prairie View Elem School
+15016299025074C,ASPIRA Charter - Early College Pr
+190220410021009,Hadley Junior High School
+15016299025075C,CICS - Bond Campus
+190220410022001,Abraham Lincoln Elem School
+150162990250763,Julian High School
+190220410022002,Benjamin Franklin Elem School
+150162990250764,Young Magnet High School
+150162990250766,Robeson High School
+560991220021006,Liberty Junior High School
+150162990250767,Juarez Community Academy HS
+15016299025076C,Univ of Chicago Chtr-Donoghue
+190220410022003,Churchill Elem School
+150162990250772,Chicago HS for Agricult Sciences
+150162990250779,Hancock College Preparatory HS
+15016299025077C,LEARN Chtr - Middle School
+190220410022004,Forest Glen Elem School
+150162990250788,Brooks College Prep Academy HS
+15016299025078C,ASPIRA Charter - Haugan Campus
+190220440021009,Glenn Westlake Middle School
+150162990250794,Northside College Preparatory Hs
+150162990250795,Chicago Military Academy HS
+560991220022002,Haines Elem School
+150162990250796,Payton College Preparatory HS
+150162990250799,Hope College Prep High School
+190220440022001,Butterfield Elem School
+15016299025079C,Aspira Charter - Bus and Fin
+190220440022005,Wm Hammerschmidt Elem School
+150162990250803,Phoenix Military Academy HS
+150162990250818,Spry Community Links High School
+320460530022002,Shabbona Elem School
+150162990250820,Chicago Academy High School
+150162990250824,Bowen High School
+150162990250825,North-Grand High School
+150162990250826,Raby High School
+560991220022004,Nelson Prairie School
+150162990250827,Clark Acad Prep Magnet High Schl
+320460530022003,Alan B Shepard Elem School
+150162990250828,Rickover Naval Academy High Schl
+150162990250829,Uplift Community High School
+150162990250830,World Language High School
+150162990250831,Douglass Academy High School
+190220440022009,Manor Hill Elem School
+150162990250832,Devry Advantage Academy High Schl
+320460530022004,Noel Levasseur Elem School
+150162990250833,Lindblom Math & Science Acad HS
+150162990250834,Bronzeville Scholastic HS
+150162990250835,School of Social Justice HS
+190220440022010,Park View Elem School
+150162990250836,Multicultural Acad Scholarshp HS
+190220440022012,Pleasant Lane Elem School
+150162990250837,Infinity Math  Science & Tech HS
+320460530022005,Liberty Intermediate School
+150162990250841,Collins Academy High School
+560991220022005,Nelson Ridge School
+150162990250843,Team Englewood Comm Acad HS
+190220440022013,Madison Elementary School
+150162990250844,Austin College and Career Acad HS
+350500440022003,Kimes Elem School
+150162990250847,Orr Academy High School
+190220450021006,Jackson Middle School
+150162990250848,Air Force Acad High School
+560991220022008,Bentley Elem School
+150162990250849,Alcott Humanities High School
+560991220022014,Spencer Trail
+150162990250850,Chicago Technology Academy HS
+320460610021001,Bradley Central Middle School
+150162990250851,Chicago HS for the Arts
+190220450021007,Jefferson Middle School
+150162990250855,Ogden Int High School
+150162990250856,Williams Medical Prep High Sch
+320460610022002,Bradley East Elem School
+150162990250857,Westinghouse High School
+150162990250859,Solorio Academy High School
+56099157C042004,Grand Prairie Elementary School
+150162990250860,South Shore Intl Col Prep HS
+190220450022001,Ardmore Elem School
+150162990250861,Goode STEM Academy HS
+320460610022003,Bradley West Elem School
+150162990250862,Chicago Excel Academy HS
+160194300262007,Herman E Dummer
+150162990250863,Walter Henri Dyett HS for Arts
+190220450022010,North Elem School
+15016299025101C,KIPP Chicago Chrtrs Create Campus
+190220450022011,Schafer Elem School
+15016299025102C,KIPP Chicago Chrtrs Ascend Acad
+190220450022013,Westmore Elem School
+15016299025103C,KIPP Chicago Chrtrs  Bloom Campus
+190220450022015,York Center Elem School
+15016299025105C,LEARN Chtr - Butler
+190220450022016,Stevenson School
+15016299025107C,Univ of Chicago Chtr-Woodlawn
+190220480021003,John E Albright Middle School
+15016299025201C,Chicago International Charter
+190220480022001,Salt Creek Elem School
+150162990252046,Jackson M Elem School
+190220480022002,Stella May Swartz Elem School
+150162990252048,Green  W Elem School
+190220530021001,Butler Junior High School
+150162990252051,Addams Elem School
+190220530022002,Brook Forest Elem School
+150162990252052,Agassiz Elem School
+190220580021014,Herrick Middle School
+150162990252053,Alcott Elem School
+190220580021015,O Neill Middle School
+150162990252054,Aldridge Elem School
+190220580022001,Belle Aire Elem School
+150162990252058,Armour Elem School
+190220580022002,El Sierra Elem School
+150162990252059,Armstrong G Elem IntL Studies
+190220580022003,Fairmount Elem School
+150162990252062,Audubon Elem School
+190220580022004,Highland Elem School
+150162990252063,Avalon Park Elem School
+190220580022005,Hillcrest Elem School
+150162990252066,Barnard Elem Comp Math & Sci Ctr
+190220580022006,Indian Trail Elem School
+150162990252067,Barry Elem School
+190220580022007,Kingsley Elem School
+150162990252068,Barton Elem School
+190220580022008,Lester Elem School
+150162990252069,Bass Elem School
+190220580022010,Pierce Downer Elem School
+15016299025206C,Locke A Elem Charter Academy
+190220580022013,Whittier Elem School
+150162990252070,Bateman Elem School
+190220580022014,Henry Puffer School
+150162990252072,Nicholson Tech Acad Elem Sch
+190220600021001,Westview Hills Middle School
+150162990252078,Beaubien Elem School
+190220600022001,Holmes Elem School
+150162990252079,Beethoven Elem School
+190220600022002,Maercker Elem School
+150162990252080,Beidler Elem School
+190220610021004,Eisenhower Jr High School
+150162990252081,Belding Elem School
+190220610022001,Mark DeLay School
+150162990252082,Bell Elem School
+190220610022002,Lace Elem School
+150162990252083,Bennett Elem School
+190220620021001,Gower Middle School
+150162990252086,Black Magnet Elem School
+190220620022002,Gower West Elem School
+150162990252087,Blaine Elem School
+190220630021001,Cass Jr High School
+150162990252088,Bond Elem School
+190220630022002,Concord Elem School
+150162990252089,Boone Elem School
+190220660021001,Lakeview Jr High School
+150162990252090,Bradwell Comm Arts & Sci Elem Sch
+190220660022002,Elizabeth Ide Elem School
+150162990252092,Haley Elem Academy
+190220660022004,Prairieview Elementary School
+150162990252093,Brennemann Elem School
+190220680021001,Thomas Jefferson Jr High School
+150162990252094,Brentano Elem Math & Science Acad
+190220680022001,Edgewood Elem School
+150162990252095,Bridge Elem School
+190220680022002,Goodrich Elem School
+150162990252096,Bright Elem School
+190220680022003,Meadowview Elem School
+150162990252097,Brown  W Elem School
+190220680022004,Willow Creek Elem School
+150162990252098,Brownell Elem School
+190220680022005,William F Murphy Elem School
+150162990252100,Bouchet Elem Math & Science Acad
+190220680022006,John L Sipley Elem School
+150162990252101,Budlong Elem School
+190220890042001,Arbor View Elem School
+150162990252102,Burbank Elem School
+190220890042002,Briar Glen Elem School
+150162990252103,Burke Elem School
+190220890042004,Park View Elem School
+150162990252104,Burley Elem School
+190220890042006,Westfield Elem School
+150162990252105,Burnham Elem Inclusive Academy
+190220930041004,Stratford Middle School
+150162990252106,Castellanos Elem School
+190220930042001,Carol Stream Elem School
+150162990252107,Burnside Elem Scholastic Academy
+190220930042004,Roy De Shane Elementary School
+150162990252108,Burr Elem School
+190220930042006,Western Trails Elem School
+150162990252109,Burroughs Elem School
+190220930042007,Elsie C Johnson Elem Sch
+150162990252110,Brunson Math & Sci Specialty Elem
+190220930042009,Jay Stream Middle School
+150162990252112,Byrne Elem School
+190220930042010,Heritage Lakes Elem School
+150162990252113,Caldwell Elem Acad of Math & Sci
+190220930042011,Cloverdale  Elem School
+150162990252118,Cameron Elem School
+190221800042002,Anne M Jeans Elem School
+150162990252119,Canty Elem School
+190221810041002,Hinsdale Middle School
+150162990252120,Carnegie Elem School
+190221810041003,Clarendon Hills Middle School
+150162990252122,Carroll Elem School
+190221810042001,Elm Elem School
+150162990252123,Carter Elem School
+190221810042003,Madison Elem School
+150162990252126,Cassell Elem School
+190221810042004,Monroe Elem School
+150162990252127,Cather Elem School
+190221810042006,Oak Elem School
+150162990252128,Chalmers Elem Specialty School
+190221810042007,Prospect Elem School
+150162990252129,Chappell Elem School
+190221810042008,The Lane Elem School
+150162990252130,Chase Elem School
+190221810042009,Walker School
+150162990252132,Clay Elem School
+200962000260001,Cisne High School
+150162990252133,Cleveland Elem School
+200962000261001,Cisne Middle School
+150162990252134,Clinton Elem School
+200962000262002,Mount Erie Elem School
+150162990252135,Clissold Elem School
+200962000262003,Johnsonville Elem School
+150162990252136,Coles Elem Language Academy
+200970030260001,Norris City-Omaha-Enfield H S
+150162990252138,Columbus Elem School
+210440430032001,Buncombe Cons School
+150162990252139,Cook Elem School
+200970030262002,Norris City-Omaha Elem School
+150162990252141,Coonley Elem School
+210440550022001,Vienna Elem School Dist 55
+150162990252142,Cooper Elem Dual Language Academy
+200970030262003,Booth Elementary School
+150162990252145,Corkery Elem School
+200970050260001,Carmi-White County High School
+150162990252147,Crown Elem Comm Acd Fine Arts Ctr
+200970050261007,Carmi White Cnty Jr High Sch
+150162990252148,Darwin Elem School
+200970050262005,Jefferson Attendance Center
+150162990252149,Davis N Elem School
+200970050262006,Lincoln Attendance Center
+15016299025214C,Asian Human Srvcs-Passage Chrtr
+200970050262007,Washington Attendance Center
+150162990252150,Dawes Elem School
+210280470041002,Benton Grade Sch 5-8
+150162990252153,Deneen Elem School
+210280470042001,Benton Grade Sch K-4
+150162990252154,Dett Elem School
+210280910042001,Akin Comm Cons Elem School
+150162990252155,Chopin Elem School
+210440640022001,Cypress Elem School
+150162990252158,Dever Elem School
+24032024C042001,Nettle Creek Elem School
+150162990252159,Dewey Elem Academy of Fine Arts
+240320540021006,Shabbona Middle School
+150162990252160,Disney Elem Magnet School
+240320540022004,White Oak Elementary
+150162990252161,Dixon Elem School
+24032060C042001,Saratoga Elem School
+150162990252167,Dore Elem School
+24032072C042001,Gardner Elem School
+150162990252169,Drake Elem School
+240320750022001,Braceville Elem School
+150162990252172,Drummond Elem School
+240322010042001,Minooka Elem School
+150162990252173,Dubois Elem School
+240322010042002,Minooka Intermediate School
+150162990252175,Dulles Elem School
+240322010042003,Walnut Trails Elem School
+150162990252177,Dunne Technology Acad Elem Sch
+240322010042004,Aux Sable
+150162990252179,Dvorak Technology Acad Elem Sch
+240322010042005,Jones Elementary School
+15016299025217C,Chicago Math & Sci Elem Charter
+150162990252180,Earle Elem School
+240470660042001,Newark Elem School
+150162990252181,Eberhart Elem School
+240470900042001,Lisbon Grade School
+150162990252182,Ebinger Elem School
+260290010262001,Astoria Elem School
+150162990252183,Edgebrook Elem School
+260290020260001,V I T Sr High School
+150162990252184,Edison Elem Regional Gifted Cntr
+260290020261001,V I T Jr High School
+150162990252185,Edwards Elem School
+260290020262006,V I T Elementary School
+150162990252187,Ellington Elem School
+300020010222004,Cairo Elementary School
+15016299025218C,Namaste Elem Charter School
+300020050260001,Egyptian Sr High School
+150162990252190,Ericson Elem Scholastic Academy
+300020050261001,Egyptian Jr High School
+150162990252191,Esmond Elem School
+300020050262002,Egyptian Elem School
+150162990252192,Everett Elem School
+300390860032001,DeSoto Elementary School
+150162990252193,Evers Elem School
+300390950021004,Carbondale Middle School
+150162990252194,Falconer Elem School
+300390950022003,Thomas Elementary School
+150162990252195,Faraday Elem School
+300390950022005,Parrish Elem School
+150162990252198,Farnsworth Elem School
+300390950022008,Lewis School
+15016299025219C,Erie Elem Charter School
+300391300042001,Giant City Elem School
+150162990252202,Fernwood Elem School
+300391400042001,Unity Point Elem School
+150162990252203,Field Elem School
+300391760261001,Trico Jr High School
+150162990252204,Fiske Elem School
+300391760262008,Trico Elementary School
+150162990252206,Fort Dearborn Elem School
+300391960260001,Elverado High School
+150162990252207,Franklin Elem Fine Arts Center
+300391960261002,Elverado Junior High School
+150162990252209,Fuller Elem School
+300391960262003,Elverado Primary School
+150162990252210,Fulton Elem School
+300391960262004,Elverado Intermediate School
+150162990252211,Funston Elem School
+300730050022001,Tamaroa Elem School
+150162990252212,Gale Elem Community Academy
+300730500022001,Pinckneyville Elem School
+150162990252213,Gallistel Elem Language Academy
+300730500022002,Pinckneyville Middle School
+150162990252214,Garvy  J Elem School
+320462580042001,St George Elem School
+150162990252215,Gary Elem School
+300771010262005,Meridian Elementary School
+15016299025221C,Legacy Elem Charter School
+300910160042001,Lick Creek Elem School
+150162990252220,Goethe Elem School
+300910170220001,Cobden High School
+150162990252222,Owens Community Academy ES
+300910170221001,Cobden Jr High School
+150162990252223,Goudy Technology Academy
+300910170222002,Cobden Elem School
+150162990252224,Graham  A Elem School
+300910370041001,Anna Junior High School
+150162990252226,Gray Elem School
+300910370042002,Davie Elem School
+150162990252227,Greeley Elem School
+300910370042003,Lincoln Elem School
+150162990252229,Greene N Elem School
+300910430042001,Jonesboro Elem School
+150162990252230,Gregory Math & Sci Elem Academy
+320462590042001,Lorenzo R Smith Elem School
+150162990252231,Gresham Elem School
+330482020261002,Knoxville Jr High School
+150162990252232,Grimes Elem School
+330482020262002,Mable Woolsey Elem School
+150162990252235,Haines Elem School
+330942380260001,Monmouth-Roseville High Sch
+150162990252236,Gillespie Elem School
+330942380261001,Monmouth-Roseville Jr High Sch
+150162990252239,Hale Elem School
+330942380262001,Harding Primary School
+150162990252240,Hamilton Elem School
+330942380262002,Lincoln Early Childhood School
+150162990252241,Hamline Elem School
+330942380262005,Central Intermediate School
+150162990252242,Hammond Elem School
+340490010021003,North Prairie Jr High
+150162990252244,Harte Elem School
+340490010022002,Westfield  School
+150162990252246,Harvard Elem School
+340490030041006,Beach Park Middle School
+150162990252247,Haugan Elem School
+340490030042002,Oak Crest School
+150162990252249,Hawthorne Elem Scholastic Academy
+340490030042004,Howe Elementary School
+15016299025224C,Providence-Englewood Elem Charter
+340490030042005,Newport Elem School
+150162990252252,Hayt Elem School
+340490030042006,Kenneth Murphy School
+150162990252254,Healy Elem School
+340490060021001,Zion Central Middle School
+150162990252255,Hearst Elem School
+340490060022002,East Elementary School
+150162990252256,Hedges Elem School
+340490060022005,Shiloh Park Elem School
+150162990252257,Hefferan Elem School
+340490060022006,West Elementary School
+150162990252258,Henderson Elem School
+340490060022007,Beulah Park Elem School
+150162990252259,Hendricks Elem Community Academy
+340490060022008,Elmwood Elem School
+15016299025225C,Chicago Virtual Charter School
+150162990252260,Henry Elem School
+340490240042001,Millburn Elem School
+150162990252263,Herzl Elem School
+340490240042002,Millburn Middle School
+150162990252265,Hibbard Elem School
+340490330022001,Emmons Grade School
+150162990252266,Higgins Elem Community Academy
+340490340041002,Antioch Upper Grade School
+150162990252267,King Academy of Social Justice
+340490340042001,Antioch Elem School
+150162990252268,Hitch Elem School
+340490340042004,Oakland Elementary School
+150162990252269,Holden Elem School
+340490340042005,W C Petty Elementary School
+15016299025226C,Polaris Elem Charter Academy
+340490340042006,Hillcrest Elementary School
+150162990252270,Holmes Elem School
+340490360022001,Grass Lake Elem School
+150162990252273,Howe Elem School
+340490370021001,Gavin South Middle School
+150162990252275,Hoyne Elem School
+340490370022003,Gavin Central Elementary School
+150162990252276,Hughes  C Elem School
+340490380021001,Big Hollow Middle School
+150162990252280,Hurley Elem School
+340490380022001,Big Hollow Primary School
+150162990252281,Irving Elem School
+340490380022002,Big Hollow Elem School
+150162990252283,Jackson A Elem Language Acad
+340490410041004,Peter J Palombi School
+150162990252284,Jahn Elem School
+340490410042001,Olive C Martin School
+150162990252285,Jamieson Elem School
+340490410042003,B J Hooper Elem School
+150162990252287,Jenner Elem Academy of the Arts
+340490410042004,William L Thompson School
+150162990252288,Jensen Elem Scholastic Academy
+340490460041001,Grayslake Middle School
+150162990252289,Pilsen Elem Community Academy
+340490460041002,Park West School
+15016299025228C,Catalyst Charter-Circle Rock ES
+340490460042001,Avon Center Elem School
+150162990252290,Johnson Elem School
+340490460042003,Woodview School
+150162990252292,Jungman Elem School
+340490460042004,Meadowview School
+150162990252293,Kellogg Elem School
+340490460042005,Frederick School
+150162990252294,Kershaw Elem School
+340490460042006,Prairieview School
+150162990252296,Kilmer Elem School
+340490460042007,Park East School
+150162990252299,Kinzie Elem School
+340490500041004,Woodland Middle School
+15016299025229C,Academy for Global Citizenship
+340490500042003,Woodland Intermediate Sch
+150162990252300,Kipling Elem School
+340490500042005,Woodland Primary School
+150162990252303,Lozano Elem Bilingual & Intl Ctr
+340490500042006,Woodland Elementary
+150162990252304,Kozminski Elem Community Academy
+340490560021002,Viking School
+150162990252306,LaSalle Elem Language Academy
+340490560022001,Prairie Trail School
+150162990252309,Lawndale Elem Community Academy
+340490560022002,Spaulding Elementary School
+15016299025230C,Rowe Elementary
+340490560022003,River Trail School
+150162990252311,Lewis Elem School
+340490650021003,Lake Bluff Middle School
+150162990252313,Libby Elem School
+340490650022006,Lake Bluff Elem Sch
+150162990252314,Lincoln Elem School
+340490670051003,Deer Path Middle Sch West
+150162990252315,Linne Elem School
+340490670052001,Cherokee Elem School
+150162990252316,Lloyd Elem School
+340490670052004,Everett Elem School
+150162990252317,Locke  J Elem School
+340490670052005,Sheridan Elem School
+150162990252319,Lovett Elem School
+340490670052007,Deer Path Middle Sch East
+15016299025231C,Nkrumah Academy Charter ES
+340490680022001,Oak Grove Elem School
+150162990252321,Lowell Elem School
+340490700021005,Highland Middle School
+150162990252323,Lyon Elem School
+340490700022002,Butterfield School
+150162990252324,Madison Elem School
+340490700022004,Copeland Manor Elem School
+150162990252326,Manierre Elem School
+340490700022006,Rockland Elem School
+150162990252328,Mann Elem School
+340490700022007,Adler Park School
+15016299025232C,Catalyst Charter - Maria ES
+150162990252330,Marquette Elem School
+340490720022001,Rondout Elem School
+150162990252331,Marsh Elem School
+340490730041001,Hawthorn Middle School South
+150162990252334,Mason Elem School
+340490730042001,Hawthorn Middle School North
+150162990252337,Mayer Elem School
+340490730042002,Hawthorn Elem School North
+150162990252339,McClellan Elem School
+340490730042004,Hawthorn Elem School South
+15016299025233C,Montessori of Englewood Chtr ES
+340490730042006,Hawthorn Townline Elem Sch
+150162990252341,McCormick Elem School
+340490730042007,Hawthorn Aspen Elem School
+150162990252344,McCutcheon Elem School
+340490730042008,Hawthorn Sch of Dual Language
+150162990252345,McDade Elem Classical School
+340490750021004,Carl Sandburg Middle School
+150162990252346,McKay Elem School
+340490750022003,Mechanics Grove Elem School
+150162990252349,McPherson Elem School
+340490750022005,Washington Elem School
+150162990252352,Melody Elem School
+340490760021003,West Oak Middle School
+150162990252353,Mitchell Elem School
+340490760022003,Diamond Lake Elem School
+150162990252354,Mollison Elem School
+340490760022004,Fairhaven School
+150162990252355,Monroe Elem School
+340490790021001,Fremont Jr High/Middle School
+150162990252356,Moos Elem School
+340490790022001,Fremont Elem School
+150162990252357,Morrill Elem Math & Sci School
+340490790022002,Fremont Intermediate School
+150162990252358,Inter-American Elem Magnet School
+340490960041003,Woodlawn Middle School
+15016299025235C,Christopher House Chrt ES
+340490960042002,Willow Grove Early Learning Ctr
+150162990252361,Mount Greenwood Elem School
+340490960042003,Kildeer Countryside Elem School
+150162990252362,Mount Vernon Elem School
+340490960042004,Prairie Elementary School
+150162990252363,Mozart Elem School
+340490960042005,Country Meadows Elem School
+150162990252365,Murphy Elem School
+340490960042006,Ivy Hall Elementary School
+150162990252366,Murray Elem Language Academy
+340491020041002,Aptakisic Junior High School
+150162990252367,Brown R Elem Community Acad
+340491020042002,Earl Pritchett School
+150162990252368,Nash Elem School
+340491020042003,Tripp School
+150162990252369,Neil Elem School
+340491020042005,Meridian Middle School
+15016299025236C,Chicago Collegiate Charter School
+340491030021001,Daniel Wright Jr High School
+150162990252370,Nettelhorst Elem School
+340491030022002,Laura B Sprague School
+150162990252371,Newberry Elem Math & Science Acad
+340491030022003,Half Day School
+150162990252372,Carver Primary School
+340491060022001,Bannockburn School
+150162990252373,Nightingale Elem School
+340491090021005,Alan B Shepard Middle School
+150162990252374,Nixon Elem School
+340491090021006,Charles J Caruso Middle School
+150162990252375,Nobel Elem School
+340491090022003,Kipling Elem School
+150162990252376,Norwood Park Elem School
+340491090022006,Walden Elem School
+150162990252380,Ogden Elem School
+340491090022007,Wilmot Elem School
+150162990252381,Oglesby Elem School
+340491090022008,South Park Elem School
+150162990252382,OKeeffe Elem School
+340491120021001,Northwood Jr High School
+150162990252383,Onahan Elem School
+340491120021002,Edgewood Middle School
+150162990252384,Oriole Park Elem School
+340491120022001,Elm Place School
+150162990252385,Piccolo Elem Specialty School
+340491120022002,Braeside Elem School
+150162990252386,Otis Elem School
+340491120022003,Indian Trail Elem School
+150162990252387,OToole Elem School
+340491120022004,Ravinia Elem School
+150162990252389,Owen Elem Scholastic Academy
+340491120022005,Sherwood Elem School
+15016299025238C,Frazier Prep Acad Charter ES
+340491120022006,Red Oak Elem School
+150162990252391,Palmer Elem School
+340491120022007,Oak Terrace Elem School
+150162990252392,Parker Elem Community Academy
+340491120022008,Wayne Thomas Elem School
+150162990252394,Park Manor Elem School
+340491120022009,Lincoln Elem School
+150162990252395,Parkside Elem Community Academy
+340491140022003,Lotus School
+150162990252396,Pasteur Elem School
+350500440022007,Sherman Elem School
+150162990252398,Peck Elem School
+350500650042001,Ransom Grade School
+150162990252399,Peirce Elem Intl Studies School
+350500790042001,Tonica Grade School
+150162990252400,Penn Elem School
+350500820042001,Deer Park C C Elem School
+150162990252401,Washington  H Elem School
+350500950042001,Grand Ridge School
+150162990252402,Pershing Elem Humanities Magnet
+350501220022005,Northwest Elem School
+150162990252403,Peterson Elem School
+350501240021001,Parkside Middle School
+150162990252404,Pickard Elem School
+350501240022003,Northview Elem School
+150162990252405,Pirie Elem Fine Arts & Academic C
+350501250022001,Washington Elem School
+150162990252406,Plamondon Elem School
+350501250022002,Lincoln Elem School
+150162990252409,Portage Park Elem School
+350501410022004,Jefferson Elem School
+15016299025240C,Horizon Sci Acad - Southwest Chtr
+350501410022005,McKinley Elem School
+150162990252410,Prescott Elem School
+350501410022006,Lincoln Elem School
+150162990252412,Prussing Elem School
+350501410022009,Central Intermediate School
+150162990252413,Pulaski Intl Sch of Chicago
+350501500022001,Marseilles Elementary School
+150162990252414,Pullman Elem School
+350501700042001,Seneca Grade School North Campus
+150162990252416,Ravenswood Elem School
+350501750042001,Dimmick Comm Cons School
+150162990252417,Ray Elem School
+350501850042001,Waltham Elementary School
+150162990252419,Reavis Elem Math & Sci Spec Schl
+350501950042001,Wallace Elem School
+15016299025241C,Great Lakes Academy Charter ES
+350502100042001,Milton Pope Elem School
+150162990252421,Reilly Elem School
+350502300042001,Rutland Elem School
+150162990252422,Reinberg Elem School
+350502890042002,Lincoln Elem School
+150162990252423,Revere Elem School
+350502890042003,Blackstone Elem School
+150162990252426,Rogers Elem School
+350504250262001,Lostant Elem School
+150162990252428,Ruggles Elem School
+400070420262001,Brussels Grade School
+150162990252429,Ryder Elem Math & Sci Spec School
+400310100260001,Greenfield High School
+15016299025242C,Foundations College Prep Charter
+400310100262003,Greenfield Elem School
+150162990252434,Sauganash Elem School
+410570150032002,Lewis-Clark Elem School
+150162990252435,Sawyer Elem School
+410570150032004,Hartford Elem School
+150162990252436,Sayre Elem Language Academy
+440630020031001,Nippersink Middle School
+150162990252437,Ashe Elem School
+440630020032001,Richmond Grade School
+150162990252438,Scammon Elem School
+440630020032002,Spring Grove Elementary School
+150162990252442,Schmid Elem School
+440630030031001,Fox River Grove Middle School
+150162990252444,Schubert Elem School
+440630030032001,Algonquin Road Elem School
+150162990252446,Seward Elem Communication Arts Ac
+440630150041006,McHenry Middle School
+15016299025244C,Moving Everest Charter School
+440630150041007,Parkland School
+150162990252451,Sheridan Elem Math & Science Acad
+440630150041008,Chauncey H Duker School
+150162990252452,Mireles Elem Academy
+440630150042001,Edgebrook Elem School
+150162990252453,Sherman Elem School
+440630150042002,Hilltop Elem School
+150162990252454,Sherwood Elem School
+440630150042003,Landmark Elem School
+150162990252455,Shields Elem School
+440630150042004,Valley View Elem School
+150162990252456,Shoesmith Elem School
+440630150042005,Riverwood Elementary School
+150162990252457,Shoop Math-Sci Tech Elem Academy
+440630180042001,Riley Comm Cons School
+150162990252458,Skinner Elem School
+440630260042002,Briargate Elem School
+150162990252459,Smyser Elem School
+440630260042004,Three Oaks School
+15016299025245C,KIPP One Academy
+440630260042005,Deer Path Elem School
+150162990252460,Smyth  J Elem School
+440630360022001,Harrison Elem School
+150162990252461,Solomon Elem School
+440630460031001,Prairie Grove Junior High School
+150162990252462,Spencer Technology Acad Elem Sch
+440630460032001,Prairie Grove Elem School
+150162990252464,Stagg Elem School
+440630470041004,Lundahl Middle School
+150162990252465,Stevenson Elem School
+440630470041005,Hannah Beardsley Middle School
+150162990252468,Stone Elem Scholastic Academy
+440630470041006,Richard F Bernotas Middle Sch
+150162990252469,Spry Elem Community School
+440630470042001,Canterbury Elem School
+15016299025246C,CICS - Bucktown Campus
+440630470042002,Husmann Elem School
+150162990252472,Stowe Elem School
+440630470042003,Coventry Elem School
+150162990252474,Sullivan Elem School
+440630470042005,North Elem School
+150162990252475,Sumner Elem Math & Sci Comm Acad
+440630470042007,South Elem School
+150162990252476,Sutherland Elem School
+440630470042008,West Elem School
+150162990252477,Swift Elem Specialty School
+440630470042009,Indian Prairie Elem School
+150162990252478,Talcott Elem School
+440630470042010,Woods Creek Elementary School
+150162990252479,Tanner Elem School
+440630470042011,Glacier Ridge Elementary School
+15016299025247C,CICS - Longwood Campus
+450790010220001,Coulterville High School
+150162990252480,Taylor Elem School
+450790010221002,Coulterville Junior High School
+150162990252484,Thorp  J N Elem School
+450790010222001,Coulterville Elementary School
+150162990252486,Thorp  O A Elem Scholastic Acad
+450791340042001,Prairie Du Rocher Elem School
+150162990252487,Tilton Elem School
+470522200022001,Steward Elementary School
+150162990252488,Tonti Elem School
+470711610042001,Creston Elem School
+15016299025248C,CICS - Prairie Campus
+470712310042001,Central Elem School
+150162990252490,Twain Elem School
+470712310042003,Lincoln Elem School
+150162990252491,Vanderpoel Elem Magnet School
+470712310042004,May Elem School
+150162990252492,Lavizzo Elem School
+470712310042005,Tilton Elem School
+150162990252494,Volta Elem School
+470712690042002,Eswood C C Grade School
+150162990252497,Wacker Elem School
+470980130021004,Rock Falls Middle School
+150162990252498,Wadsworth Elem School
+470980130022001,Dillon Elementary School
+15016299025249C,CICS - Washington Pk Campus
+470980130022002,Merrill Elem School
+150162990252500,Walsh Elem School
+470980200022001,East Coloma - Nelson Elem Sch
+150162990252501,Ward  J Elem School
+470981450042001,Montmorency CCSD #145
+150162990252502,Warren Elem School
+480720620022001,Pleasant Valley Elem School
+150162990252503,Washington  G Elem School
+150162990252504,Waters Elem School
+480720630021001,Norwood Elem School
+150162990252505,Webster Elem School
+480720630022002,Norwood Primary School
+150162990252506,Wentworth Elem School
+480720660022001,Bartonville Elem School
+150162990252507,Westcott Elem School
+480720680021003,Oak Grove West School
+15016299025250C,CICS - Northtown  Campus
+480720680022002,Oak Grove East Elem School
+150162990252510,Pritzker Elem School
+480720690022001,Pleasant Hill Elem School
+150162990252512,Whistler Elem School
+480720700022001,Monroe Elem School
+150162990252513,Whitney Elem School
+490810290022001,Hampton Elem School
+150162990252514,Whittier Elem School
+490810340022003,George O Barr School
+150162990252516,Wildwood Elem School
+490810360022002,Eagle Ridge School
+15016299025251C,CICS - West Belden Campus
+490810370021002,Glenview Middle School
+150162990252521,Woodson South Elem School
+490810370022001,Bowlesburg Elem School
+150162990252525,Young Elem School
+490810370022003,Hillcrest Elem School
+15016299025252C,CICS - Avalon/South Shore
+490810370022008,Ridgewood Elem School
+15016299025253C,CICS - Ralph Ellison Campus
+170530080262001,Prairie Central Primary West
+150162990252542,Yates Elem School
+170534250042001,Graymont Elem School
+15016299025254C,CICS - Irving Park Campus
+170534260042001,Cornell Elem School
+15016299025255C,CICS - Loomis Primary Campus
+170534290041001,Pontiac Jr High School
+15016299025256C,North Lawndale Prep Christiana
+170534290042002,Central Elem School
+15016299025258C,Univ of Chicago Chtr-Nth Kenwood
+170534290042004,Lincoln Elementary School
+150162990252597,Hernandez Middle School
+170534290042005,Washington Elem School
+15016299025259C,UNO Chtr - Paz Campus
+170534350042001,Odell Grade School
+150162990252603,Dirksen Elem School
+170534380042001,Saunemin Elem School
+150162990252605,Depriest Elem School
+170540230260001,Mount Pulaski High School
+15016299025260C,UNO Chtr - Tamayo Campus
+170540230262002,Mount Pulaski Elem School
+150162990252617,Cuffe Math-Sci Tech Elem Academy
+170540270021001,Lincoln Jr High School
+150162990252618,Foster Park Elem School
+170540270022003,Adams Elem School
+15016299025261C,UNO Chtr - Fuentes Campus
+170540270022004,Central Elem School
+150162990252620,Hughes L Elem School
+170540270022006,Northwest Elem School
+150162990252622,Grissom Elem School
+170540270022007,Washington-Monroe Elem School
+15016299025262C,UNO Chtr - Bartolome de las Casas
+170540610042001,Chester-East Lincoln Elem School
+150162990252634,McNair Elem School
+170540880022005,New Holland-Middletown Elem Sch
+150162990252636,Hay Elem Community Academy
+170540920042001,West Lincoln-Broadwell Elem Sch
+150162990252637,Cullen Elem School
+490810370022009,Wells Elem School
+15016299025263C,UNO Chtr - Marquez Campus
+500820700042003,Freeburg Elem School
+15016299025264C,UNO Chtr - SPC Zizumbo Campus
+500820850022001,Shiloh Elementary School
+15016299025265C,UNO Chtr -  Major Garcia Campus
+260290040261001,Spoon River Valley Jr High Sch
+15016299025266C,UNO Chtr - Cisneros Campus
+260343170042005,Carthage Primary School
+15016299025267C,UNO Chtr - Santiago Campus
+260343250262002,Nauvoo Elem School
+15016299025268C,UNO Chtr - Near West Elem
+260343270042002,Dallas City Elem School
+15016299025269C,UNO Chtr - Soccer Academy
+500820900041002,Fulton Jr High School
+150162990252700,Clark  G R Elem School
+260343280240001,Hamilton Jr/Sr High Sch
+150162990252703,Lee Elem School
+260343280242004,Hamilton Elementary School
+150162990252704,Langford A Elem School
+260343370260001,Southeastern Jr/Sr High School
+150162990252706,Salazar Elem Bilingual Center
+260343370262006,Southeastern Elementary School
+15016299025270C,UNO Chtr-Brighton Park Campus
+260343470041001,La Harpe Junior High School
+150162990252714,Leland Elem School
+260343470042005,La Harpe Elementary School
+150162990252724,Robinson Elem School
+280060840042001,Malden Grade School
+150162990252726,Hanson Park Elem School
+280060940042001,Ladd Comm Cons Sch
+150162990252729,White Elem Career Academy
+280060980022001,Dalzell Grade School
+15016299025272C,LEARN Charter Excel Campus
+280060990042002,John F Kennedy Elem School
+150162990252737,McDowell Elem School
+280061150021001,Logan Jr High School
+150162990252739,Keller Elem Gifted Magnet School
+280061150022004,Lincoln Elem School
+15016299025273C,LEARN Chtr-Campbell Campus
+280061150022005,Jefferson Elem School
+150162990252743,Earhart Elem Opt for Knowl School
+280061150022007,Douglas Elementary School
+15016299025274C,LEARN Chtr - South Chicago Campus
+500820900041003,Amelia V Carriel Jr High
+15016299025275C,LEARN Chtr -  Hunter Perkins Camp
+500820900042002,Estelle Kampmeyer Elem School
+150162990252766,Till Elem Math & Science Academy
+500820900042003,J Emmett Hinchcliffe Sr Elem Sch
+150162990252767,Ward  L Elem School
+500820900042004,Laverna Evans Elem School
+150162990252768,Smith  W Elem School
+500820900042005,Marie Schaefer Elem School
+15016299025276C,LEARN Chtr - 7th Campus
+500820900042006,Delores Moye Elem School
+150162990252773,Garvey  M Elem School
+500821040021001,Joseph Arthur Middle School
+150162990252775,Joplin Elem School
+500821040022001,Central Elem School
+150162990252783,Cardenas Elem School
+500821050021001,Pontiac Jr High School
+150162990252785,Powell Elem Paideia Comm Academy
+500821050022002,William Holliday Elem School
+150162990252799,Curtis Elem School
+500821100041006,Grant Middle School
+150162990252800,Beasley Elem Magnet Academic Ctr
+500821100042002,Illini Elem School
+150162990252802,Mays Elem Academy
+500821130021001,Wolf Branch Middle School
+150162990252804,Metcalfe Elem Community Academy
+500821130022001,Wolf Branch Elem School
+150162990252805,Decatur Classical Elem School
+500821150021001,Whiteside Middle School
+150162990252806,Kanoon Elem Magnet School
+500821150022001,Whiteside Elem School
+150162990252807,Randolph Elem School
+500821160022001,High Mount Elem School
+150162990252809,Poe Elem Classical School
+500821180021012,Central Jr High School
+150162990252811,Gunsaulus Elem Scholastic Academy
+500821180021013,West Jr High School
+150162990252823,Ninos Heroes Elem Academic Ctr
+500821180022001,Abraham Lincoln Elem School
+150162990252825,De Diego Elem Community Academy
+500821180022004,Douglas Elem School
+150162990252826,Turner-Drew Elem Language Academy
+500821180022005,Franklin Elem School
+150162990252828,Sabin Elem Magnet School
+500821180022006,Henry Raab Elem School
+150162990252829,Saucedo Elem Scholastic Academy
+500821180022007,Jefferson Elem School
+150162990252837,Daley Elem Academy
+500821180022009,Roosevelt Elem School
+150162990252838,Madero Middle School
+500821180022010,Union Elem School
+150162990252842,Orozco Elem Fine Arts & Sciences
+500821180022013,Westhaven Elementary
+150162990252844,Morton Elem Career Academy
+500821190022001,Belle Valley School
+150162990252850,Albany Park Multicultural Elem
+500821300042001,Smithton Elem School
+150162990252855,South Loop Elem School
+500821600042001,Millstadt Consolidated School
+150162990252856,Lenart Elem Regional Gifted Ctr
+500821600042002,Millstadt Primary Center
+150162990252862,Casals Elem School
+500821750021001,Emge Junior High School
+150162990252864,Perez Elem School
+500821750022002,Ellis Elem School
+150162990252867,Ruiz Elem School
+500821750022003,Harmony Intermediate Center
+150162990252870,Brighton Park Elem School
+500821810022001,Signal Hill Elem School
+150162990252873,Evergreen Academy Elem School
+500821880220001,Lovejoy Technology Academy
+150162990252876,Carson Elem School
+500821880221001,Lovejoy Middle School
+150162990252877,McAuliffe Elem School
+500821880222001,Lovejoy Elementary School
+150162990252878,Galileo Elem Math & Sci Schol Acd
+500821960261001,Dupo Jr High School
+150162990252881,Logandale Middle School
+510840160260001,New Berlin High School
+150162990252886,Chavez Elem Multicultural Acad Ct
+510840160261001,New Berlin Jr High School
+150162990252889,Jordan Elem Community School
+510840160262001,New Berlin Elementary School
+150162990252892,Kellman Corporate Community Elem
+500821960262006,Bluffview  Elem School
+150162990252893,Finkl Elem School
+530601910261003,Midwest Central Middle School
+150162990252895,Ariel Elem Community Academy
+530601910262003,Midwest Central Primary School
+150162990252896,Little Village Elem School
+530900500022001,J L Hensey Elem School
+150162990252897,Zapata Elem Academy
+530900500022002,Beverly Manor Elementary School
+150162990252898,Ortiz De Dominguez Elem School
+280063400262005,Bureau Valley Elemntry-Wyanet
+150162990252900,Lara Elem Academy
+280371900022001,Colona Grade School
+150162990252901,Telpochcalli Elem School
+530900510022001,Central Intermediate Sch
+150162990252902,Wells Preparatory Elem Academy
+530900510022004,Central Primary Sch
+150162990252903,Woodlawn Elem Community School
+530900520021001,Washington Middle School
+150162990252904,Christopher Elem School
+530900520022002,Lincoln Grade School
+150162990252908,West Park Elem Academy
+530900760021005,Parkview Jr High School
+150162990252912,Marine Leadership Academy - Ames
+150162990252913,Fairfield Elem Academy
+530900760022004,LaSalle Elem School
+150162990252914,Sandoval Elem School
+530900850022001,Robein Elem School
+150162990252915,Northwest Middle School
+530900860021011,Central Jr High School
+150162990252916,Hampton Elem Fine & Perf Arts Sch
+530900860022001,Armstrong-Oakview Elem School
+150162990252918,Colemon J Elem Academy
+530900860022002,P L Bolin Elem School
+150162990252919,Columbia Explorers Elem Academy
+530900860022003,Glendale Elem School
+150162990252920,Chicago Academy Elem School
+530900860022005,Lincoln Elem School
+150162990252921,Courtenay Elem Language Arts Ctr
+530900860022008,Don D Shute Elem School
+150162990252922,Ashburn Community Elem School
+530900860022010,Woodrow Wilson Elem School
+150162990252923,Belmont-Cragin Elem School
+530900980022001,Rankin Elem School
+150162990252924,National Teachers Elem Academy
+530901020021003,Georgetowne Middle School
+150162990252926,Talman Elem School
+530901020022001,Rogers Elementary School
+150162990252930,New Field Elem School
+530901020022002,Marquette Elem School
+150162990252933,Durkin Park Elem School
+530901080021002,Edison Junior High School
+150162990252934,Calmeca Acad Elem School
+530901080021012,Broadmoor Junior High School
+150162990252935,North River Elem School
+530901080022004,Jefferson Elem School
+150162990252936,Claremont Academy Elem School
+530901080022008,C B Smith Elem School
+150162990252937,Doolittle Elem School
+530901080022009,L E Starke Elem School
+150162990252941,Suder Montessori Elem Magnet Schl
+530901080022010,Scott Altman Primary School
+150162990252943,Tarkington Elem School
+530901080022012,Willow Elem School
+150162990252945,Frazier Perspectives Magnet ES
+530901080022013,Wilson Intermediate School
+150162990252949,Disney II Elem School
+530901080022014,Dirksen Elementary School
+150162990252951,Plato Learning Acad  Elem School
+530901080022015,Washington Intermediate School
+150162990252953,Edison Park Elem School
+530901370022001,South Pekin Elem School
+150162990252954,Davis M Magnet Elem School
+531020020042001,Riverview Elem School
+150162990252955,LaSalle II Lang Acad Elem Sch
+531020210262003,Lowpoint-Washburn Elem School
+150162990252958,Prieto Math-Science Elem Sch
+531020690022002,Germantown Hills Elementary Sch
+150162990252959,Skinner North Elem Sch
+540920100262001,Potomac Elem School
+150162990252960,South Shore Fine Arts Elem Sch
+560990170021001,Channahon Junior High School
+150162990252961,Hope Inst Lrning Acad Elem School
+560990170022001,N B Galloway Elem School
+150162990252963,Camras Elem School
+560990170022002,Three Rivers School
+150162990252964,Garcia Lorca Elem School
+560990170022003,Pioneer Path
+150162990252965,West Ridge Elem School
+56099030C041001,Troy Middle School
+150162990252966,Azuela Elem School
+56099030C042002,Troy Shorewood School
+150162990252967,STEM Magnet Academy Elem
+56099030C042003,Troy Craughwell School
+150162990252968,Shields Middle School
+56099030C042004,Troy Heritage Trail School
+150162990252969,Southeast Area Elementary School
+56099030C042005,Troy Crossroads Elem School
+150162990252970,Richardson Middle School
+56099030C042006,Orenic Intermediate School
+15016900025201C,Horizon Science Acad-McKinley Pk
+15016901025201C,Horizon Science Acad-Belmont
+15016902025201C,Amandla Charter School
+15016903025201C,Bronzeville Lighthouse Chtr Sch
+160194240260001,Genoa-Kingston High School
+160194240261003,Genoa-Kingston Middle School
+160194250260001,Indian Creek High School
+160194250261001,Indian Creek Middle School
+160194260260003,Hiawatha High School
+160194260262001,Hiawatha Elem Sch PreK-8
+160194270260001,Sycamore High School
+160194320262001,James R Wood Elem School
+160194270261002,Sycamore Middle School
+160194270262004,North Elementary School
+160194270262005,Southeast Elem School
+160194270262006,West Elem School
+160194270262007,South Prairie Elementary School
+160194270262008,North Grove Elementary School
+160194280260011,DeKalb High School
+170200150262003,Douglas Elem School
+160194280261010,Huntley Middle School
+160194280262005,Jefferson Elem School
+160194280262006,Lincoln Elementary School
+160194280262007,Littlejohn Elem School
+160194280262008,Tyler Elementary School
+160194280262009,Cortland Elementary School
+160194280262010,Clinton Rosette Middle School
+160194280262011,Gwendolyn Brooks Elem Sch
+160194280262012,Malta Elementary School
+160194280262014,Founders Elementary School
+160194290260003,Hinckley-Big Rock High School
+160194290262001,Hinckley-Big Rock Middle Sch
+160194300260001,Sandwich Community High School
+160194300261001,Sandwich Middle School
+160194320260003,Somonauk High School
+160194320261001,Somonauk Middle School
+170200150260001,Clinton High School
+170200150261002,Clinton Jr High School
+170200150262004,Clinton Elem School
+170200150262005,Lincoln Elem School
+170200180260001,Blue Ridge High School
+170200180262003,Ruth M Schneider Elem School
+170200180262005,Blue Ridge Intermediate-Jr HS
+170530050260001,Woodland High School
+170530050262001,Woodland Elementary/Jr High Sch
+17053006J260001,Tri-Point High School
+17053006J262005,Tri Point Elementary School
+17053006J262006,Tri-Point Jr High/Elementary
+170530080260001,Prairie Central High School
+170530080261001,Prairie Central Jr High School
+170530080262005,Prairie Central  Elem School
+170530080262006,Prairie Central Primary East
+170530080262007,Prairie Central Upper Elementary
+170530740270001,Flanagan-Cornell High School
+170530740272001,Flanagan Elem School
+170530900170001,Pontiac High School
+170532300170001,Dwight High School
+170532320022001,Dwight Common School
+170540210260001,Hartsburg-Emden Jr-Sr High School
+170540210262004,Emden Elementary School
+170544040160001,Lincoln Comm High School
+170640020262001,LeRoy Elementary School
+170640020260003,LeRoy High School
+170640020261002,LeRoy Junior High School
+170640030260002,Tri-Valley High School
+170640030261001,Tri-Valley Middle School
+170640030262001,Tri-Valley Elem School
+170640040260001,Heyworth Jr-Sr High School
+170640040262002,Heyworth Elem School
+170640050260002,Normal Community West High School
+170640050260001,Normal Community High School
+170640070262001,Lexington Elem School
+170640050260003,Eugene Field School
+17064005026001C,YBMC Charter Sch
+170640050261002,Chiddix Jr High School
+170640050261003,Parkside Jr High School
+170640050261004,Kingsley Jr High School
+170640050261005,Evans Junior High School
+170640050262002,Sugar Creek Elem School
+170640050262003,Cedar Ridge Elem School
+170640050262004,Carlock Elem School
+170640050262005,Fairview Elem School
+170640050262007,Glenn Elem School
+170640050262008,Colene Hoose Elem School
+170640050262009,Hudson Elem School
+170640050262010,Oakdale Elem School
+170640050262012,Northpoint Elementary School
+170640050262013,Parkside Elementary School
+170640050262014,Towanda Elem School
+170640050262015,Pepper Ridge Elementary School
+170640050262016,Prairieland Elementary School
+170640050262017,Fox Creek Elementary School
+170640050262018,Grove Elementary School
+170640050262019,Benjamin Elem School
+170640070260002,Lexington High School
+170640070261001,Lexington Jr High School
+170640160260009,Olympia High School
+170640160261001,Olympia Middle School
+170640160262002,Olympia South Elem Sch
+170640160262003,Olympia North Elem Sch
+170640160262006,Olympia West Elem Sch
+170640190260001,Ridgeview High School
+170640190261001,Ridgeview Jr High School
+170640190262002,Ridgeview Elementary School
+170640870250001,Bloomington High School
+190220020022005,W A Johnson Sch
+170640870251002,Bloomington Jr High School
+170640870252003,Bent Elem School
+170640870252006,Irving Elementary School
+170640870252009,Oakland Elementary School
+170640870252011,Sheridan Elem School
+170640870252012,Stevenson Elem School
+170640870252013,Washington Elem School
+190220020021001,Blackhawk Middle School
+190220860170001,Hinsdale Central High School
+200300070262001,Gallatin Elementary School
+190220860170002,Hinsdale South High School
+200330100262004,East Side Elementary School
+190220870170001,Glenbard East High School
+200350010262001,Hardin County Elem School
+190220870170002,Glenbard North High School
+200760010260001,Pope Co High School
+190220870170003,Glenbard West High School
+200760010262002,Pope County Elementary School
+190220870170004,Glenbard South High School
+200830010262002,Galatia Elem School
+190220880160001,Addison Trail High School
+200830030262009,East Side Intermediate School
+190220880160002,Willowbrook High School
+190220890041003,Glen Crest Middle School
+190220940160001,Community High School
+200830030262010,West Side Primary School
+190220990160001,Comm H S Dist 99 - North H S
+200830040262004,Eldorado Elem School
+190220990160002,Comm H S Dist 99 - South High Sch
+200930170242001,Allendale Elementary School
+190221000160001,Fenton High School
+190222010261004,Westmont Jr High School
+190221080160001,Lake Park High School
+190221800041001,Burr Ridge Middle School
+190222000260020,Wheaton Warrenville South H S
+190222010262001,J T Manning Elem School
+190222000260021,Wheaton North High School
+190222010262002,C E Miller Elem School
+190222000261001,Monroe Middle School
+190222000261017,Edison Middle School
+190222000261018,Franklin Middle School
+190222000261020,Hubble Middle School
+190222000262001,Emerson Elem School
+190222000262002,Hawthorne Elem School
+190222000262006,Lincoln Elem School
+190222000262007,Longfellow Elem School
+190222000262008,Lowell Elem School
+190222000262009,Madison Elem School
+190222000262010,Pleasant Hill Elem School
+190222000262011,Carl Sandburg Elem School
+190222000262012,Washington Elementary School
+190222000262013,Whittier Elem School
+190222000262014,Wiesbrook Elem School
+190222000262016,Bower Elem School
+190222000262018,Clifford Johnson School
+190222010260001,Westmont High School
+190222020260001,Lisle High School
+190222020261002,Lisle Jr High School
+190222020262004,Schiesher Elem School
+190222020262005,Tate Woods Elem School
+190222030260001,Naperville Central High School
+200933480262003,South Elem School
+190222030260013,Naperville North High School
+200933480262005,North Intermediate Ctr of Educ
+190222030261009,Lincoln Jr High School
+190222030261010,Jefferson Jr High School
+190222030261011,Washington Jr High School
+190222030261012,Madison Jr High School
+190222030261013,Kennedy Junior High School
+190222030262002,Ellsworth Elem School
+190222030262003,Elmwood Elem School
+190222030262004,Highlands Elem School
+190222030262005,Mill Street Elem School
+190222030262006,Naper Elem School
+190222030262007,Prairie Elem School
+190222030262008,Maplebrook Elem School
+190222030262012,Beebe Elem School
+190222030262013,Steeple Run Elem School
+190222030262014,Scott Elementary School
+190222030262015,Ranch View Elementary School
+190222030262016,River Woods Elementary School
+190222030262017,Meadow Glens Elementary School
+190222030262018,Kingsley Elementary School
+190222040261001,Thayer J Hill Middle School
+190222040260001,Waubonsie Valley High School
+200960060042001,New Hope Elem School
+190222040260002,Neuqua Valley High School
+200960140042001,Geff Elem School
+190222040260005,Metea Valley High School
+200960170042001,Jasper Elem School
+190222040261002,Gordon Gregory Middle School
+190222040261003,Francis Granger Middle School
+190222040261004,Clifford Crone Middle School
+190222040261005,Still Middle School
+190222040261006,Scullen Middle School
+190222040261007,Fischer Middle School
+190222040262002,Longwood Elem School
+190222040262005,Robert Clow Elem Sch
+190222040262006,Brookdale Elementary School
+190222040262007,Georgetown Elementary School
+190222040262008,McCarty Elementary School
+190222040262009,Spring Brook Elementary School
+190222040262010,May Watts Elementary School
+190222040262012,Reba O Steck Elementary School
+190222040262013,Patterson Elementary School
+190222040262015,Gwendolyn Brooks Elementary
+190222040262016,White Eagle Elementary
+190222040262017,V Blanche Graham Elementary
+190222040262018,Mary Lou Cowlishaw Elementary
+190222040262019,Oliver Julian Kendall Elem School
+190222040262020,Peter M Gombert Elementary Sch
+190222040262021,Nancy Young Elementary School
+190222040262022,Arlene Welch Elementary School
+190222040262023,Wayne Builta Elementary School
+190222040262024,Fry Elementary School
+190222040262025,Owen Elementary School
+190222040262026,Danielle-Joy Peterson Elem Sch
+190222050261001,Bryan Middle School
+190222050260003,York Comm High School
+200300070261001,Gallatin Junior High School
+190222050261002,Churchville Middle School
+190222050261012,Sandburg Middle  School
+190222050262002,Edison Elem School
+190222050262003,Conrad Fischer Elem School
+190222050262004,Emerson Elem School
+190222050262005,Field Elem School
+190222050262006,Hawthorne Elem School
+190222050262007,Jackson Elem School
+190222050262008,Jefferson Elem School
+190222050262009,Lincoln Elem School
+200240010260005,Edwards County High School
+200240010262001,Albion Grade School
+200240010262004,West Salem Grade School
+200300070260001,Gallatin High School
+200330100260002,Hamilton County Jr/Sr High School
+200330100262002,Dahlgren Elem School
+200350010260003,Hardin County High School
+200350010261001,Hardin County Jr High School
+200830010260001,Galatia High School
+200830010261001,Galatia Jr High
+200830020260001,Carrier Mills-Stonefort H S
+200830020262002,Carrier Mills-Stonefort Elem Sch
+200830030260001,Harrisburg High School
+200830030261002,Harrisburg Middle School
+200830040260001,Eldorado High School
+200830040261002,Eldorado Middle School
+200933480260001,Mount Carmel High School
+200933480261003,Mt Carmel Middle School
+200961000260001,Wayne City High School
+200961000262005,Wayne City Attendance Center
+200962250160001,Fairfield Comm High School
+210281680262003,Denning Elementary School
+200970010260003,Grayville Jr Sr High School
+200970010262002,Wells Elementary School
+210280990260001,Christopher High
+210280990262001,Christopher Elem School
+210281030130001,Benton Cons High School
+210281150042001,Ewing-Northern Elem School
+210281680260001,Frankfort Comm High School
+210281680261002,Central Jr High School
+210281680262004,Frankfort Intermediate School
+210281740260001,Thompsonville High School
+210281740262001,Thompsonville Grade  School
+210281880260001,Zeigler-Royalton High School
+210281880261001,Zeigler-Royalton Jr High School
+210281880262003,Zeigler-Royalton Elem School
+210281960260001,Sesser-Valier High School
+210281960261001,Sesser-Valier Jr High School
+210281960262001,Sesser-Valier Elem School
+210440010260001,Goreville High School
+210440010262001,Goreville Elementary School
+210440320032003,New Simpson Hill Dist 32
+210441330170001,Vienna High School
+210610010262001,Jefferson Elem School
+210610010260001,Massac County High School
+210610010261001,Massac Jr High School
+210610010262002,Franklin Elem School
+210610010262003,Metropolis Elem School
+210610010262006,Unity Elem School
+210610010262010,Brookport Elementary School
+210610380260001,Joppa Jr & Sr High School
+210610380262001,Maple Grove Elem School
+211000010260001,Johnston City High School
+211000010262002,Washington Middle School
+211000010262003,Jefferson Elem School
+211000010262004,Lincoln Elem School
+211000020260001,Marion High School
+211000020261002,Marion Jr High School
+211000020262003,Adams School
+211000020262004,Jefferson Elem School
+211000020262005,Lincoln Elem School
+211000020262007,Longfellow Elem School
+211000020262010,Washington Elem School
+211000030260001,Crab Orchard High School
+211000030262001,Crab Orchard Elementary School
+211000040260001,Herrin High School
+211000040261001,Herrin Middle School
+211000040262008,North Side Primary Center
+211000040262010,Herrin C U S D 4 Elem School
+211000050260001,Carterville High School
+211000050261001,Carterville Jr High Sch
+211000050262001,Tri-C Elementary School
+211000050262006,Carterville Intermediate Sch
+240320010260001,Coal City High School
+240320010261002,Coal City Middle School
+240320010262003,Coal City Elem School
+240320010262004,Coal City Intermediate School
+240320010262005,Coal City Early Childhood Center
+240320730170001,Gardner-South Wilmington Twp H S
+240320740032001,South Wilmington Grade School
+240321010160001,Morris Community High School
+240470880262002,P H Miller Elem School
+240321110160001,Minooka Community High School
+240322010041002,Minooka Jr High School
+240470180160001,Newark Comm High School
+240470660041001,Millbrook Junior High School
+240470880260001,Plano High School
+240470880261001,Plano Middle School
+240470880262003,Centennial Elem School
+240470880262004,Emily G Johns School
+240471150260001,Yorkville High School
+240471150261001,Yorkville Middle School
+240471150262002,Circle Center Grade School
+240471150262003,Yorkville Grade School
+240471150262004,Bristol Grade School
+240471150262005,Yorkville Intermediate School
+240471150262007,Grande Reserve Elem Sch
+240471150262008,Bristol Bay Elem Sch
+240471150262009,Autumn Creek Elem Sch
+240473080261002,Traughber Jr High School
+240473080260001,Oswego High School
+240473080262003,East View Elem School
+240473080260002,Oswego East High School
+260290010261001,Astoria Junior High School
+240473080261003,Thompson Jr High School
+240473080261004,Bednarcik Junior High School
+240473080261005,Plank Junior High
+240473080261006,Murphy Junior High School
+240473080262004,Boulder Hill Elem School
+240473080262005,Long Beach Elem School
+240473080262006,Old Post Elementary School
+240473080262007,The Wheatlands Elementary School
+240473080262008,Fox Chase Elementary School
+240473080262009,Homestead Elementary School
+240473080262010,Lakewood Creek Elementary
+240473080262011,Prairie Point Elem School
+240473080262012,Churchill Elem School
+240473080262013,Wolfs Crossing Elem School
+240473080262014,Grande Park Elem Sch
+240473080262015,Southbury Elem School
+240473080262016,Hunt Club Elem
+260290010260001,Astoria High School
+260290030260001,Cuba Sr High School
+260290030261001,Cuba Middle School
+260290030262003,Cuba Elem School
+260290040260001,Spoon River Valley Sr High Sch
+260290040262005,Spoon River Valley Elem School
+260290660250001,Canton High School
+260290660251002,Ingersoll Middle School
+260290660252003,Westview Elementary School
+260290660252008,Lincoln Elementary School
+260290660252009,Eastview Elementary School
+260290970260001,Lewistown Jr/Sr High School
+260290970262002,Central Elem School
+260343070160001,Illini West High School
+260343160260001,Warsaw Sr High School
+260343160262003,Warsaw Elem School
+260343170041006,Carthage Middle School
+260621030260001,West Prairie High School
+260621030261001,West Prairie Middle School
+260621030262001,West Prairie North Elementary
+260621030262002,West Prairie South Elementary
+260621700260001,Bushnell-Prairie City High Sch
+260621700261002,Bushnell-Prairie City Jr High Sch
+260621700262003,Bushnell-Prairie City Elem Sch
+260621850260001,Macomb Senior High School
+260621850261001,Macomb Junior High School
+260621850262004,Lincoln Elem School
+260621850262008,Edison Elementary School
+260850050260001,Rushville-Industry High School
+260850050261002,Schuyler Industry Middle Sch
+260850050262001,Washington Elem School
+260850050262002,Webster Elem School
+280060170042001,Ohio Com Cons Grade School
+280061030220001,DePue High School
+280061030222001,DePue Elem School
+280063030260001,La Moille High School
+280063030262003,Van Orin Elem School
+280063030262004,Allen Junior High School
+280063400260001,Bureau Valley High School
+280063400261001,Bureau Valley South
+280063400262001,Bureau Valley North
+280065000150001,Princeton High School
+280372230262002,C R Hanna Elem School
+280065020170001,Hall High School
+280065050160001,Ohio Community High School
+280372230260001,Orion High School
+280372230261003,Orion Middle School
+280372240260001,Galva Jr-Sr High School
+280372240262004,Galva Elem School
+280372250260001,AlWood  Middle/High School
+280372250262003,AlWood Elem School
+280372260260001,Annawan High School
+280372260262002,Annawan Grade School
+280372270260002,Cambridge Jr/Sr High School
+280372270262001,Cambridge Comm Grade School
+280372280260001,Geneseo High School
+280372280261002,Geneseo Middle School
+280372280262003,Millikin Elem School
+280372280262004,Northside Elem School
+280372280262005,Southwest Elem School
+280372290260001,Kewanee High School
+280372290261001,Central Junior High
+280372290262002,Central Elem
+280372290262004,Belle Alexander Elem School
+280372290262005,Irving Elem School
+280372290262007,Neponset Grade School
+280372300260002,Wethersfield Jr/Sr High School
+280372300262001,Wethersfield Elem School
+280880010261001,Bradford Jr High School
+280881000260001,Stark County High School
+280881000261001,Stark County Junior High School
+280881000262002,Stark County Elem Sch
+300020010220001,Cairo Jr/Sr High School
+300391650160001,Carbondale Comm H S
+300391760260001,Trico Senior High School
+300391860260001,Murphysboro High School
+300391860261002,Murphysboro Middle School
+300391860262009,Carruthers Elementary School
+300391860262010,Gen John A Logan Attendance Cntr
+300731010160001,Pinckneyville Comm High School
+300732040042001,Community Cons School
+300733000260001,Duquoin High School
+300733000262002,Duquoin  Middle School
+300733000262003,Duquoin  Elementary School
+300771000260001,Century Jr/Sr High School
+300771000262004,Century Elementary School
+300771010260001,Meridian High School
+300910660220001,Dongola High School
+300910660221001,Dongola Jr High School
+300910660222001,Dongola Elementary School
+300910810160001,Anna-Jonesboro High School
+300910840260001,Shawnee High School
+300910840261002,Shawnee Jr High School
+300910840262005,Shawnee Elementary School
+310450460220001,Elgin High School
+310450460220002,Larkin High School
+320380040262003,Chebanse Elem School
+310450460220003,Streamwood High School
+320380060260001,Cissna Park Sr High School
+310450460220004,Bartlett High School
+320380060261001,Cissna Park Jr High School
+310450460220005,South Elgin High School
+320380060262001,Cissna Park Elementary School
+310450460221003,Abbott Middle School
+310450460221004,Eastview Middle School
+310450460221005,Ellis Middle School
+310450460221006,Kimball Middle School
+310450460221007,Larsen Middle School
+310450460221008,Tefft Middle School
+310450460221009,Kenyon Woods Middle School
+310450460221045,Canton Middle School
+310450460222006,Lincoln Elementary School
+310450460222007,Hilltop Elementary School
+310450460222008,Timber Trails Elementary School
+310450460222009,Bartlett Elem School
+310450460222010,Century Oaks Elem School
+310450460222011,Channing Memorial Elem School
+310450460222012,Clinton Elem School
+310450460222013,Coleman Elem School
+310450460222015,Garfield Elem School
+310450460222016,Harriet Gifford Elem School
+310450460222017,Glenbrook Elem School
+310450460222019,Hanover Countryside Elem School
+310450460222020,Highland Elem School
+310450460222021,Hillcrest Elem School
+310450460222022,Huff Elem School
+310450460222024,Laurel Hill Elem School
+310450460222025,Lowrie Elem School
+310450460222026,McKinley Elem School
+310450460222027,Oakhill Elem School
+310450460222028,Ontarioville Elem School
+310450460222029,Parkwood Elem School
+310450460222031,Ridge Circle Elem School
+310450460222032,Ronald D O Neal
+310450460222034,Sunnydale Elem School
+310450460222036,Washington Elem School
+310450460222037,Wayne Elem School
+310450460222038,Willard Elem School
+310450460222042,Heritage Elem School
+310450460222043,Horizon Elem School
+310450460222044,Lords Park Elem School
+310450460222047,Centennial School
+310450460222048,Prairieview Elementary School
+310450460222049,Sycamore Trails Elementary School
+310450460222050,Fox Meadow Elementary School
+310450460222051,Spring Trail Elementary School
+310450460222052,Creekside Elem
+310450460222053,Nature Ridge Elem School
+310450460222054,Liberty Elem School
+310450460222055,Hawk Hollow Elem School
+310450460222056,Otter Creek Elem School
+310451010220001,Batavia Sr High School
+320380090262003,Wanda Kendall Elem School
+310451010221002,Sam Rotolo Middle Sch
+310451010222003,Alice Gustafson Elem School
+310451010222005,J B Nelson Elem School
+310451010222006,Louise White Elem School
+310451010222007,H C Storm Elem School
+310451010222009,Grace McWayne Elementary School
+310451010222010,Hoover Wood Elem School
+310451290221003,Jefferson Middle School
+310451290220001,West Aurora High School
+320380090262004,Nettie Davis Elem School
+310451290221004,Washington Middle School
+310451290221005,Jewel Middle School
+310451290221006,Herget Middle School
+310451290222005,Freeman Elem School
+310451290222006,Goodwin Elem School
+310451290222007,Greenman Elem School
+310451290222008,Hall Elem School
+310451290222009,Hill Elem School
+310451290222011,McCleery Elem School
+310451290222012,Nicholson Elem School
+310451290222014,Schneider Elem School
+310451290222015,Smith Elem School
+310451290222017,Fearn Elementary School
+310451310221002,C F Simmons Middle School
+310451310220001,East High School
+320380100262002,Iroquois West Elem School/Gilman
+310451310221003,K D Waldo Middle School
+310451310221004,Henry W Cowherd Middle School
+310451310222004,Olney C Allen Elem School
+310451310222005,C M Bardwell Elem School
+310451310222006,W S Beaupre Elem School
+310451310222007,L D Brady Elem School
+310451310222008,G N Dieterich Elem School
+310451310222009,John Gates Elem School
+310451310222010,Nicholas A Hermes Elem School
+310451310222011,C I Johnson Elem School
+310451310222012,Rose E Krug Elem School
+310451310222013,Oak Park Elem School
+310451310222014,Mabel O Donnell Elem School
+310451310222015,Edna Rollins Elem School
+310451310222016,Fred Rodgers Magnet Acad
+310451310222017,Anne G Benavides Kindergarten Ctr
+310453000260002,Dundee-Crown High School
+320380100262003,Iroquois West Elem Sch/Danforth
+310453000260003,Hampshire High School
+320380100262004,Iroquois West Elem Sch/Thawville
+310453000260004,Harry D Jacobs High School
+320382490262001,Crescent City Grade School
+310453000261001,Carpentersville Middle School
+310453000261004,Algonquin Middle School
+310453000261005,Dundee Middle School
+310453000261008,Hampshire Middle School
+310453000262001,Algonquin Lakes Elem Sch
+310453000262002,Liberty Elementary School
+310453000262003,Lincoln Prairie Elem School
+310453000262009,Dundee Highlands Elem School
+310453000262010,Eastview Elem School
+310453000262012,Golfview Elem School
+310453000262013,Hampshire Elem School
+310453000262015,Lake in the Hills Elem School
+310453000262016,Meadowdale Elem School
+310453000262018,Parkview Elementary School
+310453000262019,Sleepy Hollow Elem School
+31045300026201C,Cambridge Lakes Charter School
+310453000262020,Kenneth E Neubert Elem School
+310453000262021,Perry Elementary School
+310453000262022,Lakewood School
+310453000262023,Westfield Community School
+310453000262025,Gary D Wright Elem Sch
+310453000262026,Gilberts Elem Sch
+310453010260001,Central High School
+310453030262002,Davis Primary School
+310453010261001,Central Middle School
+310453010261002,Prairie Knolls Middle Sch
+310453010262003,Howard B Thomas Grade School
+310453010262004,Lily Lake Grade School
+310453010262006,Prairie View Grade School
+310453010262007,Country Trails Elem
+310453020260001,Kaneland Senior High School
+310453020261001,Harter Middle School
+310453020262007,Kaneland John Shields Elem Sch
+310453020262008,Kaneland John Stewart Elem Sch
+310453020262009,Kaneland Blackberry Creek Elem
+310453020262010,Kaneland McDole Elem School
+310453030260011,St Charles East High School
+320380030261001,Donovan Jr High School
+310453030260012,St Charles North High School
+320380030262002,Donovan Elem School
+310453030261010,Haines Middle School
+310453030261011,Thompson Middle School
+310453030261012,Wredling Middle School
+310453030262001,Anderson Elem School
+310453030262003,Lincoln Elem School
+310453030262005,Munhall Elem School
+310453030262006,Richmond Intermediate Sch
+310453030262008,Wasco Elem School
+310453030262009,Wild Rose Elem School
+310453030262010,Ferson Creek School
+310453030262011,Fox Ridge School
+310453030262012,Bell-Graham Elementary School
+310453030262013,Corron Elementary School
+310453030262014,Norton Creek Elementary School
+310453040260001,Geneva Community High School
+310453040261002,Geneva Middle Sch South
+310453040261003,Geneva Middle Sch North
+310453040262001,Heartland Elementary School
+310453040262003,Williamsburg Elem School
+310453040262004,Harrison Street Elem School
+310453040262006,Western Avenue Elem School
+310453040262007,Mill Creek School
+310453040262008,Fabyan Elementary School
+320380030260001,Donovan Sr High School
+320380040260001,Central High School
+320380040261002,John L Nash Middle School
+320380090260001,Watseka Comm High School
+320380090261002,Glenn Raymond Middle School
+320380100260001,Iroquois West High School
+320380100261001,Iroquois West Middle School
+320381240260001,Milford High School Campus
+320381240262001,Milford Grade School West Campus
+320460010260003,Momence High School
+320460010261002,Momence Jr High School
+320460010262004,Je-Neir Elem School
+320460020260001,Herscher High School
+320460020262002,Herscher Intermediate Sch
+320460020262003,Limestone Middle Sch
+320460020262004,Bonfield Grade School
+320460050260005,Manteno High School
+320460050261004,Manteno Middle School
+320460050262003,Manteno Elem School
+320460060260001,Grant Park High School
+320460060262002,Grant Park Elem School
+320461110250014,Kankakee High School
+320461110251008,Kankakee Junior High School
+320461110252003,Edison Primary School
+320461110252009,Steuben Elementary School
+320461110252010,Taft Primary School
+320461110252011,Mark Twain Primary School
+320461110252013,Lincoln Cltrl Ctr-Montessori Elem
+320461110252015,John Kennedy Middle Grade School
+320461110252016,King Middle Grade School
+320462560042001,St Anne Elem School
+320463020160001,St Anne Comm High School
+330362350262001,West Central Elementary School
+320463070160001,Bradley-Bourbonnais C High School
+330482020260001,Knoxville Sr High School
+330362350260001,West Central High School
+330362350261001,West Central Middle School
+330482050260023,Galesburg High School
+330482080262001,R O W V A  Elem School
+330482050261021,Churchill Jr High School
+330482050261022,Lombard Jr High School
+330482050262015,Silas Willard Elem School
+330482050262017,King School
+330482050262018,Gale School
+330482050262020,Nielson Elementary School
+330482050262021,Steele School
+330482080260001,R O W V A Jr and  Sr High School
+330482100260001,Williamsfield High School
+330482100261001,Williamsfield Middle School
+330482100262003,Williamsfield Elem School
+330482760260001,Abingdon-Avon High Sch
+330482760261001,Abingdon-Avon Middle Sch
+330482760262001,Hedding Grade Sch
+330482760262002,Avon Elem Sch
+330664040260001,Mercer County High School
+330664040261001,Mercer County Jr High School
+330664040262001,Apollo Elem School
+330664040262002,New Boston Elem School
+330664040262003,Mercer County Intermediate School
+330943040260001,United High School
+330943040261001,United Jr High Sch
+330943040262001,United Elem Sch - North
+330943040262002,United Elem Sch - West
+340490600260022,Waukegan High School
+350590070262001,Midland Elementary School
+340490600261001,Jack Benny Middle School
+340490600261002,Thomas Jefferson Middle School
+340490600261003,Daniel Webster Middle School
+340490600261004,Robert E Abbott Middle School
+340490600261005,Miguel Juarez Middle School
+340490600262004,Carman-Buckner Elem School
+340490600262005,John S Clark Elem School
+340490600262006,Andrew Cooke Magnet Elem School
+340490600262007,Clearview Elem School
+340490600262008,Glen Flora Elem School
+340490600262009,Glenwood Elementary School
+340490600262010,Greenwood Elem School
+340490600262011,Hyde Park Elem School
+340490600262013,Little Fort Elem School
+340490600262014,Lyon Magnet Elementary School
+340490600262015,H R McCall Elem School
+340490600262016,North Elem School
+340490600262017,Oakdale Elem School
+340490600262018,Washington Elem School
+340490600262021,Whittier Elem School
+340490950260001,Lake Zurich High School
+350785350262004,Putnam County Elem School
+340490950261002,Lake Zurich Middle - N Campus
+340490950261003,Lake Zurich Middle - S Campus
+340490950262003,Seth Paine Elem School
+340490950262005,May Whitney Elem School
+340490950262006,Sarah Adams Elementary School
+340490950262007,Isaac Fox Elementary School
+340490950262008,Spencer Loomis Elementary School
+340490960041002,Twin Groves Middle School
+340491130170001,Deerfield High School
+350785350262006,Putnam Co Primary Sch
+340491130170002,Highland Park High School
+340491140021001,Stanton School
+340491150160001,Lake Forest High School
+340491160262001,Raymond Ellis Elem School
+340491160260006,Round Lake Senior High School
+340491160262007,Pleviak Elem School
+340491160261003,Round Lake Middle School
+340491160261004,Magee Middle School
+340491160262002,Indian Hill Elem School
+340491160262004,Round Lake Beach Elem School
+340491160262005,W J Murphy Elem School
+340491160262006,Village Elementary School
+340491170160001,Antioch Comm High School
+390550010262002,Argenta-Oreana Elementary School
+340491170160002,Lakes Community High School
+340491180261003,Wauconda Middle School
+340491180260005,Wauconda High School
+340491870262002,Forrestal Elem School
+340491180261004,Matthews Middle School
+340491180262001,Wauconda Grade School
+340491180262005,Robert Crown School
+340491180262007,Cotton Creek School
+340491200130001,Mundelein Cons High School
+340491870262008,A J Katzenmaier Academy
+340491210170001,Warren Township High School
+340491870262009,North Elementary School
+340491240160001,Grant Community High School
+340491870262013,Howard A Yeager Elem Sch
+340491250130001,Adlai E Stevenson High School
+390550030261001,Mt Zion Jr High School
+340491260170001,Zion-Benton Twnshp Hi Sch
+390550030262004,McGaughey Elem School
+340491260170002,New Tech High - Zion-Benton East
+340492200261003,Barrington Middle Sch Station
+340491270160001,Grayslake Central High School
+34049900025201C,Prairie Crossing Charter School
+340491270160002,Grayslake North High School
+34049901025201C,LEARN Chtr  9 Campus in Waukegan
+340491280160002,Libertyville High School
+350500020262003,Serena Elem School
+340491280160004,Vernon Hills High School
+350500020262004,Sheridan Elem School
+340491870260001,North Chicago Community High Sch
+340491870261003,Neal Math Science Academy
+34049187026202C,LEARN Chtr Sch 6 N Chicago Campus
+34049187026203C,LEARN 10 Charter School
+340492200260004,Barrington High School
+350500440022001,Centennial Elem School
+340492200261004,Barrington Mdle Sch- Prairie Cmps
+340492200262001,Countryside Elem School
+340492200262002,Hough Street Elem School
+340492200262003,Sunny Hill Elem School
+340492200262004,Grove Avenue Elem School
+340492200262005,North Barrington Elem School
+340492200262006,Roslyn Road Elem School
+340492200262007,Arnett C Lines Elem School
+340492200262009,Barbara B Rose Elem School
+340492200262010,Barrington Early Learning Center
+350500010260001,Leland High School
+350500010262001,Leland Elem School
+350500020260001,Serena High School
+350500020262002,Harding Grade School
+350500090260001,Earlville Jr/Sr High School
+350500090262001,Earlville Elem School
+350500400170001,Streator Twp High School
+350500440021005,Northlawn Jr High School
+350501200170001,La Salle-Peru Twp High School
+350501220021006,Lincoln Jr High School
+350501400170001,Ottawa Township High School
+350501410021009,Shepherd Middle School
+350501600170001,Seneca High School
+350501700041001,Seneca Elem School South Campus
+350502800170001,Mendota Twp High School
+350502890041002,Northbrook School
+350590050260001,Henry-Senachwine High School
+350590050262001,Henry-Senachwine Grade School
+350590070260001,Midland High School
+350590070261001,Midland Middle School
+350785350260002,Putnam County High School
+350785350261001,Putnam County Jr High School
+390550010260001,Argenta-Oreana High School
+390550010261001,Argenta-Oreana Middle School
+390550020260001,Maroa-Forsyth Senior High Sch
+390550020261001,Maroa-Forsyth Middle School
+390550020262003,Maroa-Forsyth Grade School
+390550030260001,Mt Zion High School
+390550030262005,Mt Zion Elem School
+390550030262006,Mt Zion Intermediate School
+390550090260001,Sangamon Valley High School
+390550090261001,Sangamon Valley Middle School
+390550090262001,Sangamon Valley East Elem School
+390550090262002,Sangamon Valley West Elem School
+390550110260001,Warrensburg-Latham High School
+390550110261002,Warrensburg-Latham Middle Sch
+390550110262001,Warrensburg-Latham Elem Sch
+390550150260001,Meridian High School
+390550150261001,Meridian Middle School
+390550150262001,Meridian Elem School
+390550610250036,Eisenhower High School
+390550610251034,Stephen Decatur Middle School
+390550610250038,MacArthur High School
+390550610251030,Thomas Jefferson Middle School
+390550610252004,Dennis Elem School
+390550610252005,Durfee Magnet Elementary
+390550610252007,Enterprise Elem School
+390550610252009,Benjamin Franklin Elem School
+390550610252010,Mary W French Academy
+390550610252011,Garfield Montessori School
+390550610252014,William Harris Elem School
+390550610252016,Muffley Elem School
+390550610252017,Oak Grove Accelerated School
+390550610252019,Parsons Accelerated School
+39055061025201C,Robertson Charter School
+390550610252023,South Shores Elem School
+390550610252025,Stevenson Accelerated School
+390550610252031,Michael E Baum Elem School
+390550610252032,Johns Hill Magnet School
+390550610252034,Hope Academy
+390740050260001,Bement High School
+390740050261001,Bement Middle School
+390740050262001,Bement Elementary School
+390740250260001,Monticello High School
+390740250261002,Monticello Middle School
+390740250262002,Lincoln Elem School
+390740250262005,White Heath Elem School
+390740250262006,Washington School
+390740570260001,Deland-Weldon High School
+390740570261001,Deland-Weldon Middle School
+390740570262002,Deland-Weldon Elem School
+390741000260001,Cerro Gordo Jr and Sr High Sch
+390741000262003,Cerro Gordo Elem School
+400070400260001,Calhoun High School
+400070400262001,Calhoun Elementary/ Jr High Sch
+400070420260001,Brussels High School
+400310010260003,Carrollton High School
+400310010262001,Carrollton Grade School
+400310030260001,North Greene Jr/Sr High Sch
+400310030262002,North Greene Elem
+400421000260001,Jersey Comm High School
+400421000261002,Illini Middle School
+400421000262006,Grafton Elem School
+400421000262007,Jerseyville East Elem School
+400421000262008,Jerseyville West Elem School
+400560010260002,Carlinville High School
+400560010261001,Carlinville Middle School
+400560010262005,Carlinville Primary School
+400560010262006,Carlinville Intermediate School
+400560020260004,Northwestern High School
+400560020261001,Northwestern Jr High School
+400560020262005,Northwestern Elem School
+400560050260001,Mt Olive High School
+400560050262001,Mt Olive Elementary School
+400560060260001,Staunton High School
+400560060261001,Staunton Jr High School
+400560060262001,Staunton Elem School
+400560070260003,Gillespie High School
+400560070261002,Gillespie Middle School
+400560070262003,Ben-Gil Elementary School
+400560080260001,Bunker Hill High School
+400560080261001,Wolf Ridge Junior High School
+400560080262003,Wolf Ridge Elementary
+400560090260001,Southwestern High School
+400560090261002,Southwestern Middle School
+400560090262004,Medora Intermediate School
+400560090262005,Shipman Elem School
+400560090262006,Brighton North Primary School
+400560340260001,North Mac High School
+400560340262001,North Mac Intermediate
+400560340262002,North Mac Elementary
+410570010260001,Roxana Sr High School
+410570010261001,Roxana Junior High School
+410570010262004,Central Intermediate School
+410570010262006,South Primary School
+410570020260001,Triad High School
+410570020261008,Triad Middle School
+410570020262003,Marine Elem School
+410570020262004,Silver Creek Elementary
+410570020262005,St Jacob Elem School
+410570020262008,C A Henning School
+410570030262002,Venice Elem School
+410570050260001,Highland High School
+410570050261002,Highland Middle School
+410570050262003,Highland Primary School
+410570050262004,Alhambra Primary School
+410570050262005,Grantfork Upper Elementary Sch
+410570050262008,Highland Elementary  School
+410570070260001,Edwardsville High School
+410570070262003,Columbus Elem School
+410570070261001,Liberty Middle School
+410570070261002,Lincoln Middle School
+410570070262004,LeClaire Elem School
+410570070262005,Worden Elementary School
+410570070262006,Glen Carbon Elem School
+410570070262007,N O Nelson Elem School
+410570070262008,Hamel Elementary School
+410570070262009,Midway School
+410570070262010,Woodland Elementary School
+410570070262011,Goshen Elementary
+410570070262012,Albert Cassens Elementary
+410570080260001,Civic Memorial High School
+410570080261002,Wilbur Trimpe Middle School
+410570080262003,Bethalto East Primary School
+410570080262007,Meadowbrook Intermediate Sch
+410570080262009,Parkside Primary School
+410570090260001,Granite City High School
+410570090261003,Coolidge Junior High Sch
+410570090261004,Grigsby Intermediate Sch
+410570090262007,Frohardt Elem School
+410570090262012,Maryville Elem School
+410570090262013,Mitchell Elementary School
+410570090262020,Wilson Elem School
+410570090262022,Prather Elementary School
+410570100260001,Collinsville High School
+410570100261003,Collinsville Middle School
+410570100262001,Webster Elementary School
+410570100262006,Caseyville Elementary School
+410570100262011,Kreitner Elem School
+410570100262013,Jefferson Elem School
+410570100262014,John A Renfro Elementary School
+410570100262020,Summit Elementary School
+410570100262022,Maryville Elem School
+410570100262023,Twin Echo Elem School
+410570100262024,Dorris Intermediate Sch
+410570110260001,Alton High School
+410570110261006,Alton Middle School
+410570110262007,Eunice Smith Elem School
+410570110262010,Gilson Brown Elem School
+410570110262015,Lewis & Clark Elem School
+410570110262024,Lovejoy Elem School
+410570110262028,West Elementary School
+410570110262029,East Elementary School
+410570110262030,North Elementary School
+410570120260001,Madison Senior High School
+410570120261003,Madison Jr High School
+410570120262008,Bernard Long Elem Sch
+410570130021001,East Alton Middle School
+410570140160001,East Alton-Wood River High Sch
+410570150031001,Lewis-Clark Jr High School
+440630120260002,Johnsburg High School
+440630120261003,Johnsburg Jr High School
+440630120262001,Johnsburg Elementary School
+440630120262002,Ringwood School Primary Ctr
+440630190240002,Alden-Hebron High School
+440630190241001,Alden-Hebron Middle School
+440630190242001,Alden Hebron Elem School
+440630260041004,Cary Jr High School
+440630500260001,Harvard High School
+440630500261002,Harvard Jr High School
+440630500262003,Jefferson Elem School
+440630500262007,Crosby Elem Sch
+440631540160001,Marengo High School
+440631580221002,Heineman Middle School
+440631550160001,Crystal Lake Central High School
+440631580222003,Chesak Elementary School
+440631550160002,Cary-Grove Community High School
+440631580222006,Mackeben Elementary School
+440631550160003,Crystal Lake South High School
+440631650032002,Locust Elem School
+440631550160004,Prairie Ridge High School
+440631650032004,Ulysses S Grant Intermediate Sch
+440631560160001,McHenry High School-West Campus
+440631580222005,Martin Elementary School
+440631560160002,McHenry  East High School
+440631580222004,Leggee Elementary School
+440631570160001,Richmond-Burton High School
+440631580221003,Marlowe Middle School
+440631580220002,Huntley High School
+450670030261001,Valmeyer Jr High
+440631580222007,Conley Elementary School
+440631650031001,Marengo Comm Middle School
+440632000260008,Woodstock High School
+440632000262006,Westwood Elem School
+440632000260009,Woodstock North High School
+440632000262007,Olson Elementary School
+440632000261006,Northwood Middle School
+440632000261007,Creekside Middle School
+440632000262003,Dean Street Elem School
+440632000262004,Greenwood Elem School
+440632000262008,Mary Endres Elementary School
+440632000262009,Verda Dierzen Early Learning Ctr
+440632000262010,Prairiewood Elem Sch
+450670030260001,Valmeyer High School
+450670030262001,Valmeyer Elementary School
+450670040260001,Columbia High School
+450670040261001,Columbia Middle School
+450670040262001,Parkview Elementary School
+450670040262003,Eagleview Elementary School
+450670050260001,Waterloo High School
+450670050261001,Waterloo Junior High School
+450670050262003,W J Zahnow Elem School
+450670050262004,Rogers Elem School
+450670050262005,Gardner Elementary School
+450791320260001,Red Bud High School
+450791320262002,Red Bud Elem School
+450791380260001,Steeleville High School
+450791380262002,Steeleville Elem School
+450791390260001,Chester High School
+450791390262002,Chester Elem School
+450791400260001,Sparta High School
+450791400262002,Sparta-Lincoln Middle School
+450791400262008,Evansville Attendance Center
+470521700220001,Dixon High School
+470521700221001,Reagan Middle School
+470521700222003,Madison School
+470521700222004,Jefferson Elem School
+470521700222008,Washington Elem School
+470522710260004,Paw Paw Jr/Sr High School
+470522710262005,Paw Paw Elem School
+470522720260001,Amboy High School
+470522720261002,Amboy Jr High School
+470522720262003,Amboy Central Elem School
+470522750260001,Ashton-Franklin Center HS
+470522750262003,Ashton-Franklin Center Elem Sch
+470711440032001,Kings Elementary School
+470712120170001,Rochelle Twp High School
+470712200262006,Oregon Elem Sch
+470712200260001,Oregon High School
+470712200261001,David L Rahn Jr High School
+470712210260004,Forreston Jr/Sr High Sch
+470712210262002,German Valley Grade School
+470712210262003,Forreston Grade School
+470712220260004,Polo Comm High School
+470712220261001,Aplington Middle School
+470712220262001,Centennial Elem School
+470712230260003,Stillman Valley High School
+470712230261001,Meridian Jr High School
+470712230262002,Highland Elem School
+470712230262004,Monroe Center Grade School
+470712260260001,Byron High School 9-12
+470712260261001,Byron Middle School
+470712260262003,Mary Morgan Elem Sch
+470712310041002,Rochelle Middle School
+470980010260001,Erie High School
+470980010261002,Erie Middle School
+470980010262003,Erie Elem School
+470980020260001,Fulton High School
+470980020261002,River Bend Middle School
+470980020262005,Fulton Elem School
+470980030260001,Prophetstown High School
+470980030261004,PLT Middle School
+470980030262005,Tampico Elem School
+470980030262006,Prophetstown Elem School
+470980050260014,Sterling High School
+470980050261006,Challand Middle School
+470980050262005,Franklin Elem School
+470980050262007,Jefferson Elem School
+470980050262008,Lincoln Elem School
+470980050262010,Washington Elem School
+470980060260001,Morrison High School
+470980060261001,Morrison Jr High School
+470980060262002,Northside School
+470980060262003,Southside School
+470983010170001,Rock Falls Township High School
+480720620021001,Pleasant Valley Middle School
+480721500250023,Manual Academy
+480722650261001,Farmington Central Jr High Sch
+480721500250024,Peoria High School
+480722650262002,Farmington Central Elem Sch
+480721500250025,Richwoods High School
+480723210261002,Chillicothe Jr High
+48072150025027C,Quest Charter School Academy
+480721500251001,Rolling Acres Middle School
+480721500251002,Sterling Middle School
+480721500251003,Von Steuben Middle School
+480721500251006,Calvin Coolidge Middle School
+480721500251009,Charles A Lindbergh Middle School
+480721500251013,Mark W Bills Middle School
+480721500251015,Washington Gifted School
+480721500252010,Whittier Primary School
+480721500252011,Woodrow Wilson Primary School
+480721500252028,Roosevelt Magnet School
+480721500252032,Franklin Primary School
+480721500252034,Glen Oak Comm Learning Cntr
+480721500252036,Harrison Comm Learning Cntr
+480721500252037,Hines Primary School
+480721500252038,Lincoln School
+480721500252039,Thomas Jefferson Primary School
+480721500252040,Kellar Primary School
+480721500252047,Northmoor Primary School
+480721500252051,Charter Oak Primary School
+480721500252052,Trewyn K-8 School
+480722650260001,Farmington Central High Sch
+480723090260003,Brimfield High School
+480723090262002,Brimfield Grade School
+480723100160001,Limestone Community High School
+480723160042001,Limestone Walters Elem School
+480723210260007,Il Valley Central High School
+480723210261001,Mossville Jr High
+480723210262004,South Elementary School
+480723210262005,Mossville Elementary School
+480723210262008,Chillicothe Elementary Center
+480723220260004,Elmwood High School
+480723220261001,Elmwood Junior High School
+480723220262002,Elmwood Elem School
+480723230260004,Dunlap High School
+480723230262002,Dunlap Grade School
+480723230261001,Dunlap Middle School
+480723230261002,Dunlap Valley Middle School
+480723230262003,Wilder-Waite Elem School
+480723230262004,Banner Elementary School
+480723230262005,Ridgeview Elementary School
+480723230262006,Hickory Grove Elementary School
+480723250260005,Peoria Heights High School
+480723250262005,Peoria Heights Grade School
+480723260260005,Princeville High School
+480723260262004,Princeville Elem School
+480723270260008,Illini Bluffs High School
+480723270262004,Illini Bluffs Elementary School
+480723270262006,Illini Bluffs Middle School
+480723280032001,Hollis Consolidated Grade Sch
+490810300170001,United Twp High School
+490810340021001,Northeast Jr High School
+490810400220001,Moline Sr High School
+490811000261002,Riverdale Middle School
+490810400221003,John Deere Middle School
+490810400221004,Woodrow Wilson Middle School
+490810400222007,Butterworth Elem School
+490810400222011,Benjamin Franklin Elem School
+490810400222014,Hamilton Elem School
+490810400222016,Lincoln-Irving Elem School
+490810400222017,Logan Elem School
+490810400222019,Bicentennial Elem School
+490810400222021,Roosevelt Elem School
+490810400222022,George Washington Elem School
+490810400222023,Willard Elem School
+490810400222026,Jane Addams Elementary School
+490810410250001,Rock Island High School
+490811000262007,Riverdale Elem School
+490810410251003,Edison Jr High School
+490810410251005,Washington Jr High School
+490810410252007,Denkmann Elem School
+490810410252008,Earl H Hanson Elem School
+490810410252009,Eugene Field Elem School
+490810410252010,Frances Willard Elem School
+490810410252015,Longfellow Elem School
+490810410252016,Ridgewood Elem School
+490810410252017,Thomas Jefferson Elem School
+490810410252020,Rock Island Academy
+490810410252021,RICMS
+490811000260001,Riverdale Sr High School
+490812000260001,Sherrard High School
+490812000261001,Sherrard Jr High School
+490812000262003,Matherville Intermediate School
+490812000262006,Sherrard Elementary School
+490812000262007,Winola Elementary School
+490813000260001,Rockridge High School
+490813000261002,Rockridge Jr High School
+490813000262003,Andalusia Elem School
+490813000262005,Illinois City Elem School
+490813000262006,Taylor Ridge Elem School
+500820090260003,Lebanon High School
+500820090262002,Lebanon Elem School
+500820190260001,Mascoutah High School
+500820300032001,St Libory Elem School
+500820190261002,Mascoutah Middle School
+500820190262003,Mascoutah Elem School
+500820190262006,Scott Elem School
+500820190262007,Wingate Elementary School
+500820400260001,Marissa Jr & Sr High School
+500820400262002,Marissa Elem School
+500820600260003,New Athens High School
+500820600261001,New Athens Jr High
+500820600262001,New Athens Elem
+500820700042001,Freeburg Primary Center
+500820770160001,Freeburg Community High Sch
+500820850021001,Shiloh Middle School
+500821870260011,Cahokia High School
+500821870261014,7th Grade Academy
+500821870261015,8th Grade Academy
+500821870262002,Oliver Parks 6th Grade School
+500821870262005,Huffman Elem School
+500821870262007,Lalumier Elem School
+500821870262008,Maplewood Elem School
+500821870262009,Elizabeth Morris Elem School
+500821870262010,Penniman Elem School
+500821870262014,Estelle Sauget School of Choice
+50082189022001C,SIU Charter Sch of East St Louis
+500821890220043,East St Louis Senior High School
+500821890221007,Mason/Clark Middle Sch
+500821890221036,East St Louis-Lincoln Middle Sch
+500821890222008,Dunbar Elem School
+500821890222038,Annette Officer Elementary
+500821890222054,Katie Harper-Wright Elem
+500821890222055,Gordon Bush Elementary
+500821890222056,James Avant Elementary School
+500821960260001,Dupo High School
+500822010170001,Belleville High School-East
+510652020262006,Porta Central
+500822010170002,Belleville High School-West
+510652130262001,Cantrall Intermediate School
+500822030170001,O Fallon High School
+510652130262003,Cantrall Elem School
+510652000260001,Greenview Jr/Sr High School
+510652000262001,Greenview Elementary School
+510652020260001,Porta High School
+510652020262003,Petersburg Elem School
+510652130260001,Athens Sr High School
+510652130261001,Athens Junior High School
+510840010260001,Tri-City High School
+510840010261001,Tri-City Jr High School
+510840010262001,Tri-City Elem School
+51084003A260001,Rochester High School
+51084003A261002,Rochester Jr High School
+51084003A262003,Rochester Elem EC-1 Sch
+51084003A262004,Rochester Intermediate School
+51084003A262005,Rochester Elem 2-3
+510840050260001,Glenwood High School
+510840080261001,Pleasant Plains Middle School
+510840050261002,Glenwood Middle School
+510840050262003,Ball Elementary School
+510840050262004,Chatham Elem School
+510840050262005,Glenwood Intermediate Sch
+510840050262006,Glenwood Elementary School
+510840080260001,Pleasant Plains High School
+510840080262004,Farmingdale Elem School
+510840100260001,Auburn High School
+510840100261001,Auburn Jr High at Divernon
+510840100262003,Auburn Elem School
+510840100262004,Auburn Middle School
+510840110260001,Pawnee Jr/Sr High Sch
+510840110262001,Pawnee Grade School
+510840140260001,Riverton High School
+510840140261001,Riverton Middle School
+510840140262003,Riverton Elem School
+510840150260001,Williamsville High School
+510840150261001,Williamsville Jr High School
+510840150262004,Sherman Elem School
+510840150262005,Williamsville Middle School
+510841860250001,Lanphier High School
+530601260262002,New Central Elem School
+510841860250002,Springfield High School
+530601890262001,Illini Central Grade School
+510841860250003,Springfield Southeast High Sch
+530601910260001,Midwest Central High School
+510841860250004,Springfield Learning Academy
+510841860251006,Benjamin Franklin Middle School
+510841860251007,U S Grant Middle School
+510841860251009,Washington Middle School
+510841860252010,Jane Addams Elem School
+510841860252012,Butler Elem School
+510841860252013,Black Hawk Elem School
+510841860252015,Dubois Elem School
+510841860252016,Enos Elem School
+510841860252017,Fairview Elem School
+51084186025201C,Springfield Ball Charter School
+510841860252020,Hazel Dell Elem School
+510841860252021,Iles Elem School
+510841860252022,Laketown Elem School
+510841860252024,Lincoln Magnet School
+510841860252026,Owen Marsh Elem School
+510841860252027,Matheny-Withrow Elem Sch
+510841860252028,McClernand Elem School
+510841860252032,Ridgely Elem School
+510841860252033,Sandburg Elem School
+510841860252035,Southern View Elem School
+510841860252037,Feitshans Elem Sch
+510841860252040,Wilcox Elem School
+510841860252042,Jefferson Middle School
+510841860252044,Harvard Park Elem School
+510841860252045,Edwin A Lee Elementary School
+510841860252046,Elizabeth Graham Elem School
+510841860252049,Lindsay School
+530601260260001,Havana High School
+530601260261001,Havana Jr High School
+530601890260001,Illini Central High School
+530601890261001,Illini Central Middle School
+530903030160002,Pekin Community High School
+530907010262003,Dee-Mack Primary/Jr High
+530903080160001,Washington Comm High School
+530907020262003,Tremont Elem School
+530903090160001,East Peoria High School
+530906060042001,Spring Lake Elem School
+530907010260001,Dee-Mack High School
+530907010262002,Dee-Mack Intermediate School
+530907020260001,Tremont High School
+530907020261001,Tremont Middle School
+530907030260001,Delavan High School
+530907030261001,Delavan Jr High School
+530907030262001,Delavan Elementary School
+530907090260006,Morton High School
+530907090261005,Morton Jr High School
+530907090262001,Grundy Elem School
+530907090262002,Jefferson Elem School
+530907090262003,Lincoln Elem School
+530907090262004,Lettie Brown Elementary School
+531020010042001,Metamora Grade School
+531020060260001,Fieldcrest High School
+531020060262001,Fieldcrest Elementary - South
+531020060262002,Fieldcrest Elementary - West
+531020060262003,Fieldcrest Middle Sch/Elem - East
+531020110260001,El Paso-Gridley High School
+531020110261001,El Paso-Gridley Jr High School
+531020110262001,Centennial School
+531020110262002,Jefferson Park School
+531020110262003,Gridley Grade School
+531020210260001,Lowpoint-Washburn Jr Sr High Sch
+531020600260001,Roanoke-Benson High School
+531020600261002,Roanoke-Benson Jr High School
+531020600262003,Sowers Elementary School
+531020690022001,Germantown Hills Middle School
+531021220170001,Metamora High School
+531021400262003,Davenport Elem School
+531021400260001,Eureka High School
+531021400261002,Eureka Middle School
+531021400262004,Congerville Elem School
+531021400262005,Goodfield Elem School
+540920010260005,Bismarck-Henning High School
+540920010261001,Bismarck-Henning Jr High School
+540920010262001,Bismarck-Henning Elem School
+540920020260004,Westville High School
+540920020261003,Westville Jr High School
+540920020262001,Judith Giacoma Elem School
+540920040260004,Georgetown-Ridge Farm High School
+540920040261003,Mary Miller Junior High School
+540920040262002,Pine Crest Elementary School
+540920070262001,Rossville-Alvin Elem School
+540920110260005,Hoopeston Area High School
+540920110261001,Hoopeston Area Middle School
+540920110262001,Honeywell Elem School
+540920110262002,John Greer Elem School
+540920110262003,Maple Elem School
+540920610032001,Armstrong-Ellis Elem School
+540920760260001,Oakwood High School
+540920760261001,Oakwood Junior High School
+540920760262003,Oakwood Grade School
+540921180240022,Danville High School
+540921180241020,North Ridge Middle School
+540921180241021,South View Upper Elem School
+540921180242005,Edison Elem School
+540921180242008,Garfield Elem School
+540921180242010,Liberty Elem School
+540921180242013,Northeast Elem Magnet School
+540921180242019,Meade Park Elem School
+540921180242020,Mark Denman Elementary School
+540921180242021,Southwest  Elem School
+540922250170001,Armstrong High School
+540925120260001,Salt Fork High School
+540925120261001,Salt Fork Junior High School
+540925120262001,Salt Fork North Elementary School
+540925120262002,Salt Fork South Elementary School
+56099030C042007,Troy Hofer Elem Sch
+56099033C041001,Homer Jr High School
+56099033C042006,Luther J Schilling School
+56099033C042007,William J Butler School
+56099033C042008,William E Young School
+56099070C042001,Laraway Elem School
+560990810022001,Union Elementary School
+560990840022001,Rockdale Elem School
+560990860051001,Dirksen Junior High School
+560990860051002,Gompers Junior High School
+560990860051003,Hufford Junior High School
+560990860051004,Washington Jr High & Academy Prgm
+560990860052001,T E Culbertson Elem School
+560990860052002,M J Cunningham Elem Sch
+560990860052003,Eisenhower Academy
+560990860052004,Farragut Elem School
+560990860052005,Forest Park Individual Ed School
+560990860052006,Thomas Jefferson Elem School
+560990860052007,Edna Keith Elem School
+560990860052011,A O Marshall Elem School
+560990860052013,Carl Sandburg Elementary
+560990860052015,Pershing Elem School
+560990860052020,Taft Elementary School
+560990860052022,Woodland Elem School
+560990860052024,Sator Sanchez Elem School
+560990860052025,Lynne Thigpen Elem School
+560990860052027,Isaac Singleton Elem Sch
+560990880022002,Chaney-Monge School
+56099088A021001,Richland Jr High
+56099088A022001,Richland Elem School
+560990890022002,Fairmont School
+560990900022001,Taft Grade School
+560990910021001,Kelvin Grove Jr High School
+560990910022001,Milne Grove Elem School
+560990920021001,Oak Prairie Jr High School
+560990920022003,Walsh Elem School
+560991140021001,Manhattan Jr High School
+560991140022001,Anna McDonald Elem School
+560991220022010,Arnold J Tyler School
+560991220022013,Oster-Oakview  School
+560991220022015,Spencer Pointe
+560991220022016,Spencer Crossing
+56099157C041001,Hickory Creek Middle School
+56099157C042002,Chelsea Elem School
+560991590021001,Mokena Jr High School
+560991590022002,Mokena Elem School
+560991610021001,Summit Hill Junior High School
+560991610022001,Arbury Hills Elem School
+560991610022003,Frankfort Square Elem School
+560991610022004,Indian Trail Elem School
+560991610022005,Walker Intermediate School
+560991610022006,Dr Julian Rogus School
+56099200U260001,Beecher High School
+56099200U261001,Beecher Junior High School
+56099200U262002,Beecher Elem School
+56099201U260001,Crete-Monee High School
+56099201U261002,Crete-Monee Middle School
+56099201U262003,Balmoral Elem Sch
+56099201U262004,Crete Elementary School
+56099201U262006,Monee Elementary School
+56099201U262007,Talala Elementary School
+56099201U262008,Coretta Scott King Magnet Sch
+560992020220001,Plainfield High School
+560992030042001,Elwood C C School
+560992020220002,Plainfield South High School
+56099209U262004,L J Stevens Intermediate School
+560992020220003,Plainfield North High School
+56099255U262001,Reed-Custer Intermediate School
+560992020220004,Plainfield East High School
+56099255U262002,Reed-Custer Primary School
+560992020221002,Indian Trail Middle School
+560992020221003,Timber Ridge Middle School
+560992020221004,Heritage Grove Middle School
+560992020221005,Drauden Point Middle School
+560992020221006,Richard Ira Jones Middle School
+560992020221007,Aux Sable Middle Sch
+560992020221008,John F Kennedy Middle Sch
+560992020222003,Central Elem School
+560992020222004,Crystal Lawns Elem School
+560992020222005,Grand Prairie Elem School
+560992020222006,Walkers Grove Elementary School
+560992020222007,Wesmere Elementary School
+560992020222008,Lakewood Falls Elem School
+560992020222009,River View Elementary School
+560992020222010,Meadow View Elementary School
+560992020222011,Creekside Elementary School
+560992020222012,Ridge Elementary School
+560992020222013,Eagle Pointe Elementary School
+560992020222014,Lincoln Elementary
+560992020222015,Charles Reed Elementary Sch
+560992020222016,Liberty Elementary School
+560992020222017,Freedom Elem School
+560992020222018,Thomas Jefferson Elem Sch
+560992020222019,Elizabeth Eichelberger Elem Sch
+560992040170001,Joliet Central High School
+56099207U262003,Peotone Elem School
+560992040170003,Joliet West High School
+56099207U262005,Peotone Intermediate Center
+560992050170001,Lockport Township High Sch East
+56099209U262003,Bruning Elem School
+56099207U260001,Peotone High School
+56099207U261002,Peotone Jr High School
+56099209U260001,Wilmington High School
+56099209U261002,Wilmington Middle School
+560992100160001,Lincoln-Way Central High School
+560992100160002,Lincoln-Way East High School
+560992100160004,Lincoln Way West
+56099255U260001,Reed-Custer High School
+56099255U261001,Reed-Custer Middle School
+56099365U260007,Bolingbrook High School
+56099365U260008,Romeoville High School
+56099365U261003,A Vito Martinez Middle School
+56099365U261004,Brooks Middle School
+56099365U261005,Jane Addams Middle School
+56099365U261006,Hubert H Humphrey Middle School
+56099365U261007,John J Lukancic Middle Sch
+56099365U262001,Robert C Hill Elem School
+56099365U262002,Irene King Elem School
+56099365U262003,Bernard J Ward Elem School
+56099365U262006,John R Tibbott Elem School
+56099365U262008,Wood View Elem School
+56099365U262009,Independence Elem School
+56099365U262010,Jonas E Salk Elem School
+56099365U262011,Jamie McGee Elementary School
+56099365U262012,Oak View Elem School
+56099365U262014,Pioneer Elementary School
+56099365U262015,Kenneth L Hermansen Elementary
+56099365U262016,Skoff Elementary
