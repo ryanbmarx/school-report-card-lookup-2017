@@ -1,0 +1,120 @@
+
+
+.trb_mainContent {
+
+	.school{
+		font: 18px/1.3em "Arial", "Helvetica", sans-serif;
+		text-align: center;
+
+
+
+		&__name{
+			font-size: 2em;
+			line-height: 1.3em;
+			font-weight: bold;
+			margin: 0 0 10px 0;
+		}
+
+		&__district{
+			margin: 0 0 10px 0;
+		}
+	}	
+
+
+
+	.school__scores{
+		list-style: none;
+		padding: 0;
+		margin: 25px 0;
+	}
+
+
+	.score{
+		display:flex;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-wrap: nowrap;
+		
+		width: 100%; // fallback
+		width: calc(100% - #{$act-dot-width / 2}); // This will pull the whole score unit in a little bit so the act score dots don't overflow-x.
+
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+		border-bottom: 1px solid $trib-gray4;
+
+		&__label{
+			@include sans-serif();
+			font-weight: bold;
+			width: 100px;
+			text-align: left;
+			margin-right: 15px;
+		}
+
+		&__chart{
+			// background-color: yellow;
+			flex: 1;
+			position: relative;
+
+			&:before{
+				// This is the chart axis
+				content: "";
+				display: block;
+
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 100%;
+				height: 0;
+				
+				border-top: $score-chart-axis-stroke solid $score-chart-axis-stroke-color;
+				margin-top: #{$score-chart-axis-stroke / -2};
+			}
+		}
+	}
+
+	// These are the little indicators on the score chart
+	.act{
+		position: absolute;
+		top: 50%;
+		transform: translate(#{$act-dot-width / -2}, #{$act-dot-height / -2});
+	
+	    // We'll use this to center the elements inside the act score display
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		
+		&__dot{
+			width: $act-dot-width;
+			height: $act-dot-height;
+			background-color: white;
+			border-radius: 50%;
+
+			box-sizing: border-box;
+		    border: $score-chart-axis-stroke solid $score-chart-axis-stroke-color;
+			
+		}
+
+		&__score{
+			// This is the label inside the marker. We want it to float on top.
+			@include agate();
+			width: 100%; // This makes sure our flex items wrap, so they are stacked.
+		}
+
+
+		&--school{
+			 // This is the score display for the actual school. Let's make it a little larger and give it the color
+
+			.act__dot{
+				background-color: $school-highlight-color;
+				border-color:$school-highlight-color;				
+			}
+
+			.act_score{
+			    transform: translate(0,-200%);
+			    font-weight: bold;
+			}
+		}
+
+
+	}
+}

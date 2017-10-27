@@ -18,12 +18,12 @@
         border: 1px solid $trib-gray4;
         border-left-width:0; 
 
-        background: rgba($trib-blue2, .8);
+        background: rgba($school-highlight-color, .8);
         transition: background 150ms ease;
         cursor:pointer;
         
         &:hover, &:focus{
-            background: rgba($trib-blue2, 1);
+            background: rgba($school-highlight-color, 1);
             transition: background 150ms ease;
         }
     }
