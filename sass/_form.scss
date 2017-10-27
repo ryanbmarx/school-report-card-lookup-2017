@@ -5,12 +5,19 @@
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: nowrap;
+    
+    .awesomplete{
+        flex: 1;
+        box-sizing: border-box;
+    }
 
     &__text{
-        flex: 1;
+        // flex: 1;
         padding: 15px;
         border: 1px solid $trib-gray4;
         border-right-width:0; 
+        box-sizing: border-box;
+        width: 100%;
     }
 
     &__btn{
