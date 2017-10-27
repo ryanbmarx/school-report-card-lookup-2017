@@ -18,33 +18,26 @@ $score-chart-axis-stroke-color: $trib-gray3;
 @import 'base-mixins';
 
 // ---- MAKE OR IMPORT MORE MIXINS HERE ---------------------------------------------
-@mixin big-number($style:'no-float', $font-size:50px){
-	width:100%;
 
-		$dt_margin: 0 0 10px 0;
-		// max-width:200px;
+@mixin distribute_across_columns($number_across, $gutter: 25px){
+	// fallback
+	width: 90% / $number_across;
 
-
-	@if $style == side or $style == 'side' {
-		display: flex;
-	    align-content: flex-start;
-	    align-items: flex-start;
-	    justify-content: space-between;
-    	max-width:250px;
-
-	    $dt_margin: 0 20px 0 0;
+	// PREFERRED -- Overall width, minus interior gutters, divided by number of items
+	//  except when it's only 1 across, then just go with 100%;
+	@if $number_across > 1{
+		width: calc((100% - #{$gutter * $number_across - 1}) / #{$number_across});
+	} @else {
+		width: 100%;
 	}
 
-	dt {
-		@include serif-text($font-size, 1em, bold);
-		display:block;
-		font-style: italic;
-		margin:$dt_margin;
-	}
+	// to seperate the buttons equally, we'll use margins right and bottom. Use the gutter width.
+	margin: 0 $gutter $gutter 0;
 
-	dd {
-		@include sans-serif();
-		margin:0 0 0 0;
+	&:nth-child(#{$number_across}n){
+		// The last button of every row needs the margin-right removed since the width calculation
+		// only accounts for gutters (i.e. margins right) on interior buttons (i.e. num across - 1)
+		margin-right: 0;
 	}
 }
 

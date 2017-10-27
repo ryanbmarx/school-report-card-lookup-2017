@@ -5,8 +5,7 @@
 	.school{
 		font: 18px/1.3em "Arial", "Helvetica", sans-serif;
 		text-align: center;
-
-
+		margin: 25px 0 0 0;
 
 		&__name{
 			font-size: 2em;
@@ -16,6 +15,8 @@
 		}
 
 		&__district{
+			@include sans-serif();
+			width: auto;
 			margin: 0 0 10px 0;
 		}
 	}	
@@ -26,8 +27,26 @@
 		list-style: none;
 		padding: 0;
 		margin: 25px 0;
+		box-sizing:border-box;
+		width: 100%;
+
+	
+	&--legend{
+		box-sizing:border-box;
+		border: 1px solid black;
+		padding: 15px;
+		margin: 0 0 15px 0;
+
+		.score{
+			border-bottom: none;
+		    margin: 0;
+		    padding: 0;
+		}
 	}
 
+	}
+
+	
 
 	.score{
 		display:flex;
@@ -51,10 +70,9 @@
 		}
 
 		&__chart{
-			// background-color: yellow;
 			flex: 1;
 			position: relative;
-
+			margin-right: $act-dot-width; // This is a pretty arbitrary amount, but we need some amount of extra space on the right b/c the max score is overflowing by half it's width. BY tying it to the dot width, it should generally scale with any change to that dimension.
 			&:before{
 				// This is the chart axis
 				content: "";
@@ -72,12 +90,16 @@
 		}
 	}
 
-	// These are the little indicators on the score chart
 	.act{
+		// These are the little indicators on the score chart
 		position: absolute;
 		top: 50%;
-		transform: translate(#{$act-dot-width / -2}, #{$act-dot-height / -2});
-	
+		box-sizing:border-box;
+
+		// We translate back by 50%, which is half the width. This centers the score on the x axis/
+		// We also translate up by 1/2 the dot height, so the dot (not the label) is centered on the line;
+		transform: translate(-50%, #{$act-dot-height / -2});
+
 	    // We'll use this to center the elements inside the act score display
 		display: flex;
 		justify-content: center;
@@ -102,14 +124,16 @@
 
 
 		&--school{
-			 // This is the score display for the actual school. Let's make it a little larger and give it the color
+			 // This is the score display for the actual school. 
+			 // Let's make it a little larger and give it the accent color.
+			 // ALso, let's float the score ABOVE the line
 
 			.act__dot{
 				background-color: $school-highlight-color;
 				border-color:$school-highlight-color;				
 			}
 
-			.act_score{
+			.act__score{
 			    transform: translate(0,-200%);
 			    font-weight: bold;
 			}
@@ -159,18 +183,12 @@
 		}
 	
 		.demo{
-			margin:0;
+			@include distribute_across_columns(4, 25px);
 			padding:0;
 			border-bottom: none;
 			text-align:center;
 			flex-wrap: wrap;
-			
-			max-width: 23%;
-	
-			&:last-child{
-				margin: 0;
-			}
-	
+				
 			dd,dt {
 				margin: 0 0 10px 0;
 				padding: 0;
