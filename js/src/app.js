@@ -33,15 +33,19 @@ window.addEventListener('DOMContentLoaded', function(e){
 			const ajax = new XMLHttpRequest();
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
+				// This is the response, parsed into JSON
+				const schoolsList = JSON.parse(ajax.responseText);
+				console.log(schoolsList, queryUrl);
+
 				// When we get a response, parse the reponses into this format:
 				// [{label:foo, value:bar}]
 				// Then feed it into the list, so awesomeplete uses the new schools as the options.
 
-				// var list = JSON.parse(ajax.responseText).map(function(i) { 
-				// 	return i; 
-				// });
-				// auto.list = list;
-				console.log(ajax.responseText);
+				if (schoolsList.length > 0){
+					auto.list = schoolsList.map(i => [i.autocomplete, "ID"]);
+				} else {
+					auto.list = "No matches";
+				}
 			}
 			ajax.send();
 
@@ -57,6 +61,35 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 		console.log('submit', this, searchBar.value);
 		// if (schoolID != "") lookup.displayScores(schoolID);
+const tempData = {    
+    name:"XXXX",
+    district: "XXXX",
+    specialEd: 0,
+    freeLunch: 0,
+    englishLearner: 0,
+    nonWhite: 0,
+    act: {
+    	overall: {
+            min: 850,
+            max: 1600,
+            median: 950,
+            school: 1500
+        },
+        math: {
+            min: 800,
+            max: 1400,
+            median: 1100,
+            school: 1350
+        },
+        ela: {
+            min: 700,
+            max: 1200,
+            median: 1000,
+            school: 800
+        }
+    }
+}
+		formatSchoolProfile(tempData);
 
 	});
 
@@ -68,6 +101,59 @@ window.addEventListener('DOMContentLoaded', function(e){
 })
 
 
+
+function formatSchoolProfile(data){
+	console.log(data);
+	
+	document.querySelector('.school__name').innerHTML = data.name;
+	document.querySelector('.school__district').innerHTML = data.district;
+	
+	document.querySelector('.demo--lunch dt').innerHTML = data.freeLunch + "%";
+	document.querySelector('.demo--ell dt').innerHTML = data.englishLearner + "%";
+	document.querySelector('.demo--non-white dt').innerHTML = data.nonWhite + "%";
+	document.querySelector('.demo--special-ed dt').innerHTML = data.specialEd + "%";
+	
+
+	let charts = "";
+
+	const tests = Object.keys(data.act);
+
+	tests.forEach(test => {
+		const 	testData = data['act'][test],
+				min = testData.min,
+				max = testData.max,
+				median = testData.median,
+				school = testData.school,
+				medianPlacement = testData.median / testData.max * 100,
+				schoolPlacement = testData.school / testData.max * 100;
+
+		charts += `
+			<li class='score'>
+				<span class='score__label'>Overall composite</span>
+				<div class='score__chart'>
+					<div class='act act--min' style='left: 0'>
+						<span class='act__dot'></span>
+						<span class='act__score'>${min}</span>
+					</div>
+					<div class='act act--med' style='left: ${medianPlacement}%'>
+						<span class='act__dot'></span>
+						<span class='act__score'>${median}</span>
+					</div>
+					<div class='act act--max' style='left: 100%'>
+						<span class='act__dot'></span>
+						<span class='act__score'>${max}</span>
+					</div>
+					<div class='act act--school' style='left: ${schoolPlacement}%'>
+						<span class='act__dot'></span>
+						<span class='act__score'>${school}</span>
+					</div>
+				</div>
+			</li>`;
+	})
+	document.querySelector('#school-scores').innerHTML = charts;
+	document.querySelector('.school').classList.add('school--active');
+
+}
 
 
 

@@ -14,19 +14,19 @@
 		<p class='school__district'>This is the district</p>
 		<h3 class='school__scores-label'>About the students</h3>
 		<div class='school__demographics'>
-			<dl class='demo'>
+			<dl class='demo demo--special-ed'>
 				<dt>XX%</dt>
 				<dd>Special-education students</dd>
 			</dl>
-			<dl class='demo'>
+			<dl class='demo demo--lunch'>
 				<dt>XX%</dt>
 				<dd>Qualify for free or reduced-price lunch</dd>
 			</dl>
-			<dl class='demo'>
+			<dl class='demo demo--ell'>
 				<dt>XX%</dt>
 				<dd>Are English language learners</dd>
 			</dl>
-			<dl class='demo'>
+			<dl class='demo demo--non-white'>
 				<dt>XX%</dt>
 				<dd>Are not white</dd>
 			</dl>
@@ -39,15 +39,15 @@
 				<div class='score__chart'>
 					<div class='act act--min' style='left: 0'>
 						<span class='act__dot'></span>
-						<span class='act__score'>Lowest</span>
+						<span class='act__score'>Ill. lowest</span>
 					</div>
 					<div class='act act--med' style='left: 50%'>
 						<span class='act__dot'></span>
-						<span class='act__score'>Median</span>
+						<span class='act__score'>Ill. median</span>
 					</div>
 					<div class='act act--max' style='left: 100%'>
 						<span class='act__dot'></span>
-						<span class='act__score'>Highest</span>
+						<span class='act__score'>Ill. highest</span>
 					</div>
 					<div class='act act--school' style='left: 63%'>
 						<span class='act__dot'></span>
@@ -56,8 +56,8 @@
 				</div>
 			</li>
 		</ul>
-		<ul class='school__scores'>
-			<li class='score'>
+		<ul id='school-scores' class='school__scores'>
+			{# <li class='score'>
 				<span class='score__label'>Overall composite</span>
 				<div class='score__chart'>
 					<div class='act act--min' style='left: 0'>
@@ -119,7 +119,7 @@
 						<span class='act__score'>1111</span>
 					</div>
 				</div>
-			</li>
+			</li> #}
 		</ul>
 	</div>
 </section>

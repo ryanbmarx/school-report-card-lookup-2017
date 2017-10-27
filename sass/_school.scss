@@ -1,4 +1,4 @@
-
+$score-margin-top: 5px;
 
 .trb_mainContent {
 
@@ -6,6 +6,11 @@
 		font: 18px/1.3em "Arial", "Helvetica", sans-serif;
 		text-align: center;
 		margin: 25px 0 0 0;
+		display:none;
+
+		&--active{
+			display:block;
+		}
 
 		&__name{
 			font-size: 2em;
@@ -58,7 +63,7 @@
 		width: calc(100% - #{$act-dot-width / 2}); // This will pull the whole score unit in a little bit so the act score dots don't overflow-x.
 
 		margin-bottom: 25px;
-		padding-bottom: 25px;
+		padding-bottom: #{25px + $score-margin-top};
 		border-bottom: 1px solid $trib-gray4;
 
 		// This corrects for the overflow of the larger display of the school result.
@@ -123,6 +128,7 @@
 			// This is the label inside the marker. We want it to float on top.
 			@include agate();
 			width: 100%; // This makes sure our flex items wrap, so they are stacked.
+			margin-top: $score-margin-top;
 		}
 
 
@@ -140,7 +146,7 @@
 		    }
 
 		    .act__score{
-		    	transform: translate(0,-200%);
+		    	transform: translate(0,-2.8em);
 		    	font-weight: bold;
 		    }
 		}
