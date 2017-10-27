@@ -14,8 +14,7 @@
     "type": "git",
     "url": "{{ repository_url }}"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Chicago Tribune News Applications",
   "license": "MIT",
   "devDependencies": {
@@ -34,5 +33,8 @@
   "browserify": {
     "debug": true
   },
-  "tribune": {}
+  "tribune": {},
+  "dependencies": {
+    "awesomplete": "^1.1.2"
+  }
 }
