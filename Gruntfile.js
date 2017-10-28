@@ -110,7 +110,29 @@ module.exports = function(grunt) {
     js: {
       files: ['js/src/**/*.js'],
       tasks: ['browserify:app']
+    },
+   svg: {
+      files: ['img/src/**/*.svg'],
+      tasks: ['svgstore']
     }
+  };
+
+
+  config.svgstore = {
+    options: {
+      cleanup:false,
+      cleanupdefs:false
+      // prefix : "icon-", // This will prefix each ID 
+      // svg: { // will add and overide the the default xmlns="http://www.w3.org/2000/svg" attribute to the resulting SVG 
+      //   viewBox : "0 0 100 100",
+      //   xmlns: "http://www.w3.org/2000/svg"
+      // }
+    },
+    min: {
+      // Target-specific file lists and/or options go here. 
+      src:["img/src/**/*.svg"],
+      dest:"img/sprite.svg"
+    },
   };
 
   grunt.initConfig(config);
@@ -119,12 +141,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('grunt-svgstore');
 
   var defaultTasks = [];
 
   defaultTasks.push('sass');
   defaultTasks.push('browserify');
   defaultTasks.push('postcss');
+  defaultTasks.push('svgstore');
 
   grunt.registerTask('default', defaultTasks);
 };
