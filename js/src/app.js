@@ -73,20 +73,20 @@ window.addEventListener('DOMContentLoaded', function(e){
 		    	overall: {
 		            min: 850,
 		            max: 1600,
-		            median: 950,
-		            school: 1500
+		            median: getRandomInt(850,1600),
+		            school: getRandomInt(850,1600)
 		        },
 		        math: {
 		            min: 800,
 		            max: 1400,
-		            median: 1100,
-		            school: 1350
+		            median: getRandomInt(800,1400),
+		            school: getRandomInt(800,1400)
 		        },
 		        ela: {
 		            min: 700,
 		            max: 1200,
-		            median: 1000,
-		            school: 800
+		            median: getRandomInt(700,1200),
+		            school: getRandomInt(700,1200)
 		        }
 		    }
 		}
@@ -172,3 +172,10 @@ function formatSchoolProfile(data){
 
 
 
+
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+}
