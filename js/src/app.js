@@ -104,22 +104,27 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 
 function formatSchoolProfile(data){
-	console.log(data);
+	// The data fetching mechanism is TBD. 
 	
+	// Fill out the school name/district
 	document.querySelector('.school__name').innerHTML = data.name;
 	document.querySelector('.school__district').innerHTML = data.district;
 	
+	// Fill out the demographic big numbers
 	document.querySelector('.demo--lunch dt').innerHTML = data.freeLunch + "%";
 	document.querySelector('.demo--ell dt').innerHTML = data.englishLearner + "%";
 	document.querySelector('.demo--non-white dt').innerHTML = data.nonWhite + "%";
 	document.querySelector('.demo--special-ed dt').innerHTML = data.specialEd + "%";
 	
 
-	let charts = "";
+	// Now, move on to the score charts
 
+	let charts = ""; // This string will hold the html as it's written
+
+	// This array of the keys will let us iterate over the tests
 	const tests = Object.keys(data.sat);
-
 	tests.forEach(test => {
+		// For each test, grab/calc the various stats needed
 		const 	testData = data['sat'][test],
 				min = testData.min,
 				max = testData.max,
@@ -128,6 +133,7 @@ function formatSchoolProfile(data){
 				medianPlacement = testData.median / testData.max * 100,
 				schoolPlacement = testData.school / testData.max * 100;
 
+		// Add the element to the holder string
 		charts += `
 			<li class='score'>
 				<span class='score__label'>${window.testLabels[test]}</span>
@@ -150,8 +156,12 @@ function formatSchoolProfile(data){
 					</div>
 				</div>
 			</li>`;
-	})
+	});
+
+	// Insert our parsed chart string into the profile
 	document.querySelector('#school-scores').innerHTML = charts;
+
+	// Display (unhide) the profile
 	document.querySelector('.school').classList.add('school--active');
 
 }
