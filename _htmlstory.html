@@ -1,12 +1,17 @@
 {% block content %}
 <div class='graphic-wrapper'>
+	<div style='display:none;visibility: invisible;'>{% include 'img/sprite.svg' %}</div>
 <section class='intro'>
 	{{ intro|markdown }} 
 </section>
 <section class='content'>
 	 <form id='school-search' class='school-search'>
 		 <input class='school-search__text' type='text' placeholder="Search for a school or district">
-		 <button class='school-search__btn' type='submit'>X</button>
+		 <button class='school-search__btn' type='submit'>
+			<svg class='icon icon--arrow' viewbox="0 0 25px 25px">
+			  <use xlink:href="#magnifying-glass"></use>
+			</svg>
+		 </button>
 	</form>
 
 	<div class='school'>
@@ -61,6 +66,7 @@
 <section class='credits'>
 	{{ sources|markdown }}
 	{{ credits|markdown }}
+	{{ credits_noun_project|markdown }}
 </section>
 </div>
 
