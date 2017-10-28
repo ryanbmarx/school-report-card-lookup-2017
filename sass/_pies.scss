@@ -1,19 +1,16 @@
 //http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/
 
-
-
-
-
 .pie {
-	width: $pie_dimension; 
-	height: $pie_dimension;
+	width: $pie_mobile_dimension; 
+	height: $pie_mobile_dimension;
 	border-radius: 50%;
 	background: $pie_bg_color;
 	background-image: linear-gradient(to right, transparent 50%, $pie_highlight_color 0);
 	overflow:hidden;
 	border: 1px solid $pie_border_color;
 	position:relative;
-    margin: 0 auto 15px auto;
+    
+    margin: 0 15px 0 0;
 	
 	small{
 		position: absolute;
@@ -72,5 +69,20 @@
 	.pie--#{$i}:before{
 		background-color: $pie_highlight_color;
 		transform: rotate(#{$i / 100}turn);		
+	}
+}
+
+@media all and (min-width: $tablet-min-width){
+	.pie {
+		width: $pie_tablet_dimension; 
+		height: $pie_tablet_dimension;
+	}
+}
+
+@media all and (min-width: $desktop-min-width){
+	.pie {
+		width: $pie_desktop_dimension; 
+		height: $pie_desktop_dimension;
+		margin: 0 auto 15px auto;
 	}
 }

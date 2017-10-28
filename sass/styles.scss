@@ -12,11 +12,13 @@ $school-highlight-color:$trib-blue2;
 $pie_highlight_color:$school-highlight-color;
 $pie_bg_color:#eee;
 $pie_border_color:#aaa;
-$pie_dimension: 55px;
+$pie_mobile_dimension: 35px;
+$pie_tablet_dimension: 45px;
+$pie_desktop_dimension: 55px;
 
 // score charts
-$sat-dot-width: 16px;
-$sat-dot-height: $sat-dot-width;
+$test-dot-width: 16px;
+$test-dot-height: $test-dot-width;
 
 $score-chart-axis-stroke: 4px;
 $score-chart-axis-stroke-color: $trib-gray3;

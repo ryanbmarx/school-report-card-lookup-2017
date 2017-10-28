@@ -40,21 +40,21 @@
 			<li class='score'>
 				<span class='score__label'>{{ sat_scores_legend }}</span>
 				<div class='score__chart'>
-					<div class='sat sat--min' style='left: 0'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>{{ sat_scores_min }}</span>
+					<div class='test test--min' style='left: 0'>
+						<span class='test__dot'></span>
+						<span class='test__score'>{{ test_scores_min }}</span>
 					</div>
-					<div class='sat sat--med' style='left: 50%'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>{{ sat_scores_median }}</span>
+					<div class='test test--med' style='left: 50%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>{{ test_scores_median }}</span>
 					</div>
-					<div class='sat sat--max' style='left: 100%'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>{{ sat_scores_max }}</span>
+					<div class='test test--max' style='left: 100%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>{{ test_scores_max }}</span>
 					</div>
-					<div class='sat sat--school' style='left: 63%'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>{{ sat_scores_school }}</span>
+					<div class='test test--school' style='left: 63%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>{{ test_scores_school }}</span>
 					</div>
 				</div>
 			</li>
@@ -65,7 +65,7 @@
 <section class='credits'>
 	{{ sources|markdown }}
 	{{ credits|markdown }}
-	{{ credits_noun_project|markdown }}
+	{% if credits_noun_project %}{{ credits_noun_project|markdown }}{% endif %}
 </section>
 </div>
 

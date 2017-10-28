@@ -59,7 +59,6 @@ window.addEventListener('DOMContentLoaded', function(e){
 		e.preventDefault();
 		const schoolID = searchBar.value;
 
-		console.log('submit', this, searchBar.value);
 		// if (schoolID != "") formatSchoolProfile(data);
 		
 		const tempData = {    
@@ -91,6 +90,28 @@ window.addEventListener('DOMContentLoaded', function(e){
 		    }
 		}
 		formatSchoolProfile(tempData);
+		
+
+		try{
+			// Let's track the number of times people call for a profile
+			const uniquePhrase = "School report card 2017 profile displayed";
+			s.linkTrackVars = "server,prop3,prop20,prop28,prop33,prop34,prop57,eVar3,eVar20,eVar21,eVar34,eVar35,eVar36,eVar37,eVar38,eVar39,eVar51";
+			s.linkTrackEvents = "";
+			s.prop57 = uniquePhrase;
+			s.tl(
+			   // Since we're not actually tracking a link click, use true instead of `this`.  This also supresses a delay
+			   true,
+			   // linkType, 'o' for custom link
+			   'o',
+			   // linkName
+				uniquePhrase,
+			   // variableOverrides
+			   null
+			);
+		}
+		catch (ReferenceError){
+			console.warn('You must be running this locally. *OR* Omniture is not loaded. Skipping analytics.');
+		}
 
 	});
 
@@ -102,8 +123,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 })
 
 function addPie(num){
-	console.log(`<div class='pie pie--${Math.round(num)}></div>${Math.round(num)}%`)
-	return `<div class='pie pie--${Math.round(num)}'></div>${Math.round(num)}%`;
+	return `<div class='pie pie--${Math.round(num)}'></div><span>${Math.round(num)}%</span>`;
 }
 
 function formatSchoolProfile(data){
@@ -141,21 +161,21 @@ function formatSchoolProfile(data){
 			<li class='score'>
 				<span class='score__label'>${window.testLabels[test]}</span>
 				<div class='score__chart'>
-					<div class='sat sat--min' style='left: 0'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>${min}</span>
+					<div class='test test--min' style='left: 0'>
+						<span class='test__dot'></span>
+						<span class='test__score'>${min}</span>
 					</div>
-					<div class='sat sat--med' style='left: ${medianPlacement}%'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>${median}</span>
+					<div class='test test--med' style='left: ${medianPlacement}%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>${median}</span>
 					</div>
-					<div class='sat sat--max' style='left: 100%'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>${max}</span>
+					<div class='test test--max' style='left: 100%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>${max}</span>
 					</div>
-					<div class='sat sat--school' style='left: ${schoolPlacement}%'>
-						<span class='sat__dot'></span>
-						<span class='sat__score'>${school}</span>
+					<div class='test test--school' style='left: ${schoolPlacement}%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>${school}</span>
 					</div>
 				</div>
 			</li>`;
