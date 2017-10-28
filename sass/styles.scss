@@ -8,11 +8,19 @@ $desktop-min-width:850px;
 
 $school-highlight-color:$trib-blue2;
 
+// Pie charts
+$pie_highlight_color:$school-highlight-color;
+$pie_bg_color:#eee;
+$pie_border_color:#aaa;
+$pie_dimension: 55px;
+
+// score charts
 $sat-dot-width: 16px;
 $sat-dot-height: $sat-dot-width;
 
 $score-chart-axis-stroke: 4px;
 $score-chart-axis-stroke-color: $trib-gray3;
+$score-margin-top: 5px;
 
 // Required for everything, too, but can be broken down into smaller explicit imports if desired. 
 @import 'base-mixins';
@@ -57,6 +65,7 @@ $score-chart-axis-stroke-color: $trib-gray3;
 
 // ---- IMPORT PROJECT STYLES FROM PARTIAL FILES HERE ---------------------------------------------
 @import 'form';
+@import 'pies';
 @import 'school';
 @import "../node_modules/awesomplete/awesomplete";
 

@@ -63,12 +63,12 @@ window.addEventListener('DOMContentLoaded', function(e){
 		// if (schoolID != "") formatSchoolProfile(data);
 		
 		const tempData = {    
-		    name:"XXXX",
-		    district: "XXXX",
-		    specialEd: 0,
-		    freeLunch: 0,
-		    englishLearner: 0,
-		    nonWhite: 0,
+		    name:"This is the name of the school" + getRandomInt(850,1600),
+		    district: "This is the district" + getRandomInt(850,1600),
+		    specialEd: getRandomInt(0,100),
+		    freeLunch: getRandomInt(0,100),
+		    englishLearner: getRandomInt(0,100),
+		    nonWhite: getRandomInt(0,100),
 		    sat: {
 		    	overall: {
 		            min: 850,
@@ -101,7 +101,10 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 })
 
-
+function addPie(num){
+	console.log(`<div class='pie pie--${Math.round(num)}></div>${Math.round(num)}%`)
+	return `<div class='pie pie--${Math.round(num)}'></div>${Math.round(num)}%`;
+}
 
 function formatSchoolProfile(data){
 	// The data fetching mechanism is TBD. 
@@ -111,10 +114,10 @@ function formatSchoolProfile(data){
 	document.querySelector('.school__district').innerHTML = data.district;
 	
 	// Fill out the demographic big numbers
-	document.querySelector('.demo--lunch dt').innerHTML = data.freeLunch + "%";
-	document.querySelector('.demo--ell dt').innerHTML = data.englishLearner + "%";
-	document.querySelector('.demo--non-white dt').innerHTML = data.nonWhite + "%";
-	document.querySelector('.demo--special-ed dt').innerHTML = data.specialEd + "%";
+	document.querySelector('.demo--lunch dt').innerHTML = addPie(data.freeLunch);
+	document.querySelector('.demo--ell dt').innerHTML = addPie(data.englishLearner);
+	document.querySelector('.demo--non-white dt').innerHTML = addPie(data.nonWhite);
+	document.querySelector('.demo--special-ed dt').innerHTML = addPie(data.specialEd);
 	
 
 	// Now, move on to the score charts
@@ -165,13 +168,6 @@ function formatSchoolProfile(data){
 	document.querySelector('.school').classList.add('school--active');
 
 }
-
-
-
-
-
-
-
 
 
 function getRandomInt(min, max) {

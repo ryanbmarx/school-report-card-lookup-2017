@@ -1,0 +1,76 @@
+//http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/
+
+
+
+
+
+.pie {
+	width: $pie_dimension; 
+	height: $pie_dimension;
+	border-radius: 50%;
+	background: $pie_bg_color;
+	background-image: linear-gradient(to right, transparent 50%, $pie_highlight_color 0);
+	overflow:hidden;
+	border: 1px solid $pie_border_color;
+	position:relative;
+    margin: 0 auto 10px auto;
+	
+	small{
+		position: absolute;
+		font-size: 14px;
+		font-weight: bold;	
+		left: 11px;
+		top: 12px;
+		text-align: center;
+		border-radius: 50%;
+		background-color: white;
+		height: 50px;
+		width: 50px;
+		border: 1px solid #aaa;
+		line-height: 3.7em;
+	}
+
+	&::before {
+		content: '';
+		display: block;
+		height: 100%;
+		border-radius: 0 100% 100% 0 / 50%;
+		background-color: inherit;
+		transform-origin: left;
+
+	    position: absolute;
+	    top: 0;
+	    left: 50%;
+	    width:100%
+	}
+
+	&.pie--100 {
+		// background-color:$pie_highlight_color;
+		background-image:none;
+		&::before{
+			display:none;
+		}
+	}
+	&.pie--0 {
+		background-color:$pie_bg_color;
+		background-image:none;
+		&::before{
+			display:none;
+		}
+	}
+}
+
+
+@for $i from 1 through 50{
+	.pie--#{$i}:before{
+		transform: rotate(#{$i / 100}turn);		
+	}
+}
+
+@for $i from 51 through 99{
+	// Swap the background color to give the appearane of 50%+ filled
+	.pie--#{$i}:before{
+		background-color: $pie_highlight_color;
+		transform: rotate(#{$i / 100}turn);		
+	}
+}
