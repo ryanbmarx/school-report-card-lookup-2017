@@ -42,25 +42,27 @@
 				<div class='score__chart'>
 					<div class='test test--min' style='left: 0'>
 						<span class='test__dot'></span>
-						<span class='test__score'>{{ test_scores_min }}</span>
+						<span class='test__score'>{{ sat_scores_min }}</span>
 					</div>
 					<div class='test test--med' style='left: 50%'>
 						<span class='test__dot'></span>
-						<span class='test__score'>{{ test_scores_median }}</span>
+						<span class='test__score'>{{ sat_scores_median }}</span>
 					</div>
 					<div class='test test--max' style='left: 100%'>
 						<span class='test__dot'></span>
-						<span class='test__score'>{{ test_scores_max }}</span>
+						<span class='test__score'>{{ sat_scores_max }}</span>
 					</div>
 					<div class='test test--school' style='left: 63%'>
 						<span class='test__dot'></span>
-						<span class='test__score'>{{ test_scores_school }}</span>
+						<span class='test__score'>{{ sat_scores_school }}</span>
 					</div>
 				</div>
 			</li>
 		</ul>
 		<ul id='school-scores' class='school__scores school__scores--sat'></ul>
-		<h3 class='school__scores-label'>PARCC scores</h3>
+		<h3 class='school__scores-label'>
+			PARCC scores <span>Percentage of students who ...</span>
+		</h3>
 		<dl class='school__scores--parcc-legend'>
 			<dt><span class='box box--dnm'></span></dt><dd>Did not meet expectations</dd>
 			<dt><span class='box box--pm'></span></dt><dd>Partially metexpectations</dd>
