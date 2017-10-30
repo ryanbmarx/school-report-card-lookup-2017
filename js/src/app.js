@@ -300,7 +300,7 @@ function addPie(num){
 
 function formatSchoolProfile(data){
 	// The data fetching mechanism is TBD. 
-	console.log(data);
+	// console.log(data);
 
 
 	// Fill out the school name/district
@@ -360,12 +360,12 @@ function formatSchoolProfile(data){
 
 	
 	} else{
-		console.log('No SAT scores');
+		// console.log('No SAT scores');
 		satString = "<p class='note'>No SAT scores</p>"
 	}
 
 	if (data.parcc){
-		console.log('PARCC scores');
+		// console.log('PARCC scores');
 		// parccString = "<h3>Parcc scores</h3>";
 		const 	testTypes = ['overall', 'ela', 'math'],
 				parccLevels = Object.keys(data.parcc);
@@ -403,26 +403,8 @@ function formatSchoolProfile(data){
 				}
 			}
 		})
-
-		/*
-			output subheader
-			output ul of overall/ela/math
-			<ul class='school__scores school__scores--parcc'>
-				<li class='score'>
-					<span class='score__label'>Overall</span>
-					<div class='score__chart score__chart--parcc'>
-						<div class='parcc parcc--dnm' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--pm' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--a' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--m' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--e' style='width:20%'><span>20%</span></div>
-					</div>
-				</li>
-			</ul>
-	</div>
-		*/
 	} else{
-		console.log('No PARCC scores');
+		// console.log('No PARCC scores');
 		parccString = "<p class='note'>No PARCC scores</p>";
 	}
 
