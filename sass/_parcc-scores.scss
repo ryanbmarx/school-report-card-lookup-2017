@@ -1,13 +1,39 @@
-$parcc-color-dnm: $trib-red2;
-$parcc-color-pm: $trib_orange;
-$parcc-color-a: $trib_yellow1;
-$parcc-color-m: $trib-blue3;
-$parcc-color-e: $trib-blue2;
+.school__scores--parcc-legend{
+	@include trib-legend();
+    margin: 5px auto 25px auto;
+    max-width: 210px;
+    text-align: left;
 
+	.box{
+		@include trib-legend__box(0);
 
-$parcc-bar-height: 30px;
+		&--dnm{
+			background: $parcc-color-dnm;
+		}
 
-.trb_mainContent .school__scores--parcc {
+		&--pm{
+			background: $parcc-color-pm;
+		}
+
+		&--a{
+			background: $parcc-color-a;
+		}
+
+		&--m{
+			background: $parcc-color-m;
+		}
+
+		&--e{
+			background: $parcc-color-e;
+		}
+	}	
+
+	.divider{
+		margin: 10px 0 5px 0;
+	}
+}
+
+.trb_mainContent .school__scores--parcc{
 	@include clearfix();
 
 	.parcc{
@@ -25,7 +51,13 @@ $parcc-bar-height: 30px;
 
 		&:last-child{
 			border-right:none;
+			border-radius: 0 $parcc-bar-border-radius $parcc-bar-border-radius 0;
 		}
+
+		&:first-child{
+			border-radius: $parcc-bar-border-radius 0 0 $parcc-bar-border-radius;
+		}
+
 		
 		span{
 			@include agate();
