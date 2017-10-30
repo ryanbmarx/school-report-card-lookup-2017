@@ -1,5 +1,7 @@
 .trb_mainContent .school__scores--sat {
 
+		
+
 	.score__chart{ 
 		margin-right: $test-dot-width; // This is a pretty arbitrary amount, but we need some amount of extra space on the right b/c the max score is overflowing by half it's width. BY tying it to the dot width, it should generally scale with any change to that dimension.
 		&:before{

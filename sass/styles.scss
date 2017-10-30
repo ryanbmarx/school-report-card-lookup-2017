@@ -16,13 +16,23 @@ $pie_mobile_dimension: 35px;
 $pie_tablet_dimension: 45px;
 $pie_desktop_dimension: 55px;
 
-// score charts
+// SAT score charts
 $test-dot-width: 16px;
 $test-dot-height: $test-dot-width;
 
 $score-chart-axis-stroke: 4px;
 $score-chart-axis-stroke-color: $trib-gray3;
 $score-margin-top: 5px;
+
+// PARCC score charts
+$parcc-color-dnm: $trib-red2;
+$parcc-color-pm: $trib_orange;
+$parcc-color-a: $trib_yellow1;
+$parcc-color-m: $trib-green3;
+$parcc-color-e: $trib-green2;
+
+$parcc-bar-height: 30px;
+$parcc-bar-border-radius: 5px;
 
 // Required for everything, too, but can be broken down into smaller explicit imports if desired. 
 @import 'base-mixins';
@@ -90,6 +100,18 @@ $score-margin-top: 5px;
 	}
 }
 
+.trb_mainContent .note{
+	// Used, for example, in places where there are no scores
+	@include sans-serif();
+	font-style: italic;
+	color: $trib-gray2;
+	background: $trib-gray4;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 5px;
+	box-sizing:border-box;
+
+}
 
 @media all and (min-width: $tablet-min-width){
 	// ONLY CHANGES FOR TABLETS + DESKTOPS	

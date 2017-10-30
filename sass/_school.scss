@@ -36,6 +36,16 @@
 		box-sizing:border-box;
 		width: 100%;
 
+		
+		&-label{
+			// i.e. "SAT Scores"
+			@include label6();
+		}
+
+		&-sublabel{
+			// i.e. "Eight Grade" in PARCC scores
+			@include label7();
+		}
 
 		&--sat-legend{
 			// Some minor tweaks to the score presentation for the legend
@@ -153,74 +163,11 @@
 		    }
 		}
 	}
-
-
-	// .demo{
-	// 	margin: 0 0 15px 0 ;
-	// 	padding: 0 0 15px 0;
-	// 	border-bottom: 1px solid $trib-gray4;
-
-	// 	display: flex;
-	// 	justify-content: space-between;
-	// 	align-items: stretch;
-	// 	flex-wrap: nowrap;
-
-	// 	text-align: left;
-		
-	// 	&:last-child{
-	// 		padding: 0;
-	// 		margin: 0 0 30px 0;
-	// 		border-bottom: none;
-
-	// 	}
-
-	// 	dd{
-	// 		flex:1;
-			
-	// 		// So everything is nicely aligned vertically. 
-	// 		display: flex;
-	// 		justify-content: flex-start;
-	// 		align-items: center;
-	// 	}
-
-	// 	dt{
-	// 		font-size: 1.5em;
-	// 		font-weight: bold;
-	
-
-	// 		// So the pies are side-saddle
-	// 		display: flex;
-	// 		justify-content: space-between;
-	// 		align-items: center;
-	// 	}
-	// }
 }
 
 
-@media all and (min-width: $tablet-min-width){}
+@media all and (min-width: $tablet-min-width){
+
+}
 @media all and (min-width: $desktop-min-width){
-	// .trb_mainContent{
-	// 	.school__demographics{
-	// 		display: flex;
-	// 		justify-content: space-between;
-	// 		align-items: flex-start;
-	// 		flex-wrap: nowrap;
-	// 	}
-
-	// 	.demo{
-	// 		@include distribute_across_columns(4, 25px);
-	// 		padding:0;
-	// 		border-bottom: none;
-	// 		text-align:center;
-	// 		flex-wrap: wrap;
-
-	// 		dd,dt {
-	// 			display: block;
-	// 			margin: 0 0 10px 0;
-	// 			padding: 0;
-	// 			width: 100%; 
-	// 		}
-
-	// 	}
-	// }
 }
