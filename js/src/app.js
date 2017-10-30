@@ -36,76 +36,76 @@ import 'awesomplete';
 		    parcc: { // If there are no PARCC scores, then set to false
 		        school:{ // the school composite scores
 		            overall:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
+		                DNM: 4,
+		                PM: 16,
+		                A: 26,
+		                M: 30,
+		                E: 24
 		            }, 
 		            math:{
-		                DNM: 20,
-		                PM: 20,
+          DNM: 25,
+		                PM: 5,
 		                A: 20,
 		                M: 20,
-		                E: 20
+		                E: 30
 		            }, 
 		            ela:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
+          DNM: 25,
+		                PM: 5,
+		                A: 10,
 		                M: 20,
-		                E: 20
+		                E: 40
 		            }
 		        },
 		        third:{ // or false
-		            overall:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
+                     math:{
+				          DNM: 25,
+		                PM: 5,
+		                A: 10,
 		                M: 20,
-		                E: 20
-		            }, 
-		            math:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
+		                E: 40
 		            }, 
 		            ela:{
-		                DNM: 20,
-		                PM: 20,
+		                DNM: 35,
+		                PM: 10,
 		                A: 20,
-		                M: 20,
-		                E: 20
+		                M: 10,
+		                E: 25
+		            }, 
+		            overall:{
+		                DNM: 5,
+		                PM: 20,
+		                A: 5,
+		                M: 60,
+		                E: 10
 		            }
 		        },
 		        fourth:{ // or false
 		            overall:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
+				          DNM: 25,
+		                PM: 5,
+		                A: 10,
 		                M: 20,
-		                E: 20
+		                E: 40
 		            }, 
 		            math:{
-		                DNM: 20,
-		                PM: 20,
+		                DNM: 35,
+		                PM: 10,
 		                A: 20,
-		                M: 20,
-		                E: 20
+		                M: 10,
+		                E: 25
 		            }, 
 		            ela:{
-		                DNM: 20,
+		                DNM: 5,
 		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
+		                A: 5,
+		                M: 60,
+		                E: 10
 		            }
 		        },
 		        fifth:{ // or false
 		            overall:{
-          DNM: 25,
+				          DNM: 25,
 		                PM: 5,
 		                A: 10,
 		                M: 20,
@@ -259,7 +259,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 		// if (schoolID != "") formatSchoolProfile(data);
 		
-		window.tempData.parcc.seventh = false;
+		window.tempData.parcc.fourth = false;
 		window.tempData.parcc.eighth = false;
 		formatSchoolProfile(window.tempData);
 		
@@ -372,7 +372,11 @@ function formatSchoolProfile(data){
 		
 		parccLevels.forEach(level => {
 			if (level){
-				parccString += `<h4 class='school_scores-sublabel'>${level}</h4>`;	
+				// Format the level string (i.e. "third" => "Third grade");
+				let levelString = level == "school" ? "Overall" : `${level} grade`;
+
+				// Load the sub label into the string 
+				parccString += `<h4 class='school__scores-sublabel'>${levelString}</h4>`;	
 
 				if (data['parcc'][level]){
 					// If there are scores for this grade level, then display them
@@ -380,10 +384,9 @@ function formatSchoolProfile(data){
 	
 					testTypes.forEach(type => {
 						const tempScores = data['parcc'][level][type];
-						console.log(tempScores);
 							parccString += `
 								<li class='score'>
-									<span class='score__label'>${type}</span>
+									<span class='score__label'>${window.testLabels[type]}</span>
 									<div class='score__chart score__chart--parcc'>
 										<div class='parcc parcc--dnm' style='width:${tempScores.DNM}%'><span>${tempScores.DNM}%</span></div>
 										<div class='parcc parcc--pm' style='width:${tempScores.PM}%'><span>${tempScores.PM}%</span></div>
