@@ -1,3 +1,12 @@
+{% macro breaker() %}
+	<div class='breaker'>
+		<div class='breaker__rule'></div>
+			<svg class='breaker__icon' viewbox="0 0 25 25">
+			  <use xlink:href="#apple"></use>
+			</svg>
+	</div>
+{% endmacro %}
+
 {% block content %}
 <div class='graphic-wrapper'>
 	<div style='display:none;visibility: invisible;'>{% include 'img/sprite.svg' %}</div>
@@ -35,6 +44,7 @@
 				<dd>{{ demo_label_nonwhite }}</dd>
 			</dl>
 		</div>
+		{{ breaker() }}
 		<h3 class='school__scores-label'>{{ sat_scores }}</h3>
 		<ul class='school__scores school__scores--sat-legend'>
 			<li class='score'>
@@ -60,6 +70,7 @@
 			</li>
 		</ul>
 		<ul id='school-scores' class='school__scores school__scores--sat'></ul>
+		{{ breaker() }}
 		<h3 class='school__scores-label'>
 			PARCC scores <span>Percentage of students who ...</span>
 		</h3>

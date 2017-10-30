@@ -40,6 +40,9 @@
 		&-label{
 			// i.e. "SAT Scores"
 			@include label6();
+			// margin-top: 35px;
+			// padding-top:35px;
+			// border-top: 1px solid $trib-gray2;
 
 			span{
 				@include sans-serif();
