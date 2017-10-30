@@ -71,40 +71,16 @@
 		</ul>
 		<ul id='school-scores' class='school__scores school__scores--sat'></ul>
 		{{ breaker() }}
-		<h3 class='school__scores-label'>
-			PARCC scores <span>Percentage of students who ...</span>
-		</h3>
+		<h3 class='school__scores-label'>{{ parcc_label|process_text }}</h3>
 		<dl class='school__scores--parcc-legend'>
-			<dt><span class='box box--dnm'></span></dt><dd>Did not meet expectations</dd>
-			<dt><span class='box box--pm'></span></dt><dd>Partially metexpectations</dd>
-			<dt><span class='box box--a'></span></dt><dd>Approached expectation</dd>
-			<dt class='divider'></dt><dd class='divider'><strong>Ready for advancement:</strong></dd>
-			<dt><span class='box box--m'></span></dt><dd><strong>Met expectations</strong></dd>
-			<dt><span class='box box--e'></span></dt><dd><strong>Exceeded expectations</strong></dd>
+			<dt><span class='box box--dnm'></span></dt><dd>{{ parcc_legend_dnm|process_text }}</dd>
+			<dt><span class='box box--pm'></span></dt><dd>{{ parcc_legend_pm|process_text }}</dd>
+			<dt><span class='box box--a'></span></dt><dd>{{ parcc_legend_a|process_text }}</dd>
+			<dt class='divider'></dt><dd class='divider'><strong>{{ parcc_legend_ready|process_text }}</strong></dd>
+			<dt><span class='box box--m'></span></dt><dd><strong>{{ parcc_legend_m|process_text }}</strong></dd>
+			<dt><span class='box box--e'></span></dt><dd><strong>{{ parcc_legend_e|process_text }}</strong></dd>
 		</dl>
-
-		
-			{# 
-				DNM: Did Not Meet
-				PM: Partially Met
-				A: Approached
-				M: Met
-				E: Exceeded 
-			#}
 		<div id='parcc-scores'></div>
-{# 
-			<ul class='school__scores school__scores--parcc'>
-				<li class='score'>
-					<span class='score__label'>Overall</span>
-					<div class='score__chart score__chart--parcc'>
-						<div class='parcc parcc--dnm' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--pm' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--a' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--m' style='width:20%'><span>20%</span></div>
-						<div class='parcc parcc--e' style='width:20%'><span>20%</span></div>
-					</div>
-				</li>
-			</ul> #}
 	</div>
 </section>
 <section class='credits'>
@@ -131,6 +107,7 @@
 		math: "{{ sat_scores_math }}",
 		overall: "{{ sat_scores_overall }}"
 	};
+	window.noScores = "{{ no_scores }}";
 (function(document) {
   var CSS = [
     "//{{ ROOT_URL }}/css/styles.css"

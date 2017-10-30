@@ -361,7 +361,7 @@ function formatSchoolProfile(data){
 	
 	} else{
 		// console.log('No SAT scores');
-		satString = "<p class='note'>No SAT scores</p>"
+		satString = `<p class='note'>${window.noScores}</p>`;
 	}
 
 	if (data.parcc){
@@ -399,13 +399,13 @@ function formatSchoolProfile(data){
 					parccString += `</ul>`;	
 				} else {
 					// If there are no scores for this grade level, then don't display them.
-					parccString += "<p class='note'>No test scores</p>"
+					parccString += `<p class='note'>${window.noScores}</p>`;
 				}
 			}
 		})
 	} else{
 		// console.log('No PARCC scores');
-		parccString = "<p class='note'>No PARCC scores</p>";
+		parccString = `<p class='note'>${window.noScores}</p>`;
 	}
 
 	// Insert our parsed SAT chart string into the profile
