@@ -36,7 +36,7 @@
 			</dl>
 		</div>
 		<h3 class='school__scores-label'>{{ sat_scores }}</h3>
-		<ul class='school__scores school__scores--legend'>
+		<ul class='school__scores school__scores--sat-legend'>
 			<li class='score'>
 				<span class='score__label'>{{ sat_scores_legend }}</span>
 				<div class='score__chart'>
@@ -59,7 +59,39 @@
 				</div>
 			</li>
 		</ul>
-		<ul id='school-scores' class='school__scores'></ul>
+		<ul id='school-scores' class='school__scores school__scores--sat'></ul>
+		<h3 class='school__scores-label'>PARCC scores</h3>
+		<dl class='school__scores--parcc-legend'>
+			<dt><span class='box box--dnm'></span></dt><dd>Did not meet expectations</dd>
+			<dt><span class='box box--pm'></span></dt><dd>Partially metexpectations</dd>
+			<dt><span class='box box--a'></span></dt><dd>Approached expectation</dd>
+			<dt class='divider'></dt><dd class='divider'><strong>Ready for advancement:</strong></dd>
+			<dt><span class='box box--m'></span></dt><dd><strong>Met expectations</strong></dd>
+			<dt><span class='box box--e'></span></dt><dd><strong>Exceeded expectations</strong></dd>
+		</dl>
+
+		
+			{# 
+				DNM: Did Not Meet
+				PM: Partially Met
+				A: Approached
+				M: Met
+				E: Exceeded 
+			#}
+		<div id='parcc-scores'></div>
+{# 
+			<ul class='school__scores school__scores--parcc'>
+				<li class='score'>
+					<span class='score__label'>Overall</span>
+					<div class='score__chart score__chart--parcc'>
+						<div class='parcc parcc--dnm' style='width:20%'><span>20%</span></div>
+						<div class='parcc parcc--pm' style='width:20%'><span>20%</span></div>
+						<div class='parcc parcc--a' style='width:20%'><span>20%</span></div>
+						<div class='parcc parcc--m' style='width:20%'><span>20%</span></div>
+						<div class='parcc parcc--e' style='width:20%'><span>20%</span></div>
+					</div>
+				</li>
+			</ul> #}
 	</div>
 </section>
 <section class='credits'>
