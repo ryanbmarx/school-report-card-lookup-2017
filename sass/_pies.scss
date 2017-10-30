@@ -68,7 +68,7 @@
 	// Swap the background color to give the appearane of 50%+ filled
 	.pie--#{$i}:before{
 		background-color: $pie_highlight_color;
-		transform: rotate(#{$i / 100}turn);		
+		transform: rotate(#{($i - 50) / 100}turn);		
 	}
 }
 
