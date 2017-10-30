@@ -66,9 +66,19 @@
 		
 		span{
 			@include agate();
-			transform: translate(0, -2.1em);
+			// transform: translate(0, -2.1em);
 		}
 		
+
+		// This will alternate the location of the labels, so those that would 
+		// otherwise be overlapping will not.
+		&:nth-child(odd) span{
+			transform: translate(0, -2.1em);
+		}	
+		&:nth-child(even) span{
+			transform: translate(0, 2.1em);
+		}
+
 
 		// Set color for different levels of achievement
 		&--dnm{
@@ -101,9 +111,15 @@
 		}
 
 	}
+}
 
-
-
-
-
+@media all and (min-width: $desktop-min-width){
+	.trb_mainContent .school__scores--parcc .parcc{
+		// Undo the alternation of labels. We should have enough room by now.
+		&:nth-child(odd), &:nth-child(even){
+			span{
+				transform: translate(0, -2.1em);
+			}	
+		}
+	}
 }
