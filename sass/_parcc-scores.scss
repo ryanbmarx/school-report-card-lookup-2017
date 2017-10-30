@@ -36,6 +36,11 @@
 .trb_mainContent .school__scores--parcc{
 	@include clearfix();
 
+	.score{
+		// This accounts for the labeling translated to the top of the line;
+	    padding-top: 20px;
+	}
+
 	.parcc{
 		// individual scores
 		background: red;

@@ -52,6 +52,7 @@
 			// i.e. "Eight Grade" in PARCC scores
 			@include label7();
 		    text-transform: capitalize;
+		    margin-top: 50px;
 		}
 
 		&--sat-legend{
@@ -86,6 +87,18 @@
 		// This corrects for the overflow of the larger display of the school result.
 		padding-top: $test-dot-height / 2;
 
+
+		&:last-child{
+			// We like even spacing. It makes things look clean and professional.
+			// To that end, let's pull all bottom spacing and rules from the last item
+			// in a scores list. That's decoration that is "internal" to the scores list.
+			// Since it's the end of that list, that space should more properly go on the 
+			// bottom of parent <ul>.
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+
 		&__label{
 			@include sans-serif();
 			font-weight: bold;
@@ -97,21 +110,6 @@
 		&__chart{
 			flex: 1;
 			position: relative;
-			// margin-right: $test-dot-width; // This is a pretty arbitrary amount, but we need some amount of extra space on the right b/c the max score is overflowing by half it's width. BY tying it to the dot width, it should generally scale with any change to that dimension.
-			// &:before{
-			// 	// This is the chart axis
-			// 	content: "";
-			// 	display: block;
-
-			// 	position: absolute;
-			// 	top: 50%;
-			// 	left: 0;
-			// 	width: 100%;
-			// 	height: 0;
-				
-			// 	border-top: $score-chart-axis-stroke solid $score-chart-axis-stroke-color;
-			// 	margin-top: #{$score-chart-axis-stroke / -2};
-			// }
 		}
 	}
 
