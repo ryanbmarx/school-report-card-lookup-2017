@@ -1,0 +1,20 @@
+.trb_mainContent .school__scores--sat {
+
+	.score__chart{ 
+		margin-right: $test-dot-width; // This is a pretty arbitrary amount, but we need some amount of extra space on the right b/c the max score is overflowing by half it's width. BY tying it to the dot width, it should generally scale with any change to that dimension.
+		&:before{
+			// This is the chart axis
+			content: "";
+			display: block;
+
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			height: 0;
+			
+			border-top: $score-chart-axis-stroke solid $score-chart-axis-stroke-color;
+			margin-top: #{$score-chart-axis-stroke / -2};
+		}
+	}
+}

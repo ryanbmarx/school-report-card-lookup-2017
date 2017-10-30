@@ -1,0 +1,72 @@
+$parcc-color-dnm: $trib-red2;
+$parcc-color-pm: $trib_orange;
+$parcc-color-a: $trib_yellow1;
+$parcc-color-m: $trib-blue3;
+$parcc-color-e: $trib-blue2;
+
+
+$parcc-bar-height: 30px;
+
+.trb_mainContent .school__scores--parcc {
+	@include clearfix();
+
+	.parcc{
+		// individual scores
+		background: red;
+		float: left;
+		height: $parcc-bar-height;
+
+		display:flex;
+		align-items: center;
+		justify-content: center;
+
+		box-sizing:border-box;
+		border-right: 1px solid white;
+
+		&:last-child{
+			border-right:none;
+		}
+		
+		span{
+			@include agate();
+			transform: translate(0, -2.1em);
+		}
+		
+
+		// Set color for different levels of achievement
+		&--dnm{
+			background: $parcc-color-dnm;
+		}
+
+		&--pm{
+			background: $parcc-color-pm;
+		}
+
+		&--a{
+			background: $parcc-color-a;
+			border-right: 3px solid white;
+		}
+
+		&--m{
+			background: $parcc-color-m;
+			border-left: 3px solid white;
+			span{
+				font-weight: bold;
+			}
+		}
+
+		&--e{
+			background: $parcc-color-e;
+						span{
+				font-weight: bold;
+			}
+
+		}
+
+	}
+
+
+
+
+
+}

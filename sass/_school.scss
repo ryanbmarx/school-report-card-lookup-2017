@@ -28,7 +28,7 @@
 
 
 
-	.school__scores{
+	.school__scores {
 		// This is the <ul> containing all the test scores
 		list-style: none;
 		padding: 0;
@@ -37,7 +37,7 @@
 		width: 100%;
 
 
-		&--legend{
+		&--sat-legend{
 			// Some minor tweaks to the score presentation for the legend
 			box-sizing:border-box;
 			border: 1px solid black;
@@ -80,21 +80,21 @@
 		&__chart{
 			flex: 1;
 			position: relative;
-			margin-right: $test-dot-width; // This is a pretty arbitrary amount, but we need some amount of extra space on the right b/c the max score is overflowing by half it's width. BY tying it to the dot width, it should generally scale with any change to that dimension.
-			&:before{
-				// This is the chart axis
-				content: "";
-				display: block;
+			// margin-right: $test-dot-width; // This is a pretty arbitrary amount, but we need some amount of extra space on the right b/c the max score is overflowing by half it's width. BY tying it to the dot width, it should generally scale with any change to that dimension.
+			// &:before{
+			// 	// This is the chart axis
+			// 	content: "";
+			// 	display: block;
 
-				position: absolute;
-				top: 50%;
-				left: 0;
-				width: 100%;
-				height: 0;
+			// 	position: absolute;
+			// 	top: 50%;
+			// 	left: 0;
+			// 	width: 100%;
+			// 	height: 0;
 				
-				border-top: $score-chart-axis-stroke solid $score-chart-axis-stroke-color;
-				margin-top: #{$score-chart-axis-stroke / -2};
-			}
+			// 	border-top: $score-chart-axis-stroke solid $score-chart-axis-stroke-color;
+			// 	margin-top: #{$score-chart-axis-stroke / -2};
+			// }
 		}
 	}
 
@@ -155,72 +155,72 @@
 	}
 
 
-	.demo{
-		margin: 0 0 15px 0 ;
-		padding: 0 0 15px 0;
-		border-bottom: 1px solid $trib-gray4;
+	// .demo{
+	// 	margin: 0 0 15px 0 ;
+	// 	padding: 0 0 15px 0;
+	// 	border-bottom: 1px solid $trib-gray4;
 
-		display: flex;
-		justify-content: space-between;
-		align-items: stretch;
-		flex-wrap: nowrap;
+	// 	display: flex;
+	// 	justify-content: space-between;
+	// 	align-items: stretch;
+	// 	flex-wrap: nowrap;
 
-		text-align: left;
+	// 	text-align: left;
 		
-		&:last-child{
-			padding: 0;
-			margin: 0 0 30px 0;
-			border-bottom: none;
+	// 	&:last-child{
+	// 		padding: 0;
+	// 		margin: 0 0 30px 0;
+	// 		border-bottom: none;
 
-		}
+	// 	}
 
-		dd{
-			flex:1;
+	// 	dd{
+	// 		flex:1;
 			
-			// So everything is nicely aligned vertically. 
-			display: flex;
-			justify-content: flex-start;
-			align-items: center;
-		}
+	// 		// So everything is nicely aligned vertically. 
+	// 		display: flex;
+	// 		justify-content: flex-start;
+	// 		align-items: center;
+	// 	}
 
-		dt{
-			font-size: 1.5em;
-			font-weight: bold;
+	// 	dt{
+	// 		font-size: 1.5em;
+	// 		font-weight: bold;
 	
 
-			// So the pies are side-saddle
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-		}
-	}
+	// 		// So the pies are side-saddle
+	// 		display: flex;
+	// 		justify-content: space-between;
+	// 		align-items: center;
+	// 	}
+	// }
 }
 
 
 @media all and (min-width: $tablet-min-width){}
 @media all and (min-width: $desktop-min-width){
-	.trb_mainContent{
-		.school__demographics{
-			display: flex;
-			justify-content: space-between;
-			align-items: flex-start;
-			flex-wrap: nowrap;
-		}
+	// .trb_mainContent{
+	// 	.school__demographics{
+	// 		display: flex;
+	// 		justify-content: space-between;
+	// 		align-items: flex-start;
+	// 		flex-wrap: nowrap;
+	// 	}
 
-		.demo{
-			@include distribute_across_columns(4, 25px);
-			padding:0;
-			border-bottom: none;
-			text-align:center;
-			flex-wrap: wrap;
+	// 	.demo{
+	// 		@include distribute_across_columns(4, 25px);
+	// 		padding:0;
+	// 		border-bottom: none;
+	// 		text-align:center;
+	// 		flex-wrap: wrap;
 
-			dd,dt {
-				display: block;
-				margin: 0 0 10px 0;
-				padding: 0;
-				width: 100%; 
-			}
+	// 		dd,dt {
+	// 			display: block;
+	// 			margin: 0 0 10px 0;
+	// 			padding: 0;
+	// 			width: 100%; 
+	// 		}
 
-		}
-	}
+	// 	}
+	// }
 }
