@@ -40,11 +40,18 @@
 		&-label{
 			// i.e. "SAT Scores"
 			@include label6();
+
+			span{
+				@include sans-serif();
+				display:block;
+				font-style: italic;
+			}
 		}
 
 		&-sublabel{
 			// i.e. "Eight Grade" in PARCC scores
 			@include label7();
+		    text-transform: capitalize;
 		}
 
 		&--sat-legend{
