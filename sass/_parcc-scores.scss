@@ -53,6 +53,7 @@
 
 		box-sizing:border-box;
 		border-right: 1px solid white;
+		position:relative;
 
 		&:last-child{
 			border-right:none;
@@ -66,7 +67,17 @@
 		
 		span{
 			@include agate();
-			// transform: translate(0, -2.1em);
+			
+			&:after{
+				content: '\25BE';
+				font-size: 12px;
+				position: absolute;
+				left: 0;
+				bottom: -8px;
+				width: 100%;
+				text-align: center;
+				display: block;
+			}
 		}
 		
 
@@ -74,9 +85,17 @@
 		// otherwise be overlapping will not.
 		&:nth-child(odd) span{
 			transform: translate(0, -2.1em);
+			
 		}	
 		&:nth-child(even) span{
 			transform: translate(0, 2.1em);
+
+			&:after{
+				transform: rotate(180deg);
+				bottom:auto;
+    			top: -8px;
+ 
+			}
 		}
 
 
@@ -119,6 +138,12 @@
 		&:nth-child(odd), &:nth-child(even){
 			span{
 				transform: translate(0, -2.1em);
+
+				&:after{
+					transform:none;
+					top: auto;
+					bottom: -8px;
+				}
 			}	
 		}
 	}
