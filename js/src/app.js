@@ -197,8 +197,8 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 })
 
-function addPie(num){
-	return `<div class='pie pie--${Math.round(num)}'></div><span>${Math.round(num)}%</span>`;
+function addPie(num, addClass=""){
+	return `<div class='pie pie--${Math.round(num)} ${addClass}'></div><span>${Math.round(num)}%</span>`;
 }
 
 function formatSchoolProfile(data){
@@ -275,6 +275,27 @@ function formatSchoolProfile(data){
 	}
 
 	if (data.parcc){
+
+		// ---------- 
+		// START WITH THE OVERALL STUFF
+		// ----------
+		const parccOverall = data.parcc.overall;
+
+		parccSchoolProficencyString = `<h4 class='school__scores-sublabel'>${window.overallParccLabel}<span>${window.overallParccSubLabel}</span></h4>`;
+		parccSchoolProficencyString += `<ul class='school__scores school__scores--parcc'>`
+		
+		Object.keys(parccOverall).forEach(level => {
+			parccSchoolProficencyString += `<li class='score'><span class='score__label'>${level}</span><div class='score__chart score__chart--parcc'>`;
+			parccSchoolProficencyString += `<div class='parcc parcc--pm' style='width:${100 - parccOverall[level]}%'><span>${100 - parccOverall[level]}%</span></div>`;								
+			parccSchoolProficencyString += `<div class='parcc parcc--m' style='width:${parccOverall[level]}%'><span>${parccOverall[level]}%</span></div>`;
+
+		})
+
+		console.log(parccSchoolProficencyString);
+		// ---------- 
+		// NOW WITH THE GRADE LEVEL STUFF
+		// ----------
+
 		const 	testTypes = ['ela', 'math'],
 				parccLevels = Object.keys(data.parcc.grades);
 
@@ -328,7 +349,7 @@ function formatSchoolProfile(data){
 
 	// Insert our parsed PARCC chart string into the profile
 	document.querySelector('#parcc-scores').innerHTML = parccString;
-
+	document.querySelector('#parcc-scores-overall').innerHTML = parccSchoolProficencyString;
 
 	// Display (unhide) the profile
 	document.querySelector('.school').classList.add('school--active');

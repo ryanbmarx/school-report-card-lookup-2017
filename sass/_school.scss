@@ -43,12 +43,6 @@
 			// margin-top: 35px;
 			// padding-top:35px;
 			// border-top: 1px solid $trib-gray2;
-
-			span{
-				@include sans-serif();
-				display:block;
-				font-style: italic;
-			}
 		}
 
 		&-sublabel{
@@ -56,6 +50,15 @@
 			@include label7();
 		    text-transform: capitalize;
 		    margin-top: 50px;
+		}
+		
+		&-sublabel, &-label{
+			span{
+				@include sans-serif();
+				display:block;
+				font-style: italic;
+			    text-transform: none;
+			}
 		}
 
 		&--sat-legend{

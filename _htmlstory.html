@@ -54,10 +54,10 @@
 						<span class='test__dot'></span>
 						<span class='test__score'>{{ sat_scores_min }}</span>
 					</div>
-{# 					<div class='test test--med' style='left: 50%'>
+					<div class='test test--med' style='left: 50%'>
 						<span class='test__dot'></span>
 						<span class='test__score'>{{ sat_scores_median }}</span>
-					</div> #}
+					</div>
 					<div class='test test--max' style='left: 100%'>
 						<span class='test__dot'></span>
 						<span class='test__score'>{{ sat_scores_max }}</span>
@@ -80,6 +80,7 @@
 			<dt><span class='box box--m'></span></dt><dd><strong>{{ parcc_legend_m|process_text }}</strong></dd>
 			<dt><span class='box box--e'></span></dt><dd><strong>{{ parcc_legend_e|process_text }}</strong></dd>
 		</dl>
+		<div id='parcc-scores-overall'></div>
 		<div id='parcc-scores'></div>
 	</div>
 </section>
@@ -107,6 +108,8 @@
 		math: "{{ sat_scores_math }}",
 		overall: "{{ sat_scores_overall }}"
 	};
+	window.overallParccLabel = "{{ parcc_overall }}";
+	window.overallParccSubLabel = "{{ parcc_overall_sub }}";
 	window.noScores = "{{ no_scores }}";
 (function(document) {
   var CSS = [
