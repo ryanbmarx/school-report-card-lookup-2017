@@ -55,7 +55,7 @@ module.exports = function translateData(data){
 		retval.parcc.overall = {
 			math:parseFloat(data.schl_pct_of_prof_in_math_parcc_2017_math),
 			ela:parseFloat(data.schl_pct_of_prof_in_ela_parcc_2017_ela),
-			composite:parseFloat(data.schl_pct_of_prof_ela_math_parcc_2017_composite)
+			overall:parseFloat(data.schl_pct_of_prof_ela_math_parcc_2017_composite)
 		};
 
 		keys.forEach(key => {

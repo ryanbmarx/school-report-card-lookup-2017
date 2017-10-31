@@ -86,7 +86,7 @@ module.exports = function formatSchoolProfile(data){
 		parccSchoolProficencyString += `<ul class='school__scores school__scores--parcc'>`
 		
 		Object.keys(parccOverall).forEach(level => {
-			parccSchoolProficencyString += `<li class='score'><span class='score__label'>${level}</span><div class='score__chart score__chart--parcc'>`;
+			parccSchoolProficencyString += `<li class='score'><span class='score__label'>${window.testLabels[level]}</span><div class='score__chart score__chart--parcc'>`;
 			parccSchoolProficencyString += `<div class='parcc parcc--pm' style='width:${100 - parccOverall[level]}%'><span>${100 - parccOverall[level]}%</span></div>`;								
 			parccSchoolProficencyString += `<div class='parcc parcc--m' style='width:${parccOverall[level]}%'><span>${parccOverall[level]}%</span></div>`;
 
