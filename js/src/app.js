@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 		const auto = new Awesomplete(searchBar, {
 			minChars: 2,
 			maxItems: 20,
-			// autoFirst: true
+			autoFirst: true
 		});
 
 		searchBar.addEventListener('keypress', function(e){
