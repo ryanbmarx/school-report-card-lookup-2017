@@ -1,4 +1,5 @@
 import 'awesomplete';
+import {scaleLinear} from 'd3-scale';
 
 function translateData(data){
 	console.log('raw >>', data);
@@ -223,15 +224,16 @@ function formatSchoolProfile(data){
 
 		tests.forEach(test => {
 			// For each test, grab/calc the various stats needed
+
 			const 	temp = data['sat'][test],
 					min = temp.min,
 					max = temp.max,
 					median = temp.median,
 					school = temp.school,
-					scoreRange = max - min,
-					medianPlacement = median ? median / scoreRange * 100 : null,
-					schoolPlacement = school / scoreRange * 100;
-			
+					satScale = scaleLinear().domain([min, max]).range([0, 100]),
+					medianPlacement = median ? satScale(median) : null,
+					schoolPlacement = satScale(school);
+			console.log(school, satScale(school));
 			let label = window.testLabels[test];
 
 			// Add the element to the holder string

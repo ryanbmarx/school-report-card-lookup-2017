@@ -7,7 +7,8 @@ module.exports = function(grunt) {
   //     npm install --save jquery
   var VENDOR_LIBRARIES = [
     'awesomplete',
-    'd3-request'
+    'd3-request',
+    'd3-scale'
   ];
 
   config.browserify = {
