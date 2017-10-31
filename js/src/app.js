@@ -17,19 +17,19 @@ function translateData(data){
 	        overall: {
 	            min: 400,
 	            max: 1600,
-	            median: false,
+	            median: 1000,
 	            school: parseFloat(data.gr11_schl_ttl_scale_score_sat_2017_composite)
 	        },
 	        math: {
 	            min: 200,
 	            max: 800,
-	            median: false,
+	            median: 500,
 	            school: parseFloat(data.gr11_schl_avg_scale_score_in_math_sat_2017_math)
 	        },
 	        ela: {
 	            min: 200,
 	            max: 800,
-	            median: false,
+	            median: 500,
 	            school: parseFloat(data.gr11_schl_avg_scale_score_in_ela_sat_2017_ela)
 	        }
 	    }
@@ -41,8 +41,8 @@ function translateData(data){
 	// -----------
 	// PARCC SCORES
 	// -----------
-	// Test if the school has an overall parcc composite.
-	retval.parcc = data.schl_pct_of_prof_ela_math_parcc_2017_composite != "" ? {} : false;
+	// Test if the school has an overall parcc composite. if so, initialize our data containers.
+	retval.parcc = data.schl_pct_of_prof_ela_math_parcc_2017_composite != "" ? {grades:{}, overall:{}} : false;
 	
 	let keys = [
 		{letters: "third", num: "3"},
@@ -54,13 +54,19 @@ function translateData(data){
 	];
 
 	if (retval.parcc){
+		// Load up the school-level proficency
+		retval.parcc.overall = {
+			math:parseFloat(data.schl_pct_of_prof_in_math_parcc_2017_math),
+			ela:parseFloat(data.schl_pct_of_prof_in_ela_parcc_2017_ela),
+			composite:parseFloat(data.schl_pct_of_prof_ela_math_parcc_2017_composite)
+		};
 
 		keys.forEach(key => {
 			const 	letters = key.letters,
 					num = key.num;
 
 			if (data[`gr${num}_ela_schl_approached_expectns_parcc_all`] || data[`gr${num}_ela_schl_did_not_meet_expectns_parcc_all`] || data[`gr${num}_ela_schl_exceeded_expectns_parcc_all`] || data[`gr${num}_ela_schl_met_expectns_parcc_all`] || data[`gr${num}_ela_schl_partially_met_expectns_parcc_all`]){
-				retval['parcc'][letters] = {
+				retval['parcc']['grades'][letters] = {
 					 math:{
 		                DNM: parseFloat(data[`gr${num}_math_schl_did_not_meet_expectns_parcc_all`]),
 		                PM: parseFloat(data[`gr${num}_math_schl_partially_met_expectns_parcc_all`]),
@@ -77,11 +83,12 @@ function translateData(data){
 		            }
 				}
 			} else {
-				retval['parcc'][letters] = false;
+				retval['parcc']['grades'][letters] = false;
 			}
 		})
 
 	}
+	console.log(data, retval);
 		return retval;
 	}
 
@@ -207,8 +214,9 @@ function formatSchoolProfile(data){
 	document.querySelector('.demo--non-white dt').innerHTML = addPie(data.nonWhite);
 	document.querySelector('.demo--special-ed dt').innerHTML = addPie(data.specialEd);
 	
-	let satString = ""; // This string will hold the html as it's written for SAT scores
-	let parccString = ""; // This string will hold the html as it's written for PARCC scores
+	let satString = "", // This string will hold the html as it's written for SAT scores
+		parccSchoolProficencyString = "",
+		parccString = ""; // This string will hold the html as it's written for PARCC scores
 
 	if(data.sat){
 	
@@ -242,12 +250,12 @@ function formatSchoolProfile(data){
 						<span class='test__score'>${min}</span>
 					</div>`;
 			}	
-			// if (median) {
-			// 	satString += `<div class='test test--med' style='left: ${medianPlacement}%'>
-			// 		<span class='test__dot'></span>
-			// 		<span class='test__score'>${median}</span>
-			// 	</div>`;
-			// }
+			if (median) {
+				satString += `<div class='test test--med' style='left: ${medianPlacement}%'>
+					<span class='test__dot'></span>
+					<span class='test__score'>${median}</span>
+				</div>`;
+			}
 
 				satString += `<div class='test test--max' style='left: 100%'>
 					<span class='test__dot'></span>
@@ -268,8 +276,8 @@ function formatSchoolProfile(data){
 
 	if (data.parcc){
 		const 	testTypes = ['ela', 'math'],
-				parccLevels = Object.keys(data.parcc);
-		
+				parccLevels = Object.keys(data.parcc.grades);
+
 		parccLevels.forEach(level => {
 			if (level){
 				// Format the level string (i.e. "third" => "Third grade");
@@ -278,12 +286,12 @@ function formatSchoolProfile(data){
 				// Load the sub label into the string 
 				parccString += `<h4 class='school__scores-sublabel'>${levelString}</h4>`;	
 
-				if (data['parcc'][level]){
+				if (data['parcc']['grades'][level]){
 					// If there are scores for this grade level, then display them
 					parccString += `<ul class='school__scores school__scores--parcc'>`;	
 	
 					testTypes.forEach(type => {
-						const tempScores = data['parcc'][level][type];
+						const tempScores = data['parcc']['grades'][level][type];
 
 						// A little fix for the floated items. Totals might exceed 100% due to rounding
 						if (tempScores.DNM + tempScores.PM + tempScores.A + tempScores.M + tempScores.E > 100) {
@@ -294,7 +302,8 @@ function formatSchoolProfile(data){
 							}
 						}
 						parccString += `<li class='score'><span class='score__label'>${window.testLabels[type]}</span><div class='score__chart score__chart--parcc'>`;
-									
+						
+						// Add each bar only if the value is > 0;		
 						["dnm", "pm", "a", "m", "e"].forEach(result =>{
 							if (tempScores[result.toUpperCase()] > 0){
 								parccString += `<div class='parcc parcc--${result}' style='width:${tempScores[result.toUpperCase()]}%'><span>${Math.round(tempScores[result.toUpperCase()] * 10, -1) / 10}%</span></div>`								
