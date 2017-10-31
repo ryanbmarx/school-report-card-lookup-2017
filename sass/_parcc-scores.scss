@@ -88,12 +88,12 @@
 			
 		}	
 		&:nth-child(even) span{
-			transform: translate(0, 2.1em);
+			transform: translate(0, 2.3em);
 
 			&:after{
 				transform: rotate(180deg);
 				bottom:auto;
-    			top: -8px;
+    			top: -10px;
  
 			}
 		}
