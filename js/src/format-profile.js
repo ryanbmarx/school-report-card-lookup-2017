@@ -92,7 +92,6 @@ module.exports = function formatSchoolProfile(data){
 
 		})
 
-		console.log(parccSchoolProficencyString);
 		// ---------- 
 		// NOW WITH THE GRADE LEVEL STUFF
 		// ----------
