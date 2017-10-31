@@ -2,7 +2,6 @@ import 'awesomplete';
 import {scaleLinear} from 'd3-scale';
 
 function translateData(data){
-	console.log('raw >>', data);
 	// A crosswalk, of sorts, to take the data from the database and make it more usable per the design I like.
 	let retval = {
 	    name:data.name,
@@ -113,20 +112,17 @@ window.addEventListener('DOMContentLoaded', function(e){
 					searchQuery = searchBar.value,
 					queryUrl = `${ajaxBaseUrl}${searchQuery}`;
 
-			// let newList = [];
-
 			// Init the request for school fetching.
 			const ajax = new XMLHttpRequest();
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
-				// console.log(ajax.responseText);
 				// This is the response, parsed into JSON
 				const schoolsList = JSON.parse(ajax.responseText)['results'] || JSON.parse(ajax.responseText);
 
 				// When we get a response, parse the reponses into this format:
 				// [{label:foo, value:bar}]
 				// Then feed it into the list, so awesomeplete uses the new schools as the options.
-				// console.log('search')
+
 				if (schoolsList.length > 0){
 					auto.list = schoolsList.map(i => [`${i.autocomplete} (${i.district})`, i.school_id]);
 				} else {
@@ -153,7 +149,6 @@ window.addEventListener('DOMContentLoaded', function(e){
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
 				const schoolData = JSON.parse(ajax.responseText)[0]['fields'];
-				// console.log(schoolData);
 				window.selectedSchool = schoolData.name;
 				formatSchoolProfile(translateData(schoolData));
 
@@ -201,7 +196,6 @@ function addPie(num){
 
 function formatSchoolProfile(data){
 	// The data fetching mechanism is TBD. 
-	console.log(data);
 
 	// Fill out the school name/district
 	document.querySelector('.school__name').innerHTML = data.name;
@@ -233,7 +227,6 @@ function formatSchoolProfile(data){
 					satScale = scaleLinear().domain([min, max]).range([0, 100]),
 					medianPlacement = median ? satScale(median) : null,
 					schoolPlacement = satScale(school);
-			console.log(school, satScale(school));
 			let label = window.testLabels[test];
 
 			// Add the element to the holder string
@@ -270,13 +263,10 @@ function formatSchoolProfile(data){
 		});
 	
 	} else{
-		// console.log('No SAT scores');
 		satString = `<p class='note'>${window.noScores}</p>`;
 	}
 
 	if (data.parcc){
-		// console.log('PARCC scores');
-		// parccString = "<h3>Parcc scores</h3>";
 		const 	testTypes = ['ela', 'math'],
 				parccLevels = Object.keys(data.parcc);
 		
@@ -321,7 +311,6 @@ function formatSchoolProfile(data){
 			}
 		})
 	} else{
-		// console.log('No PARCC scores');
 		parccString = `<p class='note'>${window.noScores}</p>`;
 	}
 
