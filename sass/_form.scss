@@ -9,6 +9,11 @@
     .awesomplete{
         flex: 1;
         box-sizing: border-box;
+
+        & > ul{
+            // This is the autocomplete list
+            @include sans-serif();
+        }
     }
 
     &__text{
