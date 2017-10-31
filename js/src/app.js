@@ -1,7 +1,6 @@
 import 'awesomplete';
 import translateData from './transform-data.js';
 import formatSchoolProfile from './format-profile.js';
-import {scaleLinear} from 'd3-scale';
 
 window.addEventListener('DOMContentLoaded', function(e){
 	

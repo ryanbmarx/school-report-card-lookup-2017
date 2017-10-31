@@ -1,4 +1,5 @@
 import {format} from 'd3-format';
+import {scaleLinear} from 'd3-scale';
 
 function addPie(num, addClass=""){
 	return `<div class='pie pie--${Math.round(num)} ${addClass}'></div><span>${format('.0f')(num)}%</span>`;
