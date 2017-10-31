@@ -110,12 +110,12 @@
 
 		&--a{
 			background: $parcc-color-a;
-			border-right: 3px solid white;
+			// border-right: 3px solid white;
 		}
 
 		&--m{
 			background: $parcc-color-m;
-			border-left: 3px solid white;
+			// border-left: 3px solid white;
 			span{
 				font-weight: bold;
 			}
@@ -133,18 +133,18 @@
 }
 
 @media all and (min-width: $desktop-min-width){
-	.trb_mainContent .school__scores--parcc .parcc{
-		// Undo the alternation of labels. We should have enough room by now.
-		&:nth-child(odd), &:nth-child(even){
-			span{
-				transform: translate(0, -2.1em);
+	// .trb_mainContent .school__scores--parcc .parcc{
+	// 	// Undo the alternation of labels. We should have enough room by now.
+	// 	&:nth-child(odd), &:nth-child(even){
+	// 		span{
+	// 			transform: translate(0, -2.1em);
 
-				&:after{
-					transform:none;
-					top: auto;
-					bottom: -8px;
-				}
-			}	
-		}
-	}
+	// 			&:after{
+	// 				transform:none;
+	// 				top: auto;
+	// 				bottom: -8px;
+	// 			}
+	// 		}	
+	// 	}
+	// }
 }

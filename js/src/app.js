@@ -1,204 +1,89 @@
 import 'awesomplete';
-// var request = require( 'request');
-// import * as schoolList from './school_names_and_districts.js'
-// import {csv} from 'd3-request';
 
+function translateData(data){
+	console.log('raw >>', data);
+	// A crosswalk, of sorts, to take the data from the database and make it more usable per the design I like.
+	let retval = {
+	    name:data.name,
+	    district: `${data.district} (${data.city}, ${data.county} County)`,
+	    specialEd: parseFloat(data.iep_schl),
+	    freeLunch: parseFloat(data.low_income_schl),
+	    englishLearner: parseFloat(data.lep_schl),
+	    nonWhite: 100 - parseFloat(data.schl_white)
+	}
 
+	if(data.gr11_schl_avg_scale_score_in_ela_sat_2017_ela != "" && data.gr11_schl_avg_scale_score_in_math_sat_2017_math != "" && data.gr11_schl_ttl_scale_score_sat_2017_composite != ""){
+		retval.sat = {
+	        overall: {
+	            min: 400,
+	            max: 1600,
+	            median: false,
+	            school: parseFloat(data.gr11_schl_ttl_scale_score_sat_2017_composite)
+	        },
+	        math: {
+	            min: 200,
+	            max: 800,
+	            median: false,
+	            school: parseFloat(data.gr11_schl_avg_scale_score_in_math_sat_2017_math)
+	        },
+	        ela: {
+	            min: 200,
+	            max: 800,
+	            median: false,
+	            school: parseFloat(data.gr11_schl_avg_scale_score_in_ela_sat_2017_ela)
+	        }
+	    }
 
-		window.tempData = {    
-		    name:"This is the name of the school" + getRandomInt(850,1600),
-		    district: "This is the district" + getRandomInt(850,1600),
-		    specialEd: getRandomInt(0,100),
-		    freeLunch: getRandomInt(0,100),
-		    englishLearner: getRandomInt(0,100),
-		    nonWhite: getRandomInt(0,100),
-		    parcc:false,
-		    sat: {
-		        overall: {
-		            min: 850,
-		            max: 1600,
-		            median: getRandomInt(850,1600),
-		            school: getRandomInt(850,1600)
-		        },
-		        math: {
-		            min: 800,
-		            max: 1400,
-		            median: getRandomInt(800,1400),
-		            school: getRandomInt(800,1400)
-		        },
-		        ela: {
-		            min: 700,
-		            max: 1200,
-		            median: getRandomInt(700,1200),
-		            school: getRandomInt(700,1200)
-		        }
-		    },
-		    parcc: { // If there are no PARCC scores, then set to false
-		        school:{ // the school composite scores
-		            overall:{
-		                DNM: 4,
-		                PM: 16,
-		                A: 26,
-		                M: 30,
-		                E: 24
-		            }, 
-		            math:{
-          DNM: 25,
-		                PM: 5,
-		                A: 20,
-		                M: 20,
-		                E: 30
-		            }, 
-		            ela:{
-          DNM: 25,
-		                PM: 5,
-		                A: 10,
-		                M: 20,
-		                E: 40
-		            }
-		        },
-		        third:{ // or false
-                     math:{
-				          DNM: 25,
-		                PM: 5,
-		                A: 10,
-		                M: 20,
-		                E: 40
-		            }, 
-		            ela:{
-		                DNM: 35,
-		                PM: 10,
-		                A: 20,
-		                M: 10,
-		                E: 25
-		            }, 
-		            overall:{
-		                DNM: 5,
-		                PM: 20,
-		                A: 5,
-		                M: 60,
-		                E: 10
-		            }
-		        },
-		        fourth:{ // or false
-		            overall:{
-				          DNM: 25,
-		                PM: 5,
-		                A: 10,
-		                M: 20,
-		                E: 40
-		            }, 
-		            math:{
-		                DNM: 35,
-		                PM: 10,
-		                A: 20,
-		                M: 10,
-		                E: 25
-		            }, 
-		            ela:{
-		                DNM: 5,
-		                PM: 20,
-		                A: 5,
-		                M: 60,
-		                E: 10
-		            }
-		        },
-		        fifth:{ // or false
-		            overall:{
-				          DNM: 25,
-		                PM: 5,
-		                A: 10,
-		                M: 20,
-		                E: 40
-		            }, 
-		            math:{
-		      
+	} else {
+		retval.sat = false;
+	}
 
-		                DNM: 35,
-		                PM: 10,
-		                A: 20,
-		                M: 10,
-		                E: 25
+	// -----------
+	// PARCC SCORES
+	// -----------
+	// Test if the school has an overall parcc composite.
+	retval.parcc = data.schl_pct_of_prof_ela_math_parcc_2017_composite != "" ? {} : false;
+	
+	let keys = [
+		{letters: "third", num: "3"},
+		{letters: "fourth", num: "4"},
+		{letters: "fifth", num: "5"},
+		{letters: "sixth", num: "6"},
+		{letters: "seventh", num: "7"},
+		{letters: "eighth", num: "8"}
+	];
+
+	if (retval.parcc){
+
+		keys.forEach(key => {
+			const 	letters = key.letters,
+					num = key.num;
+
+			if (data[`gr${num}_ela_schl_approached_expectns_parcc_all`] || data[`gr${num}_ela_schl_did_not_meet_expectns_parcc_all`] || data[`gr${num}_ela_schl_exceeded_expectns_parcc_all`] || data[`gr${num}_ela_schl_met_expectns_parcc_all`] || data[`gr${num}_ela_schl_partially_met_expectns_parcc_all`]){
+				retval['parcc'][letters] = {
+					 math:{
+		                DNM: parseFloat(data[`gr${num}_math_schl_did_not_meet_expectns_parcc_all`]),
+		                PM: parseFloat(data[`gr${num}_math_schl_partially_met_expectns_parcc_all`]),
+		                A: parseFloat(data[`gr${num}_math_schl_approached_expectns_parcc_all`]),
+		                M: parseFloat(data[`gr${num}_math_schl_met_expectns_parcc_all`]),
+		                E: parseFloat(data[`gr${num}_math_schl_exceeded_expectns_parcc_all`])
 		            }, 
 		            ela:{
-		                DNM: 5,
-		                PM: 20,
-		                A: 5,
-		                M: 60,
-		                E: 10
+		                DNM: parseFloat(data[`gr${num}_ela_schl_did_not_meet_expectns_parcc_all`]),
+		                PM: parseFloat(data[`gr${num}_ela_schl_partially_met_expectns_parcc_all`]),
+		                A: parseFloat(data[`gr${num}_ela_schl_approached_expectns_parcc_all`]),
+		                M: parseFloat(data[`gr${num}_ela_schl_met_expectns_parcc_all`]),
+		                E: parseFloat(data[`gr${num}_ela_schl_exceeded_expectns_parcc_all`])
 		            }
-		        },
-		        sixth:{ // or false
-		            overall:{
-		                DNM: 35,
-		                PM: 10,
-		                A: 20,
-		                M: 10,
-		                E: 25
-		            }, 
-		            math:{
-		                DNM: 25,
-		                PM: 5,
-		                A: 10,
-		                M: 20,
-		                E: 40
-		            }, 
-		            ela:{
-		                DNM: 5,
-		                PM: 20,
-		                A: 5,
-		                M: 60,
-		                E: 10
-		            }
-		        },
-		        seventh:{ // or false
-		            overall:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
-		            }, 
-		            math:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
-		            }, 
-		            ela:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
-		            }
-		        },
-		        eighth:{ // or false
-		            overall:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
-		            }, 
-		            math:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
-		            }, 
-		            ela:{
-		                DNM: 20,
-		                PM: 20,
-		                A: 20,
-		                M: 20,
-		                E: 20
-		            }
-		        }
-		    }        
-		}
+				}
+			} else {
+				retval['parcc'][letters] = false;
+			}
+		})
+
+	}
+		return retval;
+	}
 
 
 window.addEventListener('DOMContentLoaded', function(e){
@@ -212,10 +97,9 @@ window.addEventListener('DOMContentLoaded', function(e){
 		
 		const auto = new Awesomplete(searchBar, {
 			minChars: 2,
-			maxItems: 10,
+			maxItems: 20,
 			autoFirst: true
 		});
-
 
 		searchBar.addEventListener('keyup', function(e){
 			// When the user starts typing, it will ping the database to fetch a JSON list of possible schools
@@ -234,15 +118,16 @@ window.addEventListener('DOMContentLoaded', function(e){
 			const ajax = new XMLHttpRequest();
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
+				// console.log(ajax.responseText);
 				// This is the response, parsed into JSON
 				const schoolsList = JSON.parse(ajax.responseText)['results'] || JSON.parse(ajax.responseText);
 
 				// When we get a response, parse the reponses into this format:
 				// [{label:foo, value:bar}]
 				// Then feed it into the list, so awesomeplete uses the new schools as the options.
-
+				// console.log('search')
 				if (schoolsList.length > 0){
-					auto.list = schoolsList.map(i => [i.autocomplete, "ID"]);
+					auto.list = schoolsList.map(i => [`${i.autocomplete} (${i.district})`, i.school_id]);
 				} else {
 					auto.list = "No matches";
 				}
@@ -259,9 +144,21 @@ window.addEventListener('DOMContentLoaded', function(e){
 
 		// if (schoolID != "") formatSchoolProfile(data);
 		
-		window.tempData.parcc.fourth = false;
-		window.tempData.parcc.eighth = false;
-		formatSchoolProfile(window.tempData);
+		if (schoolID != ""){ 
+			const 	baseUrl = "http://ec2-52-14-19-228.us-east-2.compute.amazonaws.com/schools/school_detail/",
+					queryUrl = `${baseUrl}${schoolID}`,
+					ajax = new XMLHttpRequest();
+
+			ajax.open("GET", queryUrl, true);
+			ajax.onload = function(){
+				const schoolData = JSON.parse(ajax.responseText)[0]['fields'];
+				// console.log(schoolData);
+				window.selectedSchool = schoolData.name;
+				formatSchoolProfile(translateData(schoolData));
+
+			}
+			ajax.send();
+		}
 		
 
 		try{
@@ -290,6 +187,9 @@ window.addEventListener('DOMContentLoaded', function(e){
 	window.addEventListener('awesomplete-selectcomplete', e => {
 		// When the user makes an autocompleted selection, trigger the search by faking a submit button click.
 		submitButton.click();
+		document.querySelector('.school-search__text').setAttribute('placeholder', 'Search for another school');
+		document.querySelector('.school-search__text').value = "";
+		// document.querySelector('.school-search__text').setAttribute('value', window.selectedSchool);
 	})
 
 })
@@ -300,8 +200,7 @@ function addPie(num){
 
 function formatSchoolProfile(data){
 	// The data fetching mechanism is TBD. 
-	// console.log(data);
-
+	console.log(data);
 
 	// Fill out the school name/district
 	document.querySelector('.school__name').innerHTML = data.name;
@@ -319,45 +218,54 @@ function formatSchoolProfile(data){
 	if(data.sat){
 	
 		// Now, move on to the score charts
-	
-	
 		// This array of the keys will let us iterate over the tests
 		const tests = Object.keys(data.sat);
+
 		tests.forEach(test => {
 			// For each test, grab/calc the various stats needed
-			const 	testData = data['sat'][test],
-					min = testData.min,
-					max = testData.max,
-					median = testData.median,
-					school = testData.school,
-					medianPlacement = testData.median / testData.max * 100,
-					schoolPlacement = testData.school / testData.max * 100;
-	
+			const 	temp = data['sat'][test],
+					min = temp.min,
+					max = temp.max,
+					median = temp.median,
+					school = temp.school,
+					scoreRange = max - min,
+					medianPlacement = median ? median / scoreRange * 100 : null,
+					schoolPlacement = school / scoreRange * 100;
+			
+			let label = window.testLabels[test];
+
 			// Add the element to the holder string
 			satString += `
 				<li class='score'>
-					<span class='score__label'>${window.testLabels[test]}</span>
-					<div class='score__chart'>
-						<div class='test test--min' style='left: 0'>
-							<span class='test__dot'></span>
-							<span class='test__score'>${min}</span>
-						</div>
-						<div class='test test--med' style='left: ${medianPlacement}%'>
-							<span class='test__dot'></span>
-							<span class='test__score'>${median}</span>
-						</div>
-						<div class='test test--max' style='left: 100%'>
-							<span class='test__dot'></span>
-							<span class='test__score'>${max}</span>
-						</div>
-						<div class='test test--school' style='left: ${schoolPlacement}%'>
-							<span class='test__dot'></span>
-							<span class='test__score'>${school}</span>
-						</div>
-					</div>
-				</li>`;
-		});
+					<span class='score__label'>${label}</span>
+					<div class='score__chart'>`;
 
+			if (min > -1) {
+				satString += `						
+					<div class='test test--min' style='left: 0'>
+						<span class='test__dot'></span>
+						<span class='test__score'>${min}</span>
+					</div>`;
+			}	
+			// if (median) {
+			// 	satString += `<div class='test test--med' style='left: ${medianPlacement}%'>
+			// 		<span class='test__dot'></span>
+			// 		<span class='test__score'>${median}</span>
+			// 	</div>`;
+			// }
+
+				satString += `<div class='test test--max' style='left: 100%'>
+					<span class='test__dot'></span>
+					<span class='test__score'>${max}</span>
+				</div>`;
+
+				satString += `<div class='test test--school' style='left: ${schoolPlacement}%'>
+						<span class='test__dot'></span>
+						<span class='test__score'>${school}</span>
+					</div>`;
+			
+			satString += `</div></li>`;
+		});
 	
 	} else{
 		// console.log('No SAT scores');
@@ -367,7 +275,7 @@ function formatSchoolProfile(data){
 	if (data.parcc){
 		// console.log('PARCC scores');
 		// parccString = "<h3>Parcc scores</h3>";
-		const 	testTypes = ['overall', 'ela', 'math'],
+		const 	testTypes = ['ela', 'math'],
 				parccLevels = Object.keys(data.parcc);
 		
 		parccLevels.forEach(level => {
@@ -384,17 +292,24 @@ function formatSchoolProfile(data){
 	
 					testTypes.forEach(type => {
 						const tempScores = data['parcc'][level][type];
-							parccString += `
-								<li class='score'>
-									<span class='score__label'>${window.testLabels[type]}</span>
-									<div class='score__chart score__chart--parcc'>
-										<div class='parcc parcc--dnm' style='width:${tempScores.DNM}%'><span>${tempScores.DNM}%</span></div>
-										<div class='parcc parcc--pm' style='width:${tempScores.PM}%'><span>${tempScores.PM}%</span></div>
-										<div class='parcc parcc--a' style='width:${tempScores.A}%'><span>${tempScores.A}%</span></div>
-										<div class='parcc parcc--m' style='width:${tempScores.M}%'><span>${tempScores.M}%</span></div>
-										<div class='parcc parcc--e' style='width:${tempScores.E}%'><span>${tempScores.E}%</span></div>
-									</div>
-								</li>`;
+
+						// A little fix for the floated items. Totals might exceed 100% due to rounding
+						if (tempScores.DNM + tempScores.PM + tempScores.A + tempScores.M + tempScores.E > 100) {
+							if (tempScores.A > 0){
+								tempScores.A -= 0.1;				
+							} else {
+								tempScores.M -= 0.1;								
+							}
+						}
+						parccString += `<li class='score'><span class='score__label'>${window.testLabels[type]}</span><div class='score__chart score__chart--parcc'>`;
+									
+						["dnm", "pm", "a", "m", "e"].forEach(result =>{
+							if (tempScores[result.toUpperCase()] > 0){
+								parccString += `<div class='parcc parcc--${result}' style='width:${tempScores[result.toUpperCase()]}%'><span>${Math.round(tempScores[result.toUpperCase()] * 10, -1) / 10}%</span></div>`								
+							}
+						});
+	
+						parccString += `</div></li>`;	
 					});
 					parccString += `</ul>`;	
 				} else {
