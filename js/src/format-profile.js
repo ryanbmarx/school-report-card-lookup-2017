@@ -1,5 +1,7 @@
+import {format} from 'd3-format';
+
 function addPie(num, addClass=""){
-	return `<div class='pie pie--${Math.round(num)} ${addClass}'></div><span>${Math.round(num)}%</span>`;
+	return `<div class='pie pie--${Math.round(num)} ${addClass}'></div><span>${format('.0f')(num)}%</span>`;
 }
 
 module.exports = function formatSchoolProfile(data){
@@ -87,9 +89,9 @@ module.exports = function formatSchoolProfile(data){
 		
 		Object.keys(parccOverall).forEach(level => {
 			parccSchoolProficencyString += `<li class='score'><span class='score__label'>${window.testLabels[level]}</span><div class='score__chart score__chart--parcc'>`;
-			parccSchoolProficencyString += `<div class='parcc parcc--pm' style='width:${100 - parccOverall[level]}%'><span>${100 - parccOverall[level]}%</span></div>`;								
-			parccSchoolProficencyString += `<div class='parcc parcc--m' style='width:${parccOverall[level]}%'><span>${parccOverall[level]}%</span></div>`;
-
+			parccSchoolProficencyString += `<div class='parcc parcc--pm' style='width:${100 - parccOverall[level]}%'><span>${format('.1f')(100 - parccOverall[level])}%</span></div>`;								
+			parccSchoolProficencyString += `<div class='parcc parcc--m' style='width:${parccOverall[level]}%'><span>${format('.1f')(parccOverall[level])}%</span></div>`;
+			parccSchoolProficencyString += `</div></li>`;
 		})
 
 		// ---------- 
@@ -127,7 +129,7 @@ module.exports = function formatSchoolProfile(data){
 						// Add each bar only if the value is > 0;		
 						["dnm", "pm", "a", "m", "e"].forEach(result =>{
 							if (tempScores[result.toUpperCase()] > 0){
-								parccString += `<div class='parcc parcc--${result}' style='width:${tempScores[result.toUpperCase()]}%'><span>${Math.round(tempScores[result.toUpperCase()] * 10, -1) / 10}%</span></div>`								
+								parccString += `<div class='parcc parcc--${result}' style='width:${tempScores[result.toUpperCase()]}%'><span>${format('.1f')(tempScores[result.toUpperCase()])}%</span></div>`								
 							}
 						});
 	
