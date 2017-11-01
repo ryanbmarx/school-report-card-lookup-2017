@@ -10,8 +10,38 @@ module.exports = function formatSchoolProfile(data){
 
 	/******************************
 
+	Good people of Gotham:
+
 	This function takes a specifically-formatted data object from the transformData() function and turns it 
 	into a profile. 
+
+                  T\ T\
+                  | \| \
+                  |  |  :
+             _____I__I  |
+           .'            '.
+         .'                '
+         |   ..             '
+         |  /__.            |
+         :.' -'             |
+        /__.                |
+       /__, \               |
+          |__\        _|    |
+          :  '\     .'|     |
+          |___|_,,,/  |     |    _..--.
+       ,--_-   |     /'      \../ /  /\\
+      ,'|_ I---|    7    ,,,_/ / ,  / _\\
+    ,-- 7 \|  / ___..,,/   /  ,  ,_/   '-----.
+   /   ,   \  |/  ,____,,,__,,__/            '\
+  ,   ,     \__,,/                             |
+  | '.       _..---.._                         !.
+  ! |      .' z_M__s. '.                        |
+  .:'      | (-_ _--')  :          L            !
+  .'.       '.  Y    _.'             \,         :
+   .          '-----'                 !          .
+   .           /  \                   .          . 
+   
+http://www.chris.com/ascii/index.php?art=comics/batman
 
 	*******************************/
 
@@ -141,56 +171,69 @@ module.exports = function formatSchoolProfile(data){
 			// has no data for a certain grade-level, the value should be false in the data. 
 			// The assumption that if there is data for a grade level, it has data for each 
 			// test type. This will break if that is not the case.
+
+			// Slice of the grade-level data for easy reference
+			const gradeLevelData = data['parcc']['grades'][level];
 			
-			if (level){
-				
-				// Format the level string (i.e. "third" => "Third grade");
-				let levelString = level == "school" ? "Overall" : `${level} grade`;
+			// Format the level string (i.e. "third" => "Third grade");
+			let levelString = level == "school" ? "Overall" : `${level} grade`;
 
-				// Load the sub label into the string 
-				parccString += `<h4 class='school__scores-sublabel'>${levelString}</h4>`;	
+			// Load the sub label into the string 
+			parccString += `<h4 class='school__scores-sublabel'>${levelString}</h4>`;	
 
-				if (data['parcc']['grades'][level]){
-					// If there are scores for this grade level, then display them
-					parccString += `<ul class='school__scores school__scores--parcc'>`;	
-	
-					testTypes.forEach(type => {
-						const tempScores = data['parcc']['grades'][level][type];
+			if (gradeLevelData){ // This would be false, if there is no data
 
-						// A little fix for the floated items. Totals might exceed 100% due to rounding
-						if (tempScores.DNM + tempScores.PM + tempScores.A + tempScores.M + tempScores.E > 100) {
-							if (tempScores.A > 0){
-								tempScores.A -= 0.1;				
-							} else {
-								tempScores.M -= 0.1;								
-							}
+				// If there are scores for this grade level, then display them
+				parccString += `<ul class='school__scores school__scores--parcc'>`;	
+
+
+				testTypes.forEach(type => {
+					// We're going to cycle through the test types (ela, math)
+					
+					// Slice off the data for easy reference.
+					const tempScores = gradeLevelData[type];
+
+					// A little fix for the floated items. Totals might exceed 100% due to rounding. 
+					// If that is the case, let's nudge one of the widths down.
+					if (tempScores.DNM + tempScores.PM + tempScores.A + tempScores.M + tempScores.E > 100) {
+						if (tempScores.A > 0){
+							tempScores.A -= 0.1;				
+						} else {
+							tempScores.M -= 0.1;								
 						}
-						parccString += `<li class='score'><span class='score__label'>${window.testLabels[type]}</span><div class='score__chart score__chart--parcc'>`;
-						
-						// Add each bar only if the value is > 0;		
-						["dnm", "pm", "a", "m", "e"].forEach(result =>{
-							if (tempScores[result.toUpperCase()] > 0){
-								parccString += `<div class='parcc parcc--${result}' style='width:${tempScores[result.toUpperCase()]}%'><span>${format('.1f')(tempScores[result.toUpperCase()])}%</span></div>`								
-							}
-						});
-	
-						parccString += `</div></li>`;	
+					}
+
+					// Open up the li.score item, to hold the entire chart for the test type (math, ela)
+					parccString += `<li class='score'><span class='score__label'>${window.testLabels[type]}</span><div class='score__chart score__chart--parcc'>`;
+					
+					// Cycle through the levels of acheivement for eadh parcc test.
+					// Add each bar only if the value is > 0; Adding zero-width bars will mess up the 
+					// alignment of the bars because of the border-right seperating them.		
+					["dnm", "pm", "a", "m", "e"].forEach(result =>{
+						if (tempScores[result.toUpperCase()] > 0){
+							parccString += `<div class='parcc parcc--${result}' style='width:${tempScores[result.toUpperCase()]}%'><span>${format('.1f')(tempScores[result.toUpperCase()])}%</span></div>`								
+						}
 					});
-					parccString += `</ul>`;	
-				} else {
-					// If there are no scores for this grade level, then don't display them.
-					parccString += `<p class='note'>${window.noScores}</p>`;
-				}
+					// Close the li for that test type.
+					parccString += `</div></li>`;	
+				});
+				// Close the ul for the grade level. We're done here.
+				parccString += `</ul>`;	
+			} else {
+				// If there are no scores for this grade level, then don't display them.
+				parccString += `<p class='note'>${window.noScores}</p>`;
 			}
+
 		})
 	} else{
+		// If this grade level has no score data, add the no-scores note;
 		parccString = `<p class='note'>${window.noScores}</p>`;
 	}
 
 	// Insert our parsed SAT chart string into the profile
 	document.querySelector('#school-scores').innerHTML = satString;
 
-	// Insert our parsed PARCC chart string into the profile
+	// Insert our parsed PARCC chart strings into the profile
 	document.querySelector('#parcc-scores').innerHTML = parccString;
 	document.querySelector('#parcc-scores-overall').innerHTML = parccSchoolProficencyString;
 
