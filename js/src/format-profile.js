@@ -2,11 +2,18 @@ import {format} from 'd3-format';
 import {scaleLinear} from 'd3-scale';
 
 function addPie(num, addClass=""){
+	// Takes a number (the % of a pie chart), and returns the appropriate HTML to make a pie chart.
 	return `<div class='pie pie--${Math.round(num)} ${addClass}'></div><span>${format('.0f')(num)}%</span>`;
 }
 
 module.exports = function formatSchoolProfile(data){
-	// The data fetching mechanism is TBD. 
+
+	/******************************
+
+	This function takes a specifically-formatted data object from the transformData() function and turns it 
+	into a profile. 
+
+	*******************************/
 
 	// Fill out the school name/district
 	document.querySelector('.school__name').innerHTML = data.name;
@@ -37,23 +44,30 @@ module.exports = function formatSchoolProfile(data){
 					median = temp.median,
 					school = temp.school,
 					satScale = scaleLinear().domain([min, max]).range([0, 100]),
-					medianPlacement = median ? satScale(median) : null,
+					medianPlacement = median ? satScale(median) : null, // If we have a media ...
 					schoolPlacement = satScale(school);
 			let label = window.testLabels[test];
 
-			// Add the element to the holder string
+			// Add the element to the holder string. One at a time, IF we have the stat, 
+			// then add it to the holder string.
+			
+			// First, open the score list item.
 			satString += `
 				<li class='score'>
 					<span class='score__label'>${label}</span>
 					<div class='score__chart'>`;
 
-			if (min > -1) {
+			// Then, if the min is legit (i.e. a number greater than 0), add it.
+			// We're just checking for 
+			if (min >= 0) {
 				satString += `						
 					<div class='test test--min' style='left: 0'>
 						<span class='test__dot'></span>
 						<span class='test__score'>${min}</span>
 					</div>`;
 			}	
+
+			// If the data is missing a median, it will be <false>.
 			if (median) {
 				satString += `<div class='test test--med' style='left: ${medianPlacement}%'>
 					<span class='test__dot'></span>
@@ -61,33 +75,51 @@ module.exports = function formatSchoolProfile(data){
 				</div>`;
 			}
 
+			// Same deal for the max. If it is present in the data, add it to the chart.
+			if (max >= 0) {
 				satString += `<div class='test test--max' style='left: 100%'>
 					<span class='test__dot'></span>
 					<span class='test__score'>${max}</span>
 				</div>`;
+			}
 
-				satString += `<div class='test test--school' style='left: ${schoolPlacement}%'>
-						<span class='test__dot'></span>
-						<span class='test__score'>${school}</span>
-					</div>`;
+			// Add the school dot if it is legit. Here, we just test if it's > 0
 			
+			if (school >= 0){
+				satString += `<div class='test test--school' style='left: ${schoolPlacement}%'>
+					<span class='test__dot'></span>
+					<span class='test__score'>${school}</span></div>`;
+			}
+			
+			// Now close the list item. Move on to the next score.
 			satString += `</div></li>`;
 		});
 	
 	} else{
+		// If there are not scores, kick out a note to the reader.
 		satString = `<p class='note'>${window.noScores}</p>`;
 	}
 
 	if (data.parcc){
+
+		// If there is no parcc data, this json value should be false.
 
 		// ---------- 
 		// START WITH THE OVERALL STUFF
 		// ----------
 		const parccOverall = data.parcc.overall;
 
+		// Label the overall parcc scores
 		parccSchoolProficencyString = `<h4 class='school__scores-sublabel'>${window.overallParccLabel}<span>${window.overallParccSubLabel}</span></h4>`;
+		
+		// Open the score ul.
 		parccSchoolProficencyString += `<ul class='school__scores school__scores--parcc'>`
 		
+		// For each parcc version (overall, ela and math), we're only going to get a % proficient
+		// stat. So, we will create a two-bar chart which == 100%; The `div.parcc` bars are chosen
+		// for their colors. It's a bit of a violation of the semantic meaning behind the classes, 
+		// but this made more sense than creating a THIRD type of chart for this lookup.
+
 		Object.keys(parccOverall).forEach(level => {
 			parccSchoolProficencyString += `<li class='score'><span class='score__label'>${window.testLabels[level]}</span><div class='score__chart score__chart--parcc'>`;
 			parccSchoolProficencyString += `<div class='parcc parcc--pm' style='width:${100 - parccOverall[level]}%'><span>${format('.1f')(100 - parccOverall[level])}%</span></div>`;								
@@ -99,11 +131,19 @@ module.exports = function formatSchoolProfile(data){
 		// NOW WITH THE GRADE LEVEL STUFF
 		// ----------
 
-		const 	testTypes = ['ela', 'math'],
-				parccLevels = Object.keys(data.parcc.grades);
+		const 	testTypes = ['ela', 'math'], // These correspond to keys in key->value paits in the data
+				parccLevels = Object.keys(data.parcc.grades); // Slice off all the grade level stuff for easy access
+
 
 		parccLevels.forEach(level => {
+			// This loop will cycle through each grade level in the data (should be 3-8),
+			// outputting a proficiency chart for each test type in each grade. If a school
+			// has no data for a certain grade-level, the value should be false in the data. 
+			// The assumption that if there is data for a grade level, it has data for each 
+			// test type. This will break if that is not the case.
+			
 			if (level){
+				
 				// Format the level string (i.e. "third" => "Third grade");
 				let levelString = level == "school" ? "Overall" : `${level} grade`;
 
