@@ -8,52 +8,53 @@ window.addEventListener('DOMContentLoaded', function(e){
 			searchBar = form.querySelector('.school-search__text'),
 			submitButton = form.querySelector('.school-search__btn');
 
-		// This is the autocomplete tool. It needs the `list` attribute
-		// to be filled with autocomplete options. We'll do that with AJAX.
-		
-		const auto = new Awesomplete(searchBar, {
-			minChars: 2,
-			maxItems: 20,
-			autoFirst: true
-		});
+	// This is the autocomplete tool. It needs the `list` attribute
+	// to be filled with autocomplete options. We'll do that with AJAX.
+	
+	const auto = new Awesomplete(searchBar, {
+		minChars: 2,
+		maxItems: 20,
+		autoFirst: true
+	});
 
-		searchBar.addEventListener('keypress', function(e){
-			// When the user starts typing, it will ping the database to fetch a JSON list of possible schools
-			// There are three GET vars in the url:
-			// @format ... duh. we want JSON
-			// @page_size: Maximum number of schools in the response. Can be anything, but the variable MUST be there b/c otherwise django will format the data in a way other than what we want.
-			// @query: This is what the user has typed.
+	searchBar.addEventListener('keypress', function(e){
+		// When the user starts typing, it will ping the database to fetch a JSON list 
+		// of possible schools. We use the keypress event so it only fires on alphanumeric keys.
+		// This prevents the script from regrabbing data when the user navigates with the keyboard,
+		// which would create unwanted UX results.
 
-			const 	ajaxBaseUrl = "http://ec2-52-14-19-228.us-east-2.compute.amazonaws.com/schools/api/search/?format=json&page_size=20&autocomplete=",
-					searchQuery = searchBar.value,
-					queryUrl = `${ajaxBaseUrl}${searchQuery}`;
+		// There are three GET vars in the url:
+		// @format ... duh. we want JSON
+		// @page_size: Maximum number of schools in the response. Can be anything, but the variable MUST be there b/c otherwise django will format the data in a way other than what we want.
+		// @query: This is what the user has typed.
 
-			// Init the request for school fetching.
-			const ajax = new XMLHttpRequest();
-			ajax.open("GET", queryUrl, true);
-			ajax.onload = function(){
-				// This is the response, parsed into JSON
-				const schoolsList = JSON.parse(ajax.responseText)['results'] || JSON.parse(ajax.responseText);
 
-				// When we get a response, parse the reponses into this format:
-				// [{label:foo, value:bar}]
-				// Then feed it into the list, so awesomeplete uses the new schools as the options.
+		const 	ajaxBaseUrl = "http://ec2-52-14-19-228.us-east-2.compute.amazonaws.com/schools/api/search/?format=json&page_size=20&autocomplete=",
+				searchQuery = searchBar.value,
+				queryUrl = `${ajaxBaseUrl}${searchQuery}`;
 
-				if (schoolsList.length > 0){
-					auto.list = schoolsList.map(i => [`${i.autocomplete} (${i.district})`, i.school_id]);
-				}
+		// Init the request for school fetching.
+		const ajax = new XMLHttpRequest();
+		ajax.open("GET", queryUrl, true);
+		ajax.onload = function(){
+			// This is the response, parsed into JSON
+			const schoolsList = JSON.parse(ajax.responseText)['results'] || JSON.parse(ajax.responseText);
+
+			// When we get a response, parse the reponses into this format:
+			// [label, value]
+			// Then feed it into the list, so awesomeplete uses the new schools as the options.
+
+			if (schoolsList.length > 0){
+				auto.list = schoolsList.map(i => [`${i.autocomplete} (${i.district})`, i.school_id]);
 			}
-			ajax.send();
-		});
-
-
+		}
+		ajax.send();
+	});
 
 	form.addEventListener('submit', function(e){
 		// Folks shouldn't have a chance to hit submit, but if they do ....
 		e.preventDefault();
 		const schoolID = searchBar.value;
-
-		// if (schoolID != "") formatSchoolProfile(data);
 		
 		if (schoolID != ""){ 
 			const 	baseUrl = "http://ec2-52-14-19-228.us-east-2.compute.amazonaws.com/schools/school_detail/",
@@ -63,7 +64,7 @@ window.addEventListener('DOMContentLoaded', function(e){
 			ajax.open("GET", queryUrl, true);
 			ajax.onload = function(){
 				const schoolData = JSON.parse(ajax.responseText)[0]['fields'];
-				window.selectedSchool = schoolData.name;
+				// window.selectedSchool = schoolData.name;
 				formatSchoolProfile(translateData(schoolData));
 
 			}
@@ -97,9 +98,9 @@ window.addEventListener('DOMContentLoaded', function(e){
 	window.addEventListener('awesomplete-selectcomplete', e => {
 		// When the user makes an autocompleted selection, trigger the search by faking a submit button click.
 		submitButton.click();
+		// This clears out the search bar so the user isn't left wondering what that number string (the schoolID) means
 		document.querySelector('.school-search__text').setAttribute('placeholder', 'Search for another school');
 		document.querySelector('.school-search__text').value = "";
-		// document.querySelector('.school-search__text').setAttribute('value', window.selectedSchool);
 	})
 
 })
