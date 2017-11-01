@@ -2,6 +2,22 @@
 
 A [Tarbell](http://tarbell.io) project that publishes to a P2P HTML Story.
 
+ABOUT THIS PROJECT
+------------------
+
+This is a 2017 version of the school report cards. It displays basic-level results by grade, from 3rd (parcc) through 11th (SATs). The data in this project comes from a relational DB hosted in an Amazon EC2 instance and is delivered by AJAX. The data is formatted and served to a JS function which creates, inserts and display a school profile. (Getting the source data from ISBE into the DB is an entirely other story. Ooof!)
+
+1) User types a school name into the search bar.
+
+2) The autocomplete/typeahead tool Awesomplete is handing a list of potential schools from an ajax request to our database. As the user continues type, this list is updated.
+
+3) When the user makes a selection, the school ID is pulled from the autocomplete dataset and is sent to a different ajax request to retrieve a datafile from our database.
+
+4) The resulting data file is fed through a transform function, which forces it into the specific data format needed by the displayProfile function.
+
+5) The displayProfile function works its magic and shows off the report card for that school.
+
+
 Assumptions
 -----------
 
