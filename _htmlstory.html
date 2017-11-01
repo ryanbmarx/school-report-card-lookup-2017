@@ -9,11 +9,13 @@
 
 {% block content %}
 <div class='graphic-wrapper'>
+	{# This is the svg sprite. It needs to be here and invisible #}
 	<div style='display:none;visibility: invisible;'>{% include 'img/sprite.svg' %}</div>
 <section class='intro'>
 	{{ intro|markdown }} 
 </section>
 <section class='content'>
+	{# This is the small search form #}
 	 <form id='school-search' class='school-search'>
 		 <input class='school-search__text' type='text' placeholder="Search for a school or district">
 		 <button class='school-search__btn' type='submit'>
@@ -23,9 +25,11 @@
 		 </button>
 	</form>
 	<div class='school'>
+		{# The stub of the school profile #}
 		<h2 class='school__name'></h2>
 		<p class='school__district'></p>
 		<h3 class='school__scores-label'>{{ demo_label }}</h3>
+		{# Demographic pies/big numbers #}
 		<div class='school__demographics'>
 			<dl class='demo demo--special-ed'>
 				<dt></dt>
@@ -46,6 +50,7 @@
 		</div>
 		{{ breaker() }}
 		<h3 class='school__scores-label'>{{ sat_scores }}</h3>
+		{# SAT SCORE LEGEND  #}
 		<ul class='school__scores school__scores--sat-legend'>
 			<li class='score'>
 				<span class='score__label'>{{ sat_scores_legend }}</span>
@@ -69,9 +74,13 @@
 				</div>
 			</li>
 		</ul>
+
+		{# CONTAINER FOR SAT SCORE CHARTING #}
 		<ul id='school-scores' class='school__scores school__scores--sat'></ul>
 		{{ breaker() }}
+		{# BEGIN PARCC SCORES #}
 		<h3 class='school__scores-label'>{{ parcc_label|process_text }}</h3>
+		{# PARCC LEGEND HERE #}
 		<dl class='school__scores--parcc-legend'>
 			<dt><span class='box box--dnm'></span></dt><dd>{{ parcc_legend_dnm|process_text }}</dd>
 			<dt><span class='box box--pm'></span></dt><dd>{{ parcc_legend_pm|process_text }}</dd>
@@ -80,6 +89,7 @@
 			<dt><span class='box box--m'></span></dt><dd><strong>{{ parcc_legend_m|process_text }}</strong></dd>
 			<dt><span class='box box--e'></span></dt><dd><strong>{{ parcc_legend_e|process_text }}</strong></dd>
 		</dl>
+		{# TWO DIFFERENT PARCC CONTAINERS, WAITING FOR CONTENT #}
 		<div id='parcc-scores-overall'></div>
 		<div id='parcc-scores'></div>
 	</div>
@@ -87,6 +97,7 @@
 <section class='credits'>
 	{{ sources|markdown }}
 	{{ credits|markdown }}
+	{# At one point, this app used icons from noun project. Easy enough to add credit back in if needed. #}
 	{% if credits_noun_project %}{{ credits_noun_project|markdown }}{% endif %}
 </section>
 </div>
