@@ -8,32 +8,6 @@ $desktop-min-width:850px;
 
 $school-highlight-color:$trib-blue2;
 
-// Pie charts
-$pie_highlight_color:$school-highlight-color;
-$pie_bg_color:#eee;
-$pie_border_color:#aaa;
-$pie_mobile_dimension: 35px;
-$pie_tablet_dimension: 45px;
-$pie_desktop_dimension: 55px;
-
-// SAT score charts
-$test-dot-width: 16px;
-$test-dot-height: $test-dot-width;
-
-$score-chart-axis-stroke: 4px;
-$score-chart-axis-stroke-color: $trib-gray3;
-$score-margin-top: 5px;
-
-// PARCC score charts
-$parcc-color-dnm: $trib-red2;
-$parcc-color-pm: $trib_orange;
-$parcc-color-a: $trib_yellow1;
-$parcc-color-m: $trib-green3;
-$parcc-color-e: $trib-green2;
-
-$parcc-bar-height: 30px;
-$parcc-bar-border-radius: 5px;
-$parcc-space-between-grade-blocks:75px;
 
 // breaker
 $stroke-width: 2px;
@@ -82,22 +56,21 @@ $stroke-icon-width: 6px;
 
 
 // ---- IMPORT PROJECT STYLES FROM PARTIAL FILES HERE ---------------------------------------------
-@import 'form';
-@import 'pies';
-@import 'school';
-@import 'parcc-scores';
-@import 'sat-scores';
-@import 'demographics';
+// @import 'form';
+// @import 'pies';
+// @import 'school';
+// @import 'parcc-scores';
+// @import 'sat-scores';
+// @import 'demographics';
+// @import "../node_modules/awesomplete/awesomplete";
 @import 'breaker';
-@import "../node_modules/awesomplete/awesomplete";
-
-
+@import 'jquery.dataTables';
 
 // ---- WRITE MORE PROJECT STYLES HERE ---------------------------------------------
 // MOBILE/DEFAULT STYLES ARE HERE.
 
 .graphic-wrapper{
-	max-width: 650px;
+	// max-width: 650px;
 	margin: 0 auto;
 }
 
@@ -120,45 +93,49 @@ $stroke-icon-width: 6px;
 
 }
 
-// .breaker{
-// 	margin: 25px auto;
-// 	display: block;
-// 	position:relative;
-	
-// 	height: $icon-width;
-// 	width: 100%;
-// 	max-width: 50%;
-// 	min-width: 300px;
 
-// 	&__rule{
-// 		position: absolute;
 
-// 		height: $stroke-width;
-// 		width: 100%;
-// 		top: 50%;
-// 		left: 0;
+.trb_mainContent{
+	.schools{
+		@include trib-table();
 
-// 		margin-top: #{$stroke-width / -2};
-// 		background: $trib-blue1;
+	}
 
-// 	}
+	.school{
+		// each tr in the tbody
 
-// 	&__icon{
-// 		width: $icon-width;
+		&__district{
+			font-style: italic;
+			display:block;
+		}
 
-// 		position: absolute;
-// 		top: 50%;
-// 		left: 50%;
+		&__rank{
+			font-weight: bold;
+			font-size: .8em;
+		}
 
-// 		// This centers it on it's coordnates.
-// 	    transform: translate(-50%, -56%);
-	    
-// 	    border: $stroke-icon-width solid white;
-// 	    border-radius: 50%;
-// 	    background: white;
-// 	}
-// }
+		&.parent td.school__name{
+			padding-left: 15px;
+		}
+	}
 
+	.school.parent, .child{
+		background-color: rgba($trib-blue5, .5);
+
+		ul{
+			list-style-type:none;
+			padding: 0 0 0 15px;
+			
+			li{
+				@include sans-serif();
+			}
+		}
+
+
+	}
+
+
+}
 @media all and (min-width: $tablet-min-width){
 	.breaker{
 		margin: 50px auto;

@@ -5,7 +5,7 @@
   "main": "js/src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "grunt",
+    "build": "node scripts/make-sat-table.js && grunt",
     "watch": "grunt watch",
     "publish": "grunt && tarbell publish",
     "publish:production": "grunt && tarbell publish production"
@@ -22,12 +22,15 @@
     "babel-preset-env": "^1.6.0",
     "babelify": "^7.3.0",
     "browserify": "^14.5.0",
+    "d3": "^4.11.0",
+    "d3-request": "^1.0.6",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-postcss": "^0.8.0",
     "grunt-sass": "^2.0.0",
     "grunt-svgstore": "^1.0.0",
+    "html-minifier": "^3.5.6",
     "minifyify": "^7.3.3",
     "trib-styles": "git+ssh://git@tribune.unfuddle.com:tribune/trib-styles.git"
   },
@@ -38,7 +41,11 @@
   "dependencies": {
     "awesomplete": "^1.1.2",
     "d3-format": "^1.2.0",
-    "d3-request": "^1.0.6",
-    "d3-scale": "^1.0.6"
+    "d3-scale": "^1.0.6",
+    "datatables.net": "^1.10.15",
+    "datatables.net-dt": "^1.10.15",
+    "datatables.net-responsive": "^2.1.1",
+    "datatables.net-responsive-dt": "^2.1.1",
+    "jquery": "^3.2.1"
   }
 }

@@ -1,0 +1,38 @@
+.breaker{
+	margin: 25px auto;
+	display: block;
+	position:relative;
+	
+	height: $icon-width;
+	width: 100%;
+	max-width: 50%;
+	min-width: 300px;
+
+	&__rule{
+		position: absolute;
+
+		height: $stroke-width;
+		width: 100%;
+		top: 50%;
+		left: 0;
+
+		margin-top: #{$stroke-width / -2};
+		background: $trib-blue1;
+
+	}
+
+	&__icon{
+		width: $icon-width;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		// This centers it on it's coordnates.
+	    transform: translate(-50%, -56%);
+	    
+	    border: $stroke-icon-width solid white;
+	    border-radius: 50%;
+	    background: white;
+	}
+}

@@ -8,7 +8,9 @@ module.exports = function(grunt) {
   var VENDOR_LIBRARIES = [
     'awesomplete',
     'd3-scale',
-    'd3-format'
+    'd3-format',
+    'jquery',
+    'datatables.net'
   ];
 
   config.browserify = {
@@ -26,6 +28,33 @@ module.exports = function(grunt) {
             'minifyify', {
               map: 'app.min.js.map',
               output: './js/app.min.js.map'
+            }
+          ]
+        ],
+        transform: [
+          [
+            'babelify', {
+              "presets": [
+                ["env", {
+                  "targets": {
+                    "browsers": ["last 2 versions", "ie >= 11"]
+                  }
+                }]
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    appsat: {
+      src: ['js/src/appsat.js'],
+      dest: 'js/appsat.min.js',
+      options: {
+        plugin: [
+          [
+            'minifyify', {
+              map: 'appsat.min.js.map',
+              output: './js/appsat.min.js.map'
             }
           ]
         ],
@@ -72,11 +101,16 @@ module.exports = function(grunt) {
     options: {
       outputStyle: 'compressed',
       sourceMap: true,
-      includePaths: [ 'sass/', 'node_modules/trib-styles/sass/' ]
+      includePaths: [ 'sass/', 'node_modules/trib-styles/sass/', 'node_modules/datatables.net-dt/css' ]
     },
     app: {
       files: {
         'css/styles.css': 'sass/styles.scss'
+      }
+    },
+    sat: {
+      files: {
+        'css/styles-sat-scores.css': 'sass/styles-sat-scores.scss'
       }
     }
   };
@@ -110,7 +144,7 @@ module.exports = function(grunt) {
     },
     js: {
       files: ['js/src/**/*.js'],
-      tasks: ['browserify:app']
+      tasks: ['browserify']
     },
    svg: {
       files: ['img/src/**/*.svg'],

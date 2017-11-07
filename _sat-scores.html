@@ -1,0 +1,57 @@
+{% from '_htmlstory.html' import breaker as breaker with context %}
+
+{% block content %}
+<div class='graphic-wrapper'>
+	{# This is the svg sprite. It needs to be here and invisible #}
+	<div style='display:none;visibility: invisible;'>{% include 'img/sprite.svg' %}</div>
+<section class='intro'>
+	{{ sat_intro|markdown }} 
+</section>
+<section class='content'>
+    <table id='sat-scores' class='schools' style="width: 100%;">
+      <thead>
+        <tr class='school'>
+          <th class='all'>School<span class='school__district'>District</span></th>
+          <th class='all align-right'>Composite (Rank)</th>
+          <th class='min-desktop align-right'>Math</th>
+          <th class='min-desktop align-right'>ELA</th>
+        </tr>
+      </thead>
+      <tbody>{% include '_table.html' %}</tbody>
+    </table>
+
+
+</section>
+<section class='credits'>
+	{{ sources|markdown }}
+	{{ credits|markdown }}
+	{# At one point, this app used icons from noun project. Easy enough to add credit back in if needed. #}
+	{% if credits_noun_project %}{{ credits_noun_project|markdown }}{% endif %}
+</section>
+</div>
+
+{% endblock content %}
+
+{% block library_scripts %}
+{# Uncomment this if you are using libraries such as jQuery #}
+<script src="//{{ ROOT_URL }}/js/vendor.min.js"></script>
+{% endblock %}
+
+{% block scripts %}
+{# Uncomment this if you are using custom JavaScript #}
+<script src="//{{ ROOT_URL }}/js/appsat.min.js"></script>
+{% include "_labels.html" %}
+<script>
+(function(document) {
+  var CSS = [
+    "//{{ ROOT_URL }}/css/styles-sat-scores.css"
+  ];
+  CSS.forEach(function(url) {
+    var link = document.createElement('link');
+    link.setAttribute('rel', 'stylesheet');
+    link.setAttribute('href', url);
+    document.head.appendChild(link);
+  });
+})(document);
+</script>
+{% endblock scripts %}
