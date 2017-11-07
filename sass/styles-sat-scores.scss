@@ -98,6 +98,7 @@ $stroke-icon-width: 6px;
 .trb_mainContent{
 	.schools{
 		@include trib-table();
+		margin: 15px 0;
 
 	}
 
@@ -134,8 +135,25 @@ $stroke-icon-width: 6px;
 
 	}
 
+	.dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate{
+		@include sans-serif();
+		margin-bottom: 20px;
+	}
+
+	.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+	    color: white !important;
+	    border:none;
+	    background: $trib-blue2;
+	}
+
+	.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	    color: black !important;
+	    border: none;
+	    background: $trib-gray4;
+	}
 
 }
+
 @media all and (min-width: $tablet-min-width){
 	.breaker{
 		margin: 50px auto;
