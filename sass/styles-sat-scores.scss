@@ -99,7 +99,10 @@ $stroke-icon-width: 6px;
 	.schools{
 		@include trib-table();
 		margin: 15px 0;
-
+		
+		th, th:last-child {
+		    padding-right: 20px;
+		}
 	}
 
 	.school{
@@ -137,7 +140,13 @@ $stroke-icon-width: 6px;
 
 	.dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate{
 		@include sans-serif();
-		margin-bottom: 20px;
+	    margin: 10px auto 20px auto;
+	    text-align: center;
+	    float:none;
+		
+	}
+
+	.dataTables_info, .dataTables_paginate{
 	}
 
 	.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
