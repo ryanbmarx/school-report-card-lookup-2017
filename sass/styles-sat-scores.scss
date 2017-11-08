@@ -123,6 +123,15 @@ $stroke-icon-width: 6px;
 		}
 	}
 
+
+	.dtr-title{
+		font-weight: bold;
+
+		&:after{
+			content:":";
+			margin-right: 5px;
+		}
+	}
 	.school.parent, .child{
 		background-color: rgba($trib-blue5, .5);
 
@@ -161,6 +170,11 @@ $stroke-icon-width: 6px;
 	    background: $trib-gray4;
 	}
 
+}
+
+.trb_mainContent .content__note{
+	@include sans-serif();
+	text-align: center;
 }
 
 @media all and (min-width: $tablet-min-width){

@@ -15,6 +15,11 @@ fs.readFile('./data/sat-scores.csv', 'utf-8', (err, data) => {
 		schoolsTableBody += `<td class="align-right" data-sort="${school.school_rank_composite}">${school.gr11_schl_ttl_scale_score_sat_2017_composite} (<span class='school__rank'>${school.school_rank_composite}</span>)</td>`; 
 		schoolsTableBody += `<td class="align-right" data-sort="${school.school_rank_math}">${school.gr11_schl_avg_scale_score_in_math_sat_2017_math} (<span class='school__rank'>${school.school_rank_math}</span>)</td>`; 
 		schoolsTableBody += `<td class="align-right" data-sort="${school.school_rank_ela}">${school.gr11_schl_avg_scale_score_in_ela_sat_2017_ela} (<span class='school__rank'>${school.school_rank_ela}</span>)</td>`; 
+		
+		schoolsTableBody += `<td class="school__dist-comp" data-sort="${school.gr11_dist_ttl_scale_score_sat_2017_composite}">${school.gr11_dist_ttl_scale_score_sat_2017_composite}</td>`; 
+		schoolsTableBody += `<td class="" data-sort="${school.gr11_dist_avg_scale_score_in_math_sat_2017_math}">${school.gr11_dist_avg_scale_score_in_math_sat_2017_math}</td>`; 
+		schoolsTableBody += `<td class="" data-sort="${school.gr11_dist_avg_scale_score_in_ela_sat_2017_ela}">${school.gr11_dist_avg_scale_score_in_ela_sat_2017_ela}</td>`; 
+
 		schoolsTableBody += `</tr>`; // close the row
 	})
 	
