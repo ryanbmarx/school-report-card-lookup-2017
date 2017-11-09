@@ -6,19 +6,21 @@
 	<div style='display:none;visibility: invisible;'>{% include 'img/sprite.svg' %}</div>
 <section class='intro'>
 	{{ sat_intro|markdown }} 
+  {{links|markdown}}
+  {{state|markdown}}
 </section>
 <section class='content'>
     <p class='content__note'>{{ sat_note }}</p>
     <table id='sat-scores' class='schools' style="width: 100%;">
       <thead>
         <tr class='school'>
-          <th class='all'>School<span class='school__district'>District</span></th>
-          <th class='all align-right'>School Composite (Rank)</th>
-          <th class='min-desktop align-right'>School Math Score</th>
-          <th class='min-desktop align-right'>School ELA Score</th>
-          <th class='none'>School District Average Composite</th>
-          <th class='none'>School District Average Math </th>
-          <th class='none'>School District Average ELA</th>
+          <th class='all'>School<span class='school__district'> district</span></th>
+          <th class='all align-right'>School composite (Rank)</th>
+          <th class='min-desktop align-right'>School math score</th>
+          <th class='min-desktop align-right'>School ELA score</th>
+          <th class='none'>School district average composite</th>
+          <th class='none'>School district average math </th>
+          <th class='none'>School district average ELA</th>
 
         </tr>
       </thead>
